@@ -13,8 +13,14 @@ public class Projectile : MonoBehaviour
     private Vector3 spawnPos = Vector3.zero;
     public Vector2 direction { get; set; } = Vector2.zero;
 
+    public delegate void Movement();
+
+    public Movement CurrentMovement;
+
     void Start()
     {
+
+        CurrentMovement = movement;
         spawnPos = transform.position;
         foreach (var effect in effects)
         {
@@ -40,7 +46,7 @@ public class Projectile : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        movement();
+        CurrentMovement();
         despawnCheck();
     }
 }

@@ -7,7 +7,6 @@ public class Movement : MonoBehaviour
 {
     // Start is called before the first frame update
     [SerializeField]
-    private float speed = 10f;
     void Start()
     {
         
@@ -15,7 +14,7 @@ public class Movement : MonoBehaviour
 
     void movement(){
         Vector3 input = new Vector3(Input.GetAxis("Horizontal"),Input.GetAxis("Vertical"),0);
-        input *= speed;
+        input *= StatManager.getSpeed();
         input *= Time.deltaTime;
         this.transform.position += input;
     }
