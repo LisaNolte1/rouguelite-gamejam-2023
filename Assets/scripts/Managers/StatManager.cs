@@ -15,11 +15,29 @@ public class StatManager : MonoBehaviour
     static float maxHealth = PlayerPrefs.GetFloat("maxHealth", 10f);
     static float currentHealth = maxHealth;
     static float coins = PlayerPrefs.GetFloat("coins", 0f);
-    
+    static float currentTime = 0f;
+    public static bool isTimeRunning = false;
+
 
 
     void Start()
     {
+    }
+
+    public static float GetCurrentTime()
+    {
+        return currentTime;
+    }
+
+    public static void StartTimer()
+    {
+        currentTime = Time.realtimeSinceStartup;
+        isTimeRunning = true;
+    }
+
+    public static void StopTimer()
+    {
+        isTimeRunning = false;
     }
 
     public static void addRange(float rangeIncrease)
