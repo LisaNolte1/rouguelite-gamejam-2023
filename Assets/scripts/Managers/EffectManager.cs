@@ -14,6 +14,7 @@ public class EffectManager : MonoBehaviour
         Orbs = 0,
         Lightning =1,
         Repel = 2,
+        Tornado = 3
     }
 
     static Dictionary<Effects,IEffect> EffectList = new Dictionary<Effects,IEffect>();

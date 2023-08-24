@@ -30,14 +30,19 @@ public class UIManager : MonoBehaviour
         timeLabel.text = timeString;
     }
 
-    void Update()
+    void runTime()
     {
-        if (StatManager.isTimeRunning) 
+        if (StatManager.isTimeRunning)
         {
             float currentTime = Time.realtimeSinceStartup - startTime; //need to subtract start time to get accurate value 
             UpdateTimeLabel(currentTime);
         }
+    }
 
+    void Update()
+    {
+
+        runTime();
         // if game in certain state 
         // StatManager.StopTimer();
         // once back 
