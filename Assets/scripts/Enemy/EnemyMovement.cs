@@ -1,6 +1,7 @@
 using Pathfinding;
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
@@ -18,7 +19,7 @@ public class EnemyMovement : MonoBehaviour
 
     void Start()
     {
-        
+        aiPath = GetComponent<AIPath>();
     }
 
     void changeCurrentDirection()
