@@ -1,27 +1,32 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
-using UnityEditor.PackageManager;
 using UnityEngine;
 
 public class StatManager : MonoBehaviour
 {
     // Start is called before the first frame update
 
-    static float range = PlayerPrefs.GetFloat("range", 3f);
-    static float cooldownRate = PlayerPrefs.GetFloat("cooldownRate", 1f);
-    static float damageMultiplyer = PlayerPrefs.GetFloat("damageMultiplyer", 1f);
-    static float speed = PlayerPrefs.GetFloat("speed",10f);
-    static float maxHealth = PlayerPrefs.GetFloat("maxHealth", 10f);
+    static float range = 0;
+    static float cooldownRate = 0;
+    static float damageMultiplyer = 0;
+    static float speed = 0;
+    static float maxHealth = 0;
     static float currentHealth = maxHealth;
-    static float coins = PlayerPrefs.GetFloat("coins", 0f);
+    static float coins = 0;
     static float currentTime = 0f;
     public static bool isTimeRunning = false;
+    const float upgradeCost = 50;
 
 
-
-    void Start()
+    private void Awake()
     {
+        range = PlayerPrefs.GetFloat("range", 3f);
+        cooldownRate = PlayerPrefs.GetFloat("cooldownRate", 1f);
+        damageMultiplyer = PlayerPrefs.GetFloat("damageMultiplyer", 1f);
+        speed = PlayerPrefs.GetFloat("speed", 10f);
+        maxHealth = PlayerPrefs.GetFloat("maxHealth", 10f);
+        currentHealth = maxHealth;
+        coins = PlayerPrefs.GetFloat("coins", 0f);
     }
 
     public static float GetCurrentTime()
@@ -42,8 +47,13 @@ public class StatManager : MonoBehaviour
 
     public static void addRange(float rangeIncrease)
     {
-        range += range * rangeIncrease;
-        saveStats();
+        if(coins - upgradeCost >=0)
+        {
+            coins -= upgradeCost;
+            range += range * rangeIncrease;
+            saveStats();
+        }
+
 
     }
 
@@ -52,6 +62,51 @@ public class StatManager : MonoBehaviour
         coins += coinsIncrease;
         GameObject.FindGameObjectWithTag("UIManager").GetComponent<UIManager>().setCoinsLabel(coins);
         saveStats();
+    }
+
+
+
+
+    public static void addCooldownRate(float cooldownRateIncrease)
+    {
+        if (coins - upgradeCost >= 0)
+        {
+            coins -= upgradeCost;
+            cooldownRate += cooldownRate * cooldownRateIncrease;
+            saveStats();
+        }
+    }
+
+    public static void addDamage(float damageIncrease)
+    {
+
+        if (coins - upgradeCost >= 0)
+        {
+            coins -= upgradeCost;
+            damageMultiplyer += damageMultiplyer * damageIncrease;
+            saveStats();
+        }
+    }
+
+    public static void addSpeed(float speedIncrease)
+    {
+        if (coins - upgradeCost >= 0)
+        {
+            coins -= upgradeCost;
+            speed += speed * speed;
+            saveStats();
+        }
+    }
+
+    public static void addMaxHealth(float maxHealthIncrease)
+    {
+        if (coins - upgradeCost >= 0)
+        {
+            coins -= upgradeCost;
+            maxHealth += maxHealth * maxHealthIncrease;
+            saveStats();
+        }
+
     }
 
     public static float getRange() => range;
@@ -67,6 +122,20 @@ public class StatManager : MonoBehaviour
     public static float getCurrentHealth() => currentHealth;
 
     public static float getCoins() => coins;
+
+    public static void damagePlayer(float damage)
+    {
+        currentHealth -= damage;
+        if(currentHealth < 0)
+        {
+            //death here;
+
+            PlayerPrefs.SetInt("loopAttempts",PlayerPrefs.GetInt("loopAttempts",0) + 1);
+
+        }
+        UIManager.updateHealthBarUI();
+
+    }
 
     public static void saveStats()
     {
