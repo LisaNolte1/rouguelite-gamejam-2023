@@ -10,32 +10,89 @@ public class UIManager : MonoBehaviour
     static TextMeshProUGUI timeLabel;
     static Slider healthBar;
     public static GameObject shopPanel;
+    GameObject pausePanel;
+    GameObject startPanel;
 
     private float startTime;
+    private float introTime = 0;
 
     private void Awake()
     {
         coinsLabel = GameObject.FindGameObjectWithTag("coinLabel").GetComponent<TextMeshProUGUI>();
         timeLabel = GameObject.FindGameObjectWithTag("timeLabel").GetComponent<TextMeshProUGUI>();
         shopPanel = GameObject.FindGameObjectWithTag("shopPanel");
+        startPanel = GameObject.FindGameObjectWithTag("startPanel");
+        pausePanel = GameObject.FindGameObjectWithTag("pausePanel");
         healthBar = GameObject.FindGameObjectWithTag("healthBar").GetComponent <Slider>();
         
     }
 
     void Start()
     {
-        
+        pausePanel.SetActive(false);
         StatManager.StartTimer();
         startTime = Time.realtimeSinceStartup;
-
         coinsLabel.text = "Coins: " + StatManager.getCoins();
-        Debug.Log("REEEEEEEEEEEEEEEEE");
+        gameInit();
         healthBarInit();
     }
 
     public static void toggleShopPanel()
     {
         shopPanel.SetActive(shopPanel.activeInHierarchy ?  false : true);
+    }
+
+    void gameInit()
+    {
+        startPanel.GetComponentsInChildren<TextMeshProUGUI>()[0].text = StatManager.getAttempts().ToString();
+    }
+
+    void introEffect()
+    {
+        if (startPanel.activeInHierarchy) {
+
+            introTime += Time.deltaTime/2;
+            startPanel.GetComponent<Image>().color = Color.Lerp(Color.black, Color.clear,introTime);
+            if (introTime >= 1)
+            {
+                introTime = 1;
+                startPanel.SetActive(false);
+            }
+
+
+        }
+    }
+
+    public void togglePausePanel(bool overrideKey) 
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+
+            try
+            {
+                Debug.Log("What we have: " + pausePanel.activeInHierarchy);
+                if (pausePanel.activeInHierarchy == false)
+                {
+                    Debug.Log("1");
+                    pausePanel.SetActive(true);
+                    StatManager.StopTimer();
+                    return;
+
+                }
+                else if(pausePanel.activeInHierarchy == true)
+                {
+                    Debug.Log('2');
+                    pausePanel.SetActive(false);
+                    StatManager.StartTimer();
+                    return;
+                }
+            }
+            catch
+            {
+
+            }
+            
+        }
     }
 
     public void setCoinsLabel(float coins)
@@ -83,6 +140,8 @@ public class UIManager : MonoBehaviour
     {
 
         runTime();
+        togglePausePanel(false);
+        introEffect();
         // if game in certain state 
         // StatManager.StopTimer();
         // once back 

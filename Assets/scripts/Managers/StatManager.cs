@@ -16,6 +16,7 @@ public class StatManager : MonoBehaviour
     static float currentTime = 0f;
     public static bool isTimeRunning = false;
     const float upgradeCost = 50;
+    static int escapeAttempts = 0;
 
 
     private void Awake()
@@ -27,6 +28,7 @@ public class StatManager : MonoBehaviour
         maxHealth = PlayerPrefs.GetFloat("maxHealth", 10f);
         currentHealth = maxHealth;
         coins = PlayerPrefs.GetFloat("coins", 0f);
+        escapeAttempts = PlayerPrefs.GetInt("ecapeAttempts", 0);
     }
 
     public static float GetCurrentTime()
@@ -38,12 +40,17 @@ public class StatManager : MonoBehaviour
     {
         currentTime = Time.realtimeSinceStartup;
         isTimeRunning = true;
+        Time.timeScale = 1;
     }
 
     public static void StopTimer()
     {
         isTimeRunning = false;
+        Time.timeScale = 0;
     }
+
+    public static int getAttempts() => escapeAttempts;
+  
 
     public static void addRange(float rangeIncrease)
     {
@@ -130,7 +137,8 @@ public class StatManager : MonoBehaviour
         {
             //death here;
 
-            PlayerPrefs.SetInt("loopAttempts",PlayerPrefs.GetInt("loopAttempts",0) + 1);
+            PlayerPrefs.SetInt("ecapeAttempts", PlayerPrefs.GetInt("ecapeAttempts", 0) + 1);
+            SceneManagerMenu.StartGame();
 
         }
         UIManager.updateHealthBarUI();
@@ -151,6 +159,9 @@ public class StatManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            damagePlayer(100);
+        }
     }
 }
