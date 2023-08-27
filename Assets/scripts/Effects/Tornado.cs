@@ -15,12 +15,17 @@ public class Tornado : MonoBehaviour, IEffect
     // Start is called before the first frame update
     void Start()
     {
-        EffectManager.AddEffect(EffectManager.Effects.Tornado, 1, 1, this);
+        
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == "Player")
+        {
+            EffectManager.AddEffect(EffectManager.Effects.Tornado, 1, 1, this);
+            Destroy(gameObject);
+        }
     }
 
     // Update is called once per frame
-    void Update()
-    {
-
-    }
 }

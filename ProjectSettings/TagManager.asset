@@ -5,7 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - shopPanel
   - UIManager
+  - coinLabel
+  - timeLabel
+  - healthBar
   layers:
   - Default
   - TransparentFX
@@ -13,7 +17,6 @@ TagManager:
   - 
   - Water
   - UI
-  - Obstacle
   - 
   - 
   - 
@@ -28,9 +31,10 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
+  - Layer 1
+  - Layer 2
+  - Layer 3
+  - Popup
   - 
   - 
   - 
@@ -42,4 +46,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Layer 1
+    uniqueID: 2425651459
+    locked: 0
+  - name: Layer 2
+    uniqueID: 4250941897
+    locked: 0
+  - name: Layer 3
+    uniqueID: 4189426099
+    locked: 0
+  - name: UI
+    uniqueID: 1615017017
     locked: 0
