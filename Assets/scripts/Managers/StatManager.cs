@@ -24,7 +24,7 @@ public class StatManager : MonoBehaviour
         range = PlayerPrefs.GetFloat("range", 3f);
         cooldownRate = PlayerPrefs.GetFloat("cooldownRate", 1f);
         damageMultiplyer = PlayerPrefs.GetFloat("damageMultiplyer", 1f);
-        speed = PlayerPrefs.GetFloat("speed", 10f);
+        speed = PlayerPrefs.GetFloat("speed", 5f);
         maxHealth = PlayerPrefs.GetFloat("maxHealth", 10f);
         currentHealth = maxHealth;
         coins = PlayerPrefs.GetFloat("coins", 0f);
