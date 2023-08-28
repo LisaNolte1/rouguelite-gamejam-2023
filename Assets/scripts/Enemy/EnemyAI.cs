@@ -41,6 +41,9 @@ public class EnemyAI : EnemyAbstract
     public override float Damage { get; set; }
     public override int Armour { get; set; }
 
+    [SerializeField]
+    public override int LootDropChance { get; set; } = 100;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -159,7 +162,9 @@ public class EnemyAI : EnemyAbstract
 
         if (distanceToTarget <= attackRange && attackCounter >= attackCooldown)
         {
-            InflictDamage(Damage);
+            StatManager.damagePlayer(damage);
+            lastAttackTime = Time.time; // Set last attack time for cooldown
+            attackCounter = 0f;
         }
         else
         {
@@ -168,10 +173,8 @@ public class EnemyAI : EnemyAbstract
 
     }
 
-    public override void InflictDamage(float damageInflicted)
+    public override void damageEnemy(float damageInflicted)
     {
-        StatManager.damagePlayer(Damage);
-        lastAttackTime = Time.time; // Set last attack time for cooldown
-        attackCounter = 0f;
+        LowerHealth(damageInflicted);
     }
 }

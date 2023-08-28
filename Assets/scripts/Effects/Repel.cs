@@ -22,8 +22,9 @@ public class Repel : MonoBehaviour, IEffect
     void IEffect.ApplyEffect(GameObject player)
     {
 
+
         GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
-        enemies = Array.FindAll(enemies, x => Vector3.Distance(player.transform.position, x.transform.position) < StatManager.getRange());
+        enemies = Array.FindAll(enemies, x => Vector3.Distance(player.transform.position, x.transform.position) < StatManager.getRange()/2);
         foreach (GameObject enemy in enemies) { 
             
                 Vector3 direction = player.transform.position - enemy.transform.position;
@@ -32,6 +33,7 @@ public class Repel : MonoBehaviour, IEffect
                 delta = StatManager.getRange() - delta;
                 delta *= -1;
                 enemy.transform.position += direction * delta;
+            
             
         }
     }

@@ -14,13 +14,13 @@ public class EffectManager : MonoBehaviour
         Orbs = 0,
         Lightning =1,
         Repel = 2,
-        Tornado = 3
+        Tornado = 3,
+        FireBall = 4,
     }
 
-    static Dictionary<Effects,IEffect> EffectList = new Dictionary<Effects,IEffect>();
+    public static Dictionary<Effects,IEffect> EffectList = new Dictionary<Effects,IEffect>();
     static Dictionary<Effects, float> EffectCooldowns = new Dictionary<Effects, float>();
     static Dictionary<Effects, float> currentEffectCooldowns = new Dictionary<Effects, float>();
-    static Dictionary<Effects,int> EffectLevels = new Dictionary<Effects,int>();
     void Start()
     {
         
@@ -28,19 +28,23 @@ public class EffectManager : MonoBehaviour
 
     public static void AddEffect(Effects type,int level, float cooldown, IEffect effect)
     {
+        Debug.Log("Trying to add the " + type.ToString() + " Effect");
         if(EffectList.ContainsKey(type))
         {
             EffectList[type] = effect; 
             EffectCooldowns[type] = cooldown;
-            EffectLevels[type] = level;
             currentEffectCooldowns[type] = 0f;
         }
         else
         {
             EffectList.Add(type, effect);
             EffectCooldowns.Add(type, cooldown);
-            EffectLevels.Add(type, level);
             currentEffectCooldowns.Add(type, 0);
+        }
+
+        if(EffectList.ContainsKey(type) == true)
+        {
+            Debug.Log("Yuup we have added it");
         }
         
     }

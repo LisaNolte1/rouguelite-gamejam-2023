@@ -7,12 +7,14 @@ public class Lightning : MonoBehaviour, IEffect
 {
     public void ApplyEffect(GameObject player)
     {
+        const float damage = 1.0f;
         GameObject visualEffect = Resources.Load<GameObject>("Lightning");
         GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
         enemies = Array.FindAll(enemies, x => Vector3.Distance(player.transform.position, x.transform.position) < StatManager.getRange());
         foreach (GameObject enemy in enemies) { 
             GameObject currentVisual = Instantiate(visualEffect,enemy.transform.position,Quaternion.identity);
             currentVisual.GetComponent<FollowObject>().setObject(enemy);
+            enemy.GetComponent<EnemyAbstract>().damageEnemy(damage* StatManager.getDamageMultiplyer());
             //Damage enemies
         }
 
