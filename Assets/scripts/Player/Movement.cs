@@ -5,24 +5,28 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    // Start is called before the first frame update
+
     [SerializeField]
+    private float speed = 5.0f;
+    private Rigidbody2D rb;
+
     void Start()
     {
-        
+        rb = GetComponent<Rigidbody2D>();
     }
 
-    void movement(){
-        Vector3 input = new Vector3(Input.GetAxis("Horizontal"),Input.GetAxis("Vertical"),0);
-        input *= StatManager.getSpeed();
-        input *= Time.deltaTime;
-        this.transform.position += input;
+    void movement()
+    {
+        Vector2 input = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+        Vector2 velocity = input * speed;
+        rb.velocity = velocity;
+
     }
 
-    // called when the cube hits the floor
+    // Called when a collision occurs
     void OnCollisionEnter2D(Collision2D col)
     {
- 
+        // You can put collision handling code here if needed
     }
 
     // Update is called once per frame
