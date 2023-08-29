@@ -40,6 +40,8 @@ public class LilSlimeAI : EnemyAbstract
     public override int Health { get; set; }
     public override float Damage { get; set; }
     public override int Armour { get; set; }
+    public override int CoinAmount { get; set; }
+    public override int LootDropChance { get; set; }
 
     // Start is called before the first frame update
     void Start()
@@ -50,6 +52,8 @@ public class LilSlimeAI : EnemyAbstract
         Armour = armour;
         seeker = GetComponent<Seeker>();
         rb = GetComponent<Rigidbody2D>();
+        CoinAmount = 2;
+        LootDropChance = 30;
         InvokeRepeating("UpdateTarget", 0f, 0.5f);
         StartCoroutine(UpdatePath());
     }
@@ -159,7 +163,7 @@ public class LilSlimeAI : EnemyAbstract
 
         if (distanceToTarget <= attackRange && attackCounter >= attackCooldown)
         {
-            InflictDamage(Damage);
+            InflictDamage();
             SetAttackAnimBool(target);
         }
         else
@@ -171,7 +175,7 @@ public class LilSlimeAI : EnemyAbstract
 
     }
 
-    public void InflictDamage(float damageInflicted)
+    public void InflictDamage()
     {
         StatManager.damagePlayer(Damage);
         lastAttackTime = Time.time; // Set last attack time for cooldown
