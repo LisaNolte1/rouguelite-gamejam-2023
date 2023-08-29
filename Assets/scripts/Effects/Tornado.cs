@@ -15,7 +15,7 @@ public class Tornado : MonoBehaviour, IEffect
     // Start is called before the first frame update
     void Start()
     {
-        
+        EffectManager.AddEffect(EffectManager.Effects.Repel, 1, 1f, this);
     }
 
     // Update is called once per frame
