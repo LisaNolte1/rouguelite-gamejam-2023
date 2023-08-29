@@ -12,7 +12,7 @@ public class UIManager : MonoBehaviour
     public static GameObject shopPanel;
     GameObject pausePanel;
     GameObject startPanel;
-
+    private static UIManager instance;
     private float startTime;
     private float introTime = 0;
 
@@ -24,6 +24,13 @@ public class UIManager : MonoBehaviour
         startPanel = GameObject.FindGameObjectWithTag("startPanel");
         pausePanel = GameObject.FindGameObjectWithTag("pausePanel");
         healthBar = GameObject.FindGameObjectWithTag("healthBar").GetComponent<Slider>();
+        if(instance != null && instance != this)
+        {
+            Destroy(gameObject);
+        }else if(instance == null)
+        {
+            instance = this;
+        }
         
     }
 
@@ -44,12 +51,16 @@ public class UIManager : MonoBehaviour
 
     void gameInit()
     {
-        startPanel.GetComponentsInChildren<TextMeshProUGUI>()[0].text = StatManager.getAttempts().ToString();
+        if (startPanel)
+        {
+            startPanel.GetComponentsInChildren<TextMeshProUGUI>()[0].text = StatManager.getAttempts().ToString();
+        }
+        
     }
 
     void introEffect()
     {
-        if (startPanel.activeInHierarchy) {
+        if (startPanel && startPanel.activeInHierarchy) {
 
             introTime += Time.deltaTime/2;
             startPanel.GetComponent<Image>().color = Color.Lerp(Color.black, Color.clear,introTime);
@@ -65,8 +76,9 @@ public class UIManager : MonoBehaviour
 
     public void togglePausePanel(bool overrideKey) 
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) || overrideKey)
         {
+            Debug.Log("Trigger");
 
             try
             {

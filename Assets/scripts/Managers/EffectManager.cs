@@ -64,7 +64,7 @@ public class EffectManager : MonoBehaviour
                 else
                 {
                     //spawn effect
-                    Debug.Log("Spawning " + Effect.ToString());
+                   // Debug.Log("Spawning " + Effect.ToString());
                     EffectList[Effect].ApplyEffect(Player);
                     currentEffectCooldowns[Effect] = 0f;
                 }

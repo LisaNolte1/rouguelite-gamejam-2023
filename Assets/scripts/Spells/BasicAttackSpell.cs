@@ -10,7 +10,6 @@ public class BasicAttackSpell : MonoBehaviour
     Vector3 startPos = Vector3.zero;
     void Start()
     {
-        Debug.Log("Spawned");
         startPos = transform.position;
         SetDirection();
     }

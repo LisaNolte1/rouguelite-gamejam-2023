@@ -115,13 +115,13 @@ public class EnemyAI : EnemyAbstract
         if (target == null)
         {
             range = 12f;
-            animator.SetBool("IsMoving", false);
+         //   animator.SetBool("IsMoving", false);
             return;
         }
 
         if (path == null)
         {
-            animator.SetBool("IsMoving", false);
+        //    animator.SetBool("IsMoving", false);
             return;
         }
 
@@ -132,11 +132,11 @@ public class EnemyAI : EnemyAbstract
                 return;
             }
             pathIsEnded = true;
-            animator.SetBool("IsMoving", false);
+           // animator.SetBool("IsMoving", false);
             return;
         }
         pathIsEnded = false;
-        animator.SetBool("IsMoving", true);
+        //animator.SetBool("IsMoving", true);
 
         Vector3 dir = (path.vectorPath[currentWaypoint] - transform.position).normalized;
         dir *= speed * Time.fixedDeltaTime;
