@@ -16,15 +16,32 @@ public class EffectManager : MonoBehaviour
         Repel = 2,
         Tornado = 3,
         FireBall = 4,
-        BasicAttack = 5,
+        Bolder = 5,
+        BasicAttack = 6, //must be last!!!!!!
     }
 
     public static Dictionary<Effects,IEffect> EffectList = new Dictionary<Effects,IEffect>();
     static Dictionary<Effects, float> EffectCooldowns = new Dictionary<Effects, float>();
     static Dictionary<Effects, float> currentEffectCooldowns = new Dictionary<Effects, float>();
+
+    private void Awake()
+    {
+        EffectList.Clear();
+        EffectCooldowns.Clear();
+        currentEffectCooldowns.Clear();
+    }
+
+    private void OnDestroy()
+    {
+        EffectList.Clear();
+        EffectCooldowns.Clear();
+        currentEffectCooldowns.Clear();
+    }
     void Start()
     {
         Player = GameObject.FindGameObjectWithTag("Player");
+
+
     }
 
     public static void AddEffect(Effects type,int level, float cooldown, IEffect effect)

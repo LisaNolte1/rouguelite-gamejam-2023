@@ -38,6 +38,9 @@ public class itemDrop : MonoBehaviour
                 case EffectManager.Effects.Tornado:
                     EffectManager.AddEffect(EffectManager.Effects.Tornado,0,7f,new Tornado());
                     break;
+                case EffectManager.Effects.Bolder:
+                    EffectManager.AddEffect(EffectManager.Effects.Bolder, 0, 10f, new Bolder());
+                    break;
 
             }
         }

@@ -9,7 +9,7 @@ public class Repel : MonoBehaviour, IEffect
 
     void Start()
     {
-        EffectManager.AddEffect(EffectManager.Effects.Repel, 1, 1f, this);
+        //EffectManager.AddEffect(EffectManager.Effects.Repel, 1, 1f, this);
     }
 
     // Update is called once per frame
@@ -36,5 +36,7 @@ public class Repel : MonoBehaviour, IEffect
             
             
         }
+        GameObject visualEffect = Resources.Load<GameObject>("Repel");
+        Instantiate(visualEffect, player.transform.position, Quaternion.identity);
     }
 }

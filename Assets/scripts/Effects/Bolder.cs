@@ -8,25 +8,25 @@ public class Bolder : MonoBehaviour, IEffect
     {
         GameObject visualEffect = Resources.Load<GameObject>("Bolder");
         GameObject[] Enemies = GameObject.FindGameObjectsWithTag("Enemy");
-        List<GameObject> validEnemies = new List<GameObject>();
+        if (Enemies.Length == 0)
+            return;
         foreach (GameObject enemy in Enemies)
         {
-            if (Vector3.Distance(player.transform.position, enemy.transform.position) <= StatManager.getRange() * 3) ;
+            if (Vector3.Distance(player.transform.position, enemy.transform.position) <= StatManager.getRange() * 3)
             {
-                validEnemies.Add(enemy);
+                GameObject currentVisual = Instantiate(visualEffect, player.transform.position, Quaternion.identity);
+                currentVisual.GetComponent<BolderSpell>().setTarget(enemy);
             }
         }
 
-        int chosen = Random.Range(0, validEnemies.Count);
-
-        GameObject currentVisual = Instantiate(visualEffect, validEnemies[chosen].transform.position, Quaternion.identity);
+     
     }
 
     // Start is called before the first frame update
 
     void Start()
     {
-
+        EffectManager.AddEffect(EffectManager.Effects.Bolder, 0, 1f, new Bolder());
     }
 
     // Update is called once per frame
