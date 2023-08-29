@@ -6,7 +6,7 @@ public class BasicAttack : MonoBehaviour, IEffect
 {
     public void ApplyEffect(GameObject player)
     {
-        GameObject visualEffect = Resources.Load<GameObject>("Projectile");
+        GameObject visualEffect = Resources.Load<GameObject>("BasicAttack");
         GameObject currentVisual = Instantiate(visualEffect, player.transform.position, Quaternion.identity);
         
     }
