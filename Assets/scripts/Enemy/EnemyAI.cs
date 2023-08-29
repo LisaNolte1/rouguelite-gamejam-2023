@@ -43,6 +43,7 @@ public class EnemyAI : EnemyAbstract
 
     [SerializeField]
     public override int LootDropChance { get; set; } = 100;
+    public override int CoinAmount { get; set; } = 3;
 
     // Start is called before the first frame update
     void Start()

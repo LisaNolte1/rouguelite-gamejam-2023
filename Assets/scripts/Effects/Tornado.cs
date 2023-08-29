@@ -18,14 +18,5 @@ public class Tornado : MonoBehaviour, IEffect
         
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if(collision.gameObject.tag == "Player")
-        {
-            EffectManager.AddEffect(EffectManager.Effects.Tornado, 1, 1, this);
-            Destroy(gameObject);
-        }
-    }
-
     // Update is called once per frame
 }

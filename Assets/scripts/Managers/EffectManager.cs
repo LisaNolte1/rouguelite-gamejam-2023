@@ -7,7 +7,7 @@ public class EffectManager : MonoBehaviour
 {
     // Start is called before the first frame update
 
-    public GameObject Player;
+    GameObject Player;
 
     public enum Effects
     {
@@ -16,6 +16,7 @@ public class EffectManager : MonoBehaviour
         Repel = 2,
         Tornado = 3,
         FireBall = 4,
+        BasicAttack = 5,
     }
 
     public static Dictionary<Effects,IEffect> EffectList = new Dictionary<Effects,IEffect>();
@@ -23,7 +24,7 @@ public class EffectManager : MonoBehaviour
     static Dictionary<Effects, float> currentEffectCooldowns = new Dictionary<Effects, float>();
     void Start()
     {
-        
+        Player = GameObject.FindGameObjectWithTag("Player");
     }
 
     public static void AddEffect(Effects type,int level, float cooldown, IEffect effect)
@@ -58,11 +59,12 @@ public class EffectManager : MonoBehaviour
             {
                 if (currentEffectCooldowns[Effect] < EffectCooldowns[Effect])
                 {
-                    currentEffectCooldowns[Effect] += Time.deltaTime;
+                    currentEffectCooldowns[Effect] += (Time.deltaTime*StatManager.getCooldownRate());
                 }
                 else
                 {
                     //spawn effect
+                    Debug.Log("Spawning " + Effect.ToString());
                     EffectList[Effect].ApplyEffect(Player);
                     currentEffectCooldowns[Effect] = 0f;
                 }

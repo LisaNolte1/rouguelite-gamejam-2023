@@ -10,7 +10,31 @@ public abstract class EnemyAbstract : MonoBehaviour
 
     public abstract int Armour { get; set; }
 
+    public abstract int CoinAmount { get; set; }
+
     public abstract int LootDropChance { get; set; }
+
+    private  void DropCoin()
+    {
+        GameObject coin = Resources.Load<GameObject>("Coin");
+        float maxOffset = 2;
+        int counter = 0;
+        Vector3 offset = new Vector3(
+           Random.Range(-maxOffset, maxOffset),
+           Random.Range(-maxOffset, maxOffset),
+           0
+       );
+
+        transform.position += offset;
+        if( coin != null )
+        {
+            Debug.Log("We got coins");
+        }
+        for (counter = 0; counter < CoinAmount; counter++)
+        {
+            Instantiate(coin, GameObject.FindGameObjectWithTag("Player").transform.position + offset, Quaternion.identity);
+        }
+    }
 
     public virtual void LowerHealth(float damageInflicted)
     {
@@ -24,6 +48,7 @@ public abstract class EnemyAbstract : MonoBehaviour
                 GameObject ItemDrop = Resources.Load<GameObject>("Item");
                 Instantiate(ItemDrop, this.transform.position, Quaternion.identity);
             }
+            DropCoin();
             Destroy(gameObject);
         }
     }

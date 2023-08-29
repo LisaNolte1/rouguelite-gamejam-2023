@@ -60,5 +60,9 @@ public class fireBall_spell : MonoBehaviour
             collision.gameObject.GetComponent<EnemyAbstract>().damageEnemy(StatManager.getDamageMultiplyer() * damageMultiplyer);
             Destroy(this.gameObject);
         }
+        else
+        {
+            Destroy(gameObject) ;
+        }
     }
 }

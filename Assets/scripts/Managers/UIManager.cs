@@ -23,7 +23,7 @@ public class UIManager : MonoBehaviour
         shopPanel = GameObject.FindGameObjectWithTag("shopPanel");
         startPanel = GameObject.FindGameObjectWithTag("startPanel");
         pausePanel = GameObject.FindGameObjectWithTag("pausePanel");
-        healthBar = GameObject.FindGameObjectWithTag("healthBar").GetComponent <Slider>();
+        healthBar = GameObject.FindGameObjectWithTag("healthBar").GetComponent<Slider>();
         
     }
 
