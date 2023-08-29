@@ -1,0 +1,696 @@
+fileFormatVersion: 2
+guid: 7962618c484abf64584c4b5d839c018d
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Treant-TrapVine_Frame_0
+    originalName: 
+    pivot: {x: 0.4, y: -1.6}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 235
+      width: 5
+      height: 5
+    spriteID: ba90d90051e5ac0449278011d13d5588
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 235}
+  - name: Treant-TrapVine_Frame_1
+    originalName: 
+    pivot: {x: 0.44444445, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 205
+      width: 9
+      height: 7
+    spriteID: 2af0114e875e5b24791d680721f2f17b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 205}
+  - name: Treant-TrapVine_Frame_2
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 189
+      width: 13
+      height: 8
+    spriteID: 87c1222ef5b7f704780c625500bbfa23
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 189}
+  - name: Treant-TrapVine_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: -0.6666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 172
+      width: 16
+      height: 9
+    spriteID: bd462aa84335a4548a8a2d5cabdc8d9c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 172}
+  - name: Treant-TrapVine_Frame_4
+    originalName: 
+    pivot: {x: 0.47619048, y: -0.4166667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 152
+      width: 21
+      height: 12
+    spriteID: 77c42a8a2153c8940855ad63c41d4d90
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 152}
+  - name: Treant-TrapVine_Frame_5
+    originalName: 
+    pivot: {x: 0.47619048, y: -0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 234
+      width: 21
+      height: 15
+    spriteID: 3fb3e3078354e304badbe2cc26bece0b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 234}
+  - name: Treant-TrapVine_Frame_6
+    originalName: 
+    pivot: {x: 0.47619048, y: -0.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 124
+      width: 21
+      height: 20
+    spriteID: ccb492caddbbea54893c47a668f1880c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 124}
+  - name: Treant-TrapVine_Frame_7
+    originalName: 
+    pivot: {x: 0.47619048, y: -0.22727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 114
+      width: 21
+      height: 22
+    spriteID: d499ff397ea06754a939869bae9777e6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 114}
+  - name: Treant-TrapVine_Frame_8
+    originalName: 
+    pivot: {x: 0.47619048, y: -0.22727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 144
+      width: 21
+      height: 22
+    spriteID: 1749d38c1ed9613499eeeb9ffdd80020
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 144}
+  - name: Treant-TrapVine_Frame_9
+    originalName: 
+    pivot: {x: 0.47619048, y: -0.22727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 174
+      width: 21
+      height: 22
+    spriteID: 015ea21113580df4bb214d981cdf792c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 174}
+  - name: Treant-TrapVine_Frame_10
+    originalName: 
+    pivot: {x: 0.47619048, y: -0.22727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 204
+      width: 21
+      height: 22
+    spriteID: 2b84d7f0ca1a16748b2d309845727752
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 204}
+  - name: Treant-TrapVine_Frame_11
+    originalName: 
+    pivot: {x: 0.47619048, y: -0.22727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 4
+      width: 21
+      height: 22
+    spriteID: 781f3228ecec8c64aba729cd1dfb9957
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 4}
+  - name: Treant-TrapVine_Frame_12
+    originalName: 
+    pivot: {x: 0.47619048, y: -0.22727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 34
+      width: 21
+      height: 22
+    spriteID: a8d83cb62a97f5e4cb559239b9907bad
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 34}
+  - name: Treant-TrapVine_Frame_13
+    originalName: 
+    pivot: {x: 0.47619048, y: -0.22727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 64
+      width: 21
+      height: 22
+    spriteID: 280a624b55587e042a1149482b6dc397
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 64}
+  - name: Treant-TrapVine_Frame_14
+    originalName: 
+    pivot: {x: 0.47619048, y: -0.22727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 94
+      width: 21
+      height: 22
+    spriteID: c4b22aaf5662a874eb5da5443f3ebdcc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 94}
+  - name: Treant-TrapVine_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: -0.1923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 80
+      width: 22
+      height: 26
+    spriteID: 68033fdd536abb744a671eda639f7dfe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 80}
+  - name: Treant-TrapVine_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: -0.10344827}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 43
+      width: 28
+      height: 29
+    spriteID: 1abacd50aff308c4287d6dd03188410b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 43}
+  - name: Treant-TrapVine_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: -0.032258064}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 32
+      height: 31
+    spriteID: 6a98d3fc3c0c5944585bb0c221120743
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Treant-TrapVine_Frame_18
+    originalName: 
+    pivot: {x: 0.44444445, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 220
+      width: 9
+      height: 7
+    spriteID: b762e388c00803f44bfce56cab7cb226
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 220}
+  - name: Treant-TrapVine_Frame_19
+    originalName: 
+    pivot: {x: 0.4, y: -1.6}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 57
+      y: 235
+      width: 5
+      height: 5
+    spriteID: da2ce4bf87743524eac2279c4e9a8f74
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 57, y: 235}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1227484756
+    name: Treant-TrapVine
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Treant-TrapVine_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 14
+        y: 8
+        width: 5
+        height: 5
+      spriteId: ba90d90051e5ac0449278011d13d5588
+    - name: Treant-TrapVine_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 12
+        y: 7
+        width: 9
+        height: 7
+      spriteId: 2af0114e875e5b24791d680721f2f17b
+    - name: Treant-TrapVine_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 10
+        y: 7
+        width: 13
+        height: 8
+      spriteId: 87c1222ef5b7f704780c625500bbfa23
+    - name: Treant-TrapVine_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 8
+        y: 6
+        width: 16
+        height: 9
+      spriteId: bd462aa84335a4548a8a2d5cabdc8d9c
+    - name: Treant-TrapVine_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 6
+        y: 5
+        width: 21
+        height: 12
+      spriteId: 77c42a8a2153c8940855ad63c41d4d90
+    - name: Treant-TrapVine_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 6
+        y: 5
+        width: 21
+        height: 15
+      spriteId: 3fb3e3078354e304badbe2cc26bece0b
+    - name: Treant-TrapVine_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 6
+        y: 5
+        width: 21
+        height: 20
+      spriteId: ccb492caddbbea54893c47a668f1880c
+    - name: Treant-TrapVine_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 6
+        y: 5
+        width: 21
+        height: 22
+      spriteId: d499ff397ea06754a939869bae9777e6
+    - name: Treant-TrapVine_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 6
+        y: 5
+        width: 21
+        height: 22
+      spriteId: 1749d38c1ed9613499eeeb9ffdd80020
+    - name: Treant-TrapVine_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 6
+        y: 5
+        width: 21
+        height: 22
+      spriteId: 015ea21113580df4bb214d981cdf792c
+    - name: Treant-TrapVine_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 6
+        y: 5
+        width: 21
+        height: 22
+      spriteId: 2b84d7f0ca1a16748b2d309845727752
+    - name: Treant-TrapVine_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 6
+        y: 5
+        width: 21
+        height: 22
+      spriteId: 781f3228ecec8c64aba729cd1dfb9957
+    - name: Treant-TrapVine_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 6
+        y: 5
+        width: 21
+        height: 22
+      spriteId: a8d83cb62a97f5e4cb559239b9907bad
+    - name: Treant-TrapVine_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 6
+        y: 5
+        width: 21
+        height: 22
+      spriteId: 280a624b55587e042a1149482b6dc397
+    - name: Treant-TrapVine_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 6
+        y: 5
+        width: 21
+        height: 22
+      spriteId: c4b22aaf5662a874eb5da5443f3ebdcc
+    - name: Treant-TrapVine_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 5
+        y: 5
+        width: 22
+        height: 26
+      spriteId: 68033fdd536abb744a671eda639f7dfe
+    - name: Treant-TrapVine_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 2
+        y: 3
+        width: 28
+        height: 29
+      spriteId: 1abacd50aff308c4287d6dd03188410b
+    - name: Treant-TrapVine_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 0
+        y: 1
+        width: 32
+        height: 31
+      spriteId: 6a98d3fc3c0c5944585bb0c221120743
+    - name: Treant-TrapVine_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 12
+        y: 7
+        width: 9
+        height: 7
+      spriteId: b762e388c00803f44bfce56cab7cb226
+    - name: Treant-TrapVine_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 14
+        y: 8
+        width: 5
+        height: 5
+      spriteId: da2ce4bf87743524eac2279c4e9a8f74
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 32, y: 32}

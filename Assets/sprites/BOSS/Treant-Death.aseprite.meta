@@ -1,0 +1,2180 @@
+fileFormatVersion: 2
+guid: e34f7275a293cfe43a9c0c7e23d56648
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Treant-Death_Frame_9
+    originalName: 
+    pivot: {x: 0.49074075, y: -0.052173913}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 373
+      y: 1868
+      width: 108
+      height: 115
+    spriteID: 3ef9ea393a3a2b24bba9682d3572443d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 373, y: 1868}
+  - name: Treant-Death_Frame_10
+    originalName: 
+    pivot: {x: 0.49090907, y: -0.052173913}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 373
+      y: 1745
+      width: 110
+      height: 115
+    spriteID: 2c6c05b8bf2cea24b9c0e483d4373759
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 373, y: 1745}
+  - name: Treant-Death_Frame_11
+    originalName: 
+    pivot: {x: 0.49107146, y: -0.04310345}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 253
+      y: 4
+      width: 112
+      height: 116
+    spriteID: e4c06f478c6e0854d96af4d12e76e646
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 253, y: 4}
+  - name: Treant-Death_Frame_12
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.04310345}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 373
+      y: 629
+      width: 110
+      height: 116
+    spriteID: 0aa794a50a81cb645abd73f1251d4e79
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 373, y: 629}
+  - name: Treant-Death_Frame_13
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.04310345}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 373
+      y: 753
+      width: 110
+      height: 116
+    spriteID: 2448992b736524c45baff389e16aebeb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 373, y: 753}
+  - name: Treant-Death_Frame_14
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.04310345}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 373
+      y: 877
+      width: 110
+      height: 116
+    spriteID: 29b232200c8e3be4690097a138e3c0b4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 373, y: 877}
+  - name: Treant-Death_Frame_15
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.04310345}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 373
+      y: 1001
+      width: 110
+      height: 116
+    spriteID: 395e9bf7d6f65eb4fa84363304210b23
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 373, y: 1001}
+  - name: Treant-Death_Frame_16
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.04310345}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 373
+      y: 1125
+      width: 110
+      height: 116
+    spriteID: 85f2296d940268c498ebbff3dac2af5b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 373, y: 1125}
+  - name: Treant-Death_Frame_17
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.04310345}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 373
+      y: 1249
+      width: 110
+      height: 116
+    spriteID: 8435b06d501899047abb8c8eeccf52f3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 373, y: 1249}
+  - name: Treant-Death_Frame_18
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.04310345}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 373
+      y: 1373
+      width: 110
+      height: 116
+    spriteID: bff00185dd85dd14fbb9480d2c25fd36
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 373, y: 1373}
+  - name: Treant-Death_Frame_19
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.04310345}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 373
+      y: 1497
+      width: 110
+      height: 116
+    spriteID: 40ee6bd48c940fd428b4ffec902ab216
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 373, y: 1497}
+  - name: Treant-Death_Frame_20
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.04310345}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 373
+      y: 1621
+      width: 110
+      height: 116
+    spriteID: 627e039ccd484094db30604046a4acd6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 373, y: 1621}
+  - name: Treant-Death_Frame_21
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.034188036}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 135
+      y: 1015
+      width: 110
+      height: 117
+    spriteID: 986ba1afea4cae2498581f83ae850464
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 135, y: 1015}
+  - name: Treant-Death_Frame_22
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.034188036}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 135
+      y: 1140
+      width: 110
+      height: 117
+    spriteID: 6ca5446463b1ed642bec744379312120
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 135, y: 1140}
+  - name: Treant-Death_Frame_23
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.034188036}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 135
+      y: 1265
+      width: 110
+      height: 117
+    spriteID: 3a859494a6d256b45bb788bf557f1aeb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 135, y: 1265}
+  - name: Treant-Death_Frame_24
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.034188036}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 135
+      y: 1390
+      width: 110
+      height: 117
+    spriteID: e710f50245bd59f41b6f77d97eb97b5a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 135, y: 1390}
+  - name: Treant-Death_Frame_25
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.034188036}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 135
+      y: 1515
+      width: 110
+      height: 117
+    spriteID: 2f5a1ee73809abd45b8d10b43011debd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 135, y: 1515}
+  - name: Treant-Death_Frame_26
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.034188036}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 135
+      y: 1640
+      width: 110
+      height: 117
+    spriteID: cb9c73d927c709046b7d18e1fffd3f44
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 135, y: 1640}
+  - name: Treant-Death_Frame_27
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.034188036}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 135
+      y: 1765
+      width: 110
+      height: 117
+    spriteID: 8e98a051cfe14c44886b40dca9a4d9de
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 135, y: 1765}
+  - name: Treant-Death_Frame_28
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.034188036}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 135
+      y: 1890
+      width: 110
+      height: 117
+    spriteID: 592be82922471f849aa3895a434098fe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 135, y: 1890}
+  - name: Treant-Death_Frame_29
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.034188036}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 253
+      y: 128
+      width: 110
+      height: 117
+    spriteID: 206308cade69e084791631914f564859
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 253, y: 128}
+  - name: Treant-Death_Frame_30
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.034188036}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 253
+      y: 253
+      width: 110
+      height: 117
+    spriteID: 01a734da89ece8d498f7dd48d24d6161
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 253, y: 253}
+  - name: Treant-Death_Frame_31
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.034188036}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 253
+      y: 378
+      width: 110
+      height: 117
+    spriteID: df2f34077d4b2cb4586c1e6f6d089042
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 253, y: 378}
+  - name: Treant-Death_Frame_32
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.034188036}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 253
+      y: 503
+      width: 110
+      height: 117
+    spriteID: c8a3e048700ca1944b6ba45fb41170df
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 253, y: 503}
+  - name: Treant-Death_Frame_33
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.034188036}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 253
+      y: 628
+      width: 110
+      height: 117
+    spriteID: 1329b7c7b9c42474fa0ad203a53b6c71
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 253, y: 628}
+  - name: Treant-Death_Frame_34
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.034188036}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 253
+      y: 753
+      width: 110
+      height: 117
+    spriteID: f9c816fcaed53a64b887d5fe753e18c3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 253, y: 753}
+  - name: Treant-Death_Frame_35
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.034188036}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 253
+      y: 878
+      width: 110
+      height: 117
+    spriteID: d9d13490c9329dc499cb5eed43bb9766
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 253, y: 878}
+  - name: Treant-Death_Frame_36
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.033613447}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 254
+      width: 110
+      height: 119
+    spriteID: 2e04b17bf51f90e42888307c935c9473
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 254}
+  - name: Treant-Death_Frame_37
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.034188036}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 253
+      y: 1003
+      width: 110
+      height: 117
+    spriteID: f64b0696ed2046d45a437cafdaa47208
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 253, y: 1003}
+  - name: Treant-Death_Frame_38
+    originalName: 
+    pivot: {x: 0.50406504, y: -0.034188036}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 123
+      height: 117
+    spriteID: 8d86b2af7975a6844904d822a2f95190
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Treant-Death_Frame_39
+    originalName: 
+    pivot: {x: 0.5, y: -0.034188036}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 129
+      width: 114
+      height: 117
+    spriteID: 8eac7b3b5c0c37d4eb565882ff7e0ada
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 129}
+  - name: Treant-Death_Frame_40
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.034188036}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 253
+      y: 1128
+      width: 110
+      height: 117
+    spriteID: a5b2368bc72dd304980750c7ca36e8dc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 253, y: 1128}
+  - name: Treant-Death_Frame_41
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.034188036}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 253
+      y: 1253
+      width: 110
+      height: 117
+    spriteID: 34b8c3573c6ec83498cae64571258680
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 253, y: 1253}
+  - name: Treant-Death_Frame_42
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.034188036}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 253
+      y: 1378
+      width: 110
+      height: 117
+    spriteID: 2ea6dcbc0b919e94e835852ce6b31317
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 253, y: 1378}
+  - name: Treant-Death_Frame_43
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.034188036}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 253
+      y: 1503
+      width: 110
+      height: 117
+    spriteID: dec85e3f0cbc1544b9441d5a04b35a07
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 253, y: 1503}
+  - name: Treant-Death_Frame_44
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.034188036}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 253
+      y: 1628
+      width: 110
+      height: 117
+    spriteID: 54245ebb0ade62346a7719fc720ea3b2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 253, y: 1628}
+  - name: Treant-Death_Frame_45
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.033613447}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 381
+      width: 110
+      height: 119
+    spriteID: 9a603eb8f13c0a645972e139a3e2436e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 381}
+  - name: Treant-Death_Frame_46
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.034188036}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 253
+      y: 1753
+      width: 110
+      height: 117
+    spriteID: 05902999fd7a09a4ca2d97d9d0bba947
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 253, y: 1753}
+  - name: Treant-Death_Frame_47
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.034188036}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 253
+      y: 1878
+      width: 110
+      height: 117
+    spriteID: 82725f9a831de9c42bc07ff68069bc1b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 253, y: 1878}
+  - name: Treant-Death_Frame_48
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.034188036}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 373
+      y: 4
+      width: 110
+      height: 117
+    spriteID: bb7c8bd948af84e4f91300dab76efd87
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 373, y: 4}
+  - name: Treant-Death_Frame_49
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.034188036}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 373
+      y: 129
+      width: 110
+      height: 117
+    spriteID: 881393f2bf2b15146a3b9ebb24fcc871
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 373, y: 129}
+  - name: Treant-Death_Frame_50
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.034188036}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 373
+      y: 254
+      width: 110
+      height: 117
+    spriteID: 460fede1a0fafbc4e8dbc0572eecf383
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 373, y: 254}
+  - name: Treant-Death_Frame_51
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.034188036}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 373
+      y: 379
+      width: 110
+      height: 117
+    spriteID: 49cd7250747dd4e448e903d708e43841
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 373, y: 379}
+  - name: Treant-Death_Frame_52
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.034188036}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 373
+      y: 504
+      width: 110
+      height: 117
+    spriteID: 828bca4d82160494fb95cf25467eb5a0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 373, y: 504}
+  - name: Treant-Death_Frame_53
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.016806724}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 508
+      width: 110
+      height: 119
+    spriteID: 28ae8c540a293c84eaea4bec2db71e33
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 508}
+  - name: Treant-Death_Frame_54
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.016806724}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 635
+      width: 110
+      height: 119
+    spriteID: 458a235caeb710b4eb0f73cab92e57a4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 635}
+  - name: Treant-Death_Frame_55
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.025423728}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 135
+      y: 385
+      width: 110
+      height: 118
+    spriteID: 79c29474e0add8441bb58d729069a4c8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 135, y: 385}
+  - name: Treant-Death_Frame_56
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.016806724}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 762
+      width: 110
+      height: 119
+    spriteID: a4226d0c4ae40704788c685116beb172
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 762}
+  - name: Treant-Death_Frame_57
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.016806724}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 889
+      width: 110
+      height: 119
+    spriteID: 87885796a6edb6543b84ed7e0a4fcb08
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 889}
+  - name: Treant-Death_Frame_58
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.016806724}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1016
+      width: 110
+      height: 119
+    spriteID: d68d841dc51bc264cbc3032f7d115fef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1016}
+  - name: Treant-Death_Frame_59
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.025423728}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 135
+      y: 511
+      width: 110
+      height: 118
+    spriteID: a57f07e385a042246b359e6b28337f4a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 135, y: 511}
+  - name: Treant-Death_Frame_60
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.016806724}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1143
+      width: 110
+      height: 119
+    spriteID: 54d8e6908050d8845a32987a7d6949e3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1143}
+  - name: Treant-Death_Frame_61
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.016806724}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1270
+      width: 110
+      height: 119
+    spriteID: ca834f7994542a3468e4958873ade252
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1270}
+  - name: Treant-Death_Frame_62
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.016806724}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1397
+      width: 110
+      height: 119
+    spriteID: 9e98bba81e5d2654cacba832789b6ee7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1397}
+  - name: Treant-Death_Frame_63
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.025423728}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 135
+      y: 637
+      width: 110
+      height: 118
+    spriteID: af8245cf0fce2584bbfd5520d019f81e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 135, y: 637}
+  - name: Treant-Death_Frame_64
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.016806724}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1524
+      width: 110
+      height: 119
+    spriteID: 14854513bfa7c8246950aae14c0d7d1f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1524}
+  - name: Treant-Death_Frame_65
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.016806724}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1651
+      width: 110
+      height: 119
+    spriteID: 0de0ee7987f312b439ff4e31a0f21380
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1651}
+  - name: Treant-Death_Frame_66
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.016806724}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1778
+      width: 110
+      height: 119
+    spriteID: 7d3d3b411982e144295eb78f1662bcdb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1778}
+  - name: Treant-Death_Frame_67
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.025423728}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 135
+      y: 763
+      width: 110
+      height: 118
+    spriteID: 14fdf28d066f93847b271634994c24e0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 135, y: 763}
+  - name: Treant-Death_Frame_68
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.016806724}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1905
+      width: 110
+      height: 119
+    spriteID: 214e389bafedd494eb12e68675f51c30
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1905}
+  - name: Treant-Death_Frame_69
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.016806724}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 135
+      y: 4
+      width: 110
+      height: 119
+    spriteID: 9cbf4a8bc49535845ac02a1f5d430d56
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 135, y: 4}
+  - name: Treant-Death_Frame_70
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.016806724}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 135
+      y: 131
+      width: 110
+      height: 119
+    spriteID: 77219ebbb318d8c4281be25b50ebc3bb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 135, y: 131}
+  - name: Treant-Death_Frame_71
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.025423728}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 135
+      y: 889
+      width: 110
+      height: 118
+    spriteID: 3ade161eff4b1bf4a9f90bf8444155d0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 135, y: 889}
+  - name: Treant-Death_Frame_72
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.016806724}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 135
+      y: 258
+      width: 110
+      height: 119
+    spriteID: dd2601a115e9c7f49a40b1bc9206886d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 135, y: 258}
+  - name: Treant-Death_Frame_0
+    originalName: 
+    pivot: {x: 0.5151515, y: -0.052173913}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 491
+      y: 374
+      width: 99
+      height: 115
+    spriteID: 06ac6ec70a2bdd1458aef3dd3e26de43
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 491, y: 374}
+  - name: Treant-Death_Frame_1
+    originalName: 
+    pivot: {x: 0.5151515, y: -0.051724136}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 491
+      y: 250
+      width: 99
+      height: 116
+    spriteID: 5ad4ccfa1e7b21f4b8bd0f83f08b19ab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 491, y: 250}
+  - name: Treant-Death_Frame_2
+    originalName: 
+    pivot: {x: 0.5151515, y: -0.052173913}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 491
+      y: 497
+      width: 99
+      height: 115
+    spriteID: 2f7b92c2790234042b51663c0eecbbe2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 491, y: 497}
+  - name: Treant-Death_Frame_3
+    originalName: 
+    pivot: {x: 0.5151515, y: -0.052173913}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 491
+      y: 620
+      width: 99
+      height: 115
+    spriteID: 41c07cb84917f2b4fabfdbf64abbd15a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 491, y: 620}
+  - name: Treant-Death_Frame_4
+    originalName: 
+    pivot: {x: 0.5151515, y: -0.052173913}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 491
+      y: 743
+      width: 99
+      height: 115
+    spriteID: 20c4c08296640cd4394a20145c5ec7d9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 491, y: 743}
+  - name: Treant-Death_Frame_5
+    originalName: 
+    pivot: {x: 0.5151515, y: -0.052173913}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 491
+      y: 866
+      width: 99
+      height: 115
+    spriteID: 657921e07d50eb84f9a49ba689e8bf16
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 491, y: 866}
+  - name: Treant-Death_Frame_6
+    originalName: 
+    pivot: {x: 0.5151515, y: -0.052173913}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 491
+      y: 989
+      width: 99
+      height: 115
+    spriteID: d4b6e09d95bbd8f46bc646ce95d8f33b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 491, y: 989}
+  - name: Treant-Death_Frame_7
+    originalName: 
+    pivot: {x: 0.50495046, y: -0.052173913}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 491
+      y: 127
+      width: 101
+      height: 115
+    spriteID: b15896bb8b8b12841a837294c4abcb95
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 491, y: 127}
+  - name: Treant-Death_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: -0.052173913}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 491
+      y: 4
+      width: 102
+      height: 115
+    spriteID: b752569163e1ba54ba5f29f77a07c5c0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 491, y: 4}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -478910851
+    name: Treant-Death
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Treant-Death_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 11
+        y: 6
+        width: 108
+        height: 115
+      spriteId: 3ef9ea393a3a2b24bba9682d3572443d
+    - name: Treant-Death_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 10
+        y: 6
+        width: 110
+        height: 115
+      spriteId: 2c6c05b8bf2cea24b9c0e483d4373759
+    - name: Treant-Death_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 9
+        y: 5
+        width: 112
+        height: 116
+      spriteId: e4c06f478c6e0854d96af4d12e76e646
+    - name: Treant-Death_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 9
+        y: 5
+        width: 110
+        height: 116
+      spriteId: 0aa794a50a81cb645abd73f1251d4e79
+    - name: Treant-Death_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 9
+        y: 5
+        width: 110
+        height: 116
+      spriteId: 2448992b736524c45baff389e16aebeb
+    - name: Treant-Death_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 9
+        y: 5
+        width: 110
+        height: 116
+      spriteId: 29b232200c8e3be4690097a138e3c0b4
+    - name: Treant-Death_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 9
+        y: 5
+        width: 110
+        height: 116
+      spriteId: 395e9bf7d6f65eb4fa84363304210b23
+    - name: Treant-Death_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 9
+        y: 5
+        width: 110
+        height: 116
+      spriteId: 85f2296d940268c498ebbff3dac2af5b
+    - name: Treant-Death_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 9
+        y: 5
+        width: 110
+        height: 116
+      spriteId: 8435b06d501899047abb8c8eeccf52f3
+    - name: Treant-Death_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 9
+        y: 5
+        width: 110
+        height: 116
+      spriteId: bff00185dd85dd14fbb9480d2c25fd36
+    - name: Treant-Death_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 9
+        y: 5
+        width: 110
+        height: 116
+      spriteId: 40ee6bd48c940fd428b4ffec902ab216
+    - name: Treant-Death_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 9
+        y: 5
+        width: 110
+        height: 116
+      spriteId: 627e039ccd484094db30604046a4acd6
+    - name: Treant-Death_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 9
+        y: 4
+        width: 110
+        height: 117
+      spriteId: 986ba1afea4cae2498581f83ae850464
+    - name: Treant-Death_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 9
+        y: 4
+        width: 110
+        height: 117
+      spriteId: 6ca5446463b1ed642bec744379312120
+    - name: Treant-Death_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 9
+        y: 4
+        width: 110
+        height: 117
+      spriteId: 3a859494a6d256b45bb788bf557f1aeb
+    - name: Treant-Death_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 9
+        y: 4
+        width: 110
+        height: 117
+      spriteId: e710f50245bd59f41b6f77d97eb97b5a
+    - name: Treant-Death_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 9
+        y: 4
+        width: 110
+        height: 117
+      spriteId: 2f5a1ee73809abd45b8d10b43011debd
+    - name: Treant-Death_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 9
+        y: 4
+        width: 110
+        height: 117
+      spriteId: cb9c73d927c709046b7d18e1fffd3f44
+    - name: Treant-Death_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 9
+        y: 4
+        width: 110
+        height: 117
+      spriteId: 8e98a051cfe14c44886b40dca9a4d9de
+    - name: Treant-Death_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 9
+        y: 4
+        width: 110
+        height: 117
+      spriteId: 592be82922471f849aa3895a434098fe
+    - name: Treant-Death_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 9
+        y: 4
+        width: 110
+        height: 117
+      spriteId: 206308cade69e084791631914f564859
+    - name: Treant-Death_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 9
+        y: 4
+        width: 110
+        height: 117
+      spriteId: 01a734da89ece8d498f7dd48d24d6161
+    - name: Treant-Death_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 9
+        y: 4
+        width: 110
+        height: 117
+      spriteId: df2f34077d4b2cb4586c1e6f6d089042
+    - name: Treant-Death_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 9
+        y: 4
+        width: 110
+        height: 117
+      spriteId: c8a3e048700ca1944b6ba45fb41170df
+    - name: Treant-Death_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 9
+        y: 4
+        width: 110
+        height: 117
+      spriteId: 1329b7c7b9c42474fa0ad203a53b6c71
+    - name: Treant-Death_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 9
+        y: 4
+        width: 110
+        height: 117
+      spriteId: f9c816fcaed53a64b887d5fe753e18c3
+    - name: Treant-Death_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 9
+        y: 4
+        width: 110
+        height: 117
+      spriteId: d9d13490c9329dc499cb5eed43bb9766
+    - name: Treant-Death_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 9
+        y: 4
+        width: 110
+        height: 119
+      spriteId: 2e04b17bf51f90e42888307c935c9473
+    - name: Treant-Death_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 9
+        y: 4
+        width: 110
+        height: 117
+      spriteId: f64b0696ed2046d45a437cafdaa47208
+    - name: Treant-Death_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 2
+        y: 4
+        width: 123
+        height: 117
+      spriteId: 8d86b2af7975a6844904d822a2f95190
+    - name: Treant-Death_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 7
+        y: 4
+        width: 114
+        height: 117
+      spriteId: 8eac7b3b5c0c37d4eb565882ff7e0ada
+    - name: Treant-Death_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 9
+        y: 4
+        width: 110
+        height: 117
+      spriteId: a5b2368bc72dd304980750c7ca36e8dc
+    - name: Treant-Death_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 9
+        y: 4
+        width: 110
+        height: 117
+      spriteId: 34b8c3573c6ec83498cae64571258680
+    - name: Treant-Death_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 9
+        y: 4
+        width: 110
+        height: 117
+      spriteId: 2ea6dcbc0b919e94e835852ce6b31317
+    - name: Treant-Death_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 9
+        y: 4
+        width: 110
+        height: 117
+      spriteId: dec85e3f0cbc1544b9441d5a04b35a07
+    - name: Treant-Death_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 9
+        y: 4
+        width: 110
+        height: 117
+      spriteId: 54245ebb0ade62346a7719fc720ea3b2
+    - name: Treant-Death_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 9
+        y: 4
+        width: 110
+        height: 119
+      spriteId: 9a603eb8f13c0a645972e139a3e2436e
+    - name: Treant-Death_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 9
+        y: 4
+        width: 110
+        height: 117
+      spriteId: 05902999fd7a09a4ca2d97d9d0bba947
+    - name: Treant-Death_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 9
+        y: 4
+        width: 110
+        height: 117
+      spriteId: 82725f9a831de9c42bc07ff68069bc1b
+    - name: Treant-Death_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 9
+        y: 4
+        width: 110
+        height: 117
+      spriteId: bb7c8bd948af84e4f91300dab76efd87
+    - name: Treant-Death_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: 9
+        y: 4
+        width: 110
+        height: 117
+      spriteId: 881393f2bf2b15146a3b9ebb24fcc871
+    - name: Treant-Death_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: 9
+        y: 4
+        width: 110
+        height: 117
+      spriteId: 460fede1a0fafbc4e8dbc0572eecf383
+    - name: Treant-Death_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: 9
+        y: 4
+        width: 110
+        height: 117
+      spriteId: 49cd7250747dd4e448e903d708e43841
+    - name: Treant-Death_Frame_52
+      frameIndex: 52
+      cellRect:
+        x: 9
+        y: 4
+        width: 110
+        height: 117
+      spriteId: 828bca4d82160494fb95cf25467eb5a0
+    - name: Treant-Death_Frame_53
+      frameIndex: 53
+      cellRect:
+        x: 9
+        y: 2
+        width: 110
+        height: 119
+      spriteId: 28ae8c540a293c84eaea4bec2db71e33
+    - name: Treant-Death_Frame_54
+      frameIndex: 54
+      cellRect:
+        x: 9
+        y: 2
+        width: 110
+        height: 119
+      spriteId: 458a235caeb710b4eb0f73cab92e57a4
+    - name: Treant-Death_Frame_55
+      frameIndex: 55
+      cellRect:
+        x: 9
+        y: 3
+        width: 110
+        height: 118
+      spriteId: 79c29474e0add8441bb58d729069a4c8
+    - name: Treant-Death_Frame_56
+      frameIndex: 56
+      cellRect:
+        x: 9
+        y: 2
+        width: 110
+        height: 119
+      spriteId: a4226d0c4ae40704788c685116beb172
+    - name: Treant-Death_Frame_57
+      frameIndex: 57
+      cellRect:
+        x: 9
+        y: 2
+        width: 110
+        height: 119
+      spriteId: 87885796a6edb6543b84ed7e0a4fcb08
+    - name: Treant-Death_Frame_58
+      frameIndex: 58
+      cellRect:
+        x: 9
+        y: 2
+        width: 110
+        height: 119
+      spriteId: d68d841dc51bc264cbc3032f7d115fef
+    - name: Treant-Death_Frame_59
+      frameIndex: 59
+      cellRect:
+        x: 9
+        y: 3
+        width: 110
+        height: 118
+      spriteId: a57f07e385a042246b359e6b28337f4a
+    - name: Treant-Death_Frame_60
+      frameIndex: 60
+      cellRect:
+        x: 9
+        y: 2
+        width: 110
+        height: 119
+      spriteId: 54d8e6908050d8845a32987a7d6949e3
+    - name: Treant-Death_Frame_61
+      frameIndex: 61
+      cellRect:
+        x: 9
+        y: 2
+        width: 110
+        height: 119
+      spriteId: ca834f7994542a3468e4958873ade252
+    - name: Treant-Death_Frame_62
+      frameIndex: 62
+      cellRect:
+        x: 9
+        y: 2
+        width: 110
+        height: 119
+      spriteId: 9e98bba81e5d2654cacba832789b6ee7
+    - name: Treant-Death_Frame_63
+      frameIndex: 63
+      cellRect:
+        x: 9
+        y: 3
+        width: 110
+        height: 118
+      spriteId: af8245cf0fce2584bbfd5520d019f81e
+    - name: Treant-Death_Frame_64
+      frameIndex: 64
+      cellRect:
+        x: 9
+        y: 2
+        width: 110
+        height: 119
+      spriteId: 14854513bfa7c8246950aae14c0d7d1f
+    - name: Treant-Death_Frame_65
+      frameIndex: 65
+      cellRect:
+        x: 9
+        y: 2
+        width: 110
+        height: 119
+      spriteId: 0de0ee7987f312b439ff4e31a0f21380
+    - name: Treant-Death_Frame_66
+      frameIndex: 66
+      cellRect:
+        x: 9
+        y: 2
+        width: 110
+        height: 119
+      spriteId: 7d3d3b411982e144295eb78f1662bcdb
+    - name: Treant-Death_Frame_67
+      frameIndex: 67
+      cellRect:
+        x: 9
+        y: 3
+        width: 110
+        height: 118
+      spriteId: 14fdf28d066f93847b271634994c24e0
+    - name: Treant-Death_Frame_68
+      frameIndex: 68
+      cellRect:
+        x: 9
+        y: 2
+        width: 110
+        height: 119
+      spriteId: 214e389bafedd494eb12e68675f51c30
+    - name: Treant-Death_Frame_69
+      frameIndex: 69
+      cellRect:
+        x: 9
+        y: 2
+        width: 110
+        height: 119
+      spriteId: 9cbf4a8bc49535845ac02a1f5d430d56
+    - name: Treant-Death_Frame_70
+      frameIndex: 70
+      cellRect:
+        x: 9
+        y: 2
+        width: 110
+        height: 119
+      spriteId: 77219ebbb318d8c4281be25b50ebc3bb
+    - name: Treant-Death_Frame_71
+      frameIndex: 71
+      cellRect:
+        x: 9
+        y: 3
+        width: 110
+        height: 118
+      spriteId: 3ade161eff4b1bf4a9f90bf8444155d0
+    - name: Treant-Death_Frame_72
+      frameIndex: 72
+      cellRect:
+        x: 9
+        y: 2
+        width: 110
+        height: 119
+      spriteId: dd2601a115e9c7f49a40b1bc9206886d
+    - name: Treant-Death_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 13
+        y: 6
+        width: 99
+        height: 115
+      spriteId: 06ac6ec70a2bdd1458aef3dd3e26de43
+    - name: Treant-Death_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 13
+        y: 6
+        width: 99
+        height: 116
+      spriteId: 5ad4ccfa1e7b21f4b8bd0f83f08b19ab
+    - name: Treant-Death_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 13
+        y: 6
+        width: 99
+        height: 115
+      spriteId: 2f7b92c2790234042b51663c0eecbbe2
+    - name: Treant-Death_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 13
+        y: 6
+        width: 99
+        height: 115
+      spriteId: 41c07cb84917f2b4fabfdbf64abbd15a
+    - name: Treant-Death_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 13
+        y: 6
+        width: 99
+        height: 115
+      spriteId: 20c4c08296640cd4394a20145c5ec7d9
+    - name: Treant-Death_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 13
+        y: 6
+        width: 99
+        height: 115
+      spriteId: 657921e07d50eb84f9a49ba689e8bf16
+    - name: Treant-Death_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 13
+        y: 6
+        width: 99
+        height: 115
+      spriteId: d4b6e09d95bbd8f46bc646ce95d8f33b
+    - name: Treant-Death_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 13
+        y: 6
+        width: 101
+        height: 115
+      spriteId: b15896bb8b8b12841a837294c4abcb95
+    - name: Treant-Death_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 13
+        y: 6
+        width: 102
+        height: 115
+      spriteId: b752569163e1ba54ba5f29f77a07c5c0
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 128, y: 128}

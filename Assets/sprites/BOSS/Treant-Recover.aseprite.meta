@@ -1,0 +1,472 @@
+fileFormatVersion: 2
+guid: e2d923260aa590b48b3cb5987caf27bf
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Treant-Recover_Frame_0
+    originalName: 
+    pivot: {x: 0.5151515, y: -0.052173913}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 116
+      y: 250
+      width: 99
+      height: 115
+    spriteID: 86d6276ea1cea1b4f836a9f11551a527
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 116, y: 250}
+  - name: Treant-Recover_Frame_1
+    originalName: 
+    pivot: {x: 0.5151515, y: -0.051724136}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 116
+      y: 126
+      width: 99
+      height: 116
+    spriteID: 056c997873d68244591ec16841eaa9ae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 116, y: 126}
+  - name: Treant-Recover_Frame_2
+    originalName: 
+    pivot: {x: 0.5048544, y: -0.052173913}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 255
+      width: 103
+      height: 115
+    spriteID: 5159cfa254807d34f946c5379969678b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 255}
+  - name: Treant-Recover_Frame_3
+    originalName: 
+    pivot: {x: 0.5096154, y: -0.051282056}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 104
+      height: 117
+    spriteID: 674522d53e43ed545afe9e041edf6fde
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Treant-Recover_Frame_4
+    originalName: 
+    pivot: {x: 0.5052632, y: -0.051282056}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 116
+      y: 373
+      width: 95
+      height: 117
+    spriteID: 772cb3d44ffd7434eaa860d70b50296c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 116, y: 373}
+  - name: Treant-Recover_Frame_5
+    originalName: 
+    pivot: {x: 0.51086956, y: -0.051282056}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 227
+      y: 129
+      width: 92
+      height: 117
+    spriteID: 3c41a3cbc51e167418d7401e61f05d82
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 227, y: 129}
+  - name: Treant-Recover_Frame_6
+    originalName: 
+    pivot: {x: 0.51086956, y: -0.051282056}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 227
+      y: 254
+      width: 92
+      height: 117
+    spriteID: 246fb626837eb9540a395df61188c49c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 227, y: 254}
+  - name: Treant-Recover_Frame_7
+    originalName: 
+    pivot: {x: 0.51086956, y: -0.051282056}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 227
+      y: 379
+      width: 92
+      height: 117
+    spriteID: c50b17895f3b3614a8bf58a988d1e2a8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 227, y: 379}
+  - name: Treant-Recover_Frame_8
+    originalName: 
+    pivot: {x: 0.5157895, y: -0.051282056}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 227
+      y: 4
+      width: 95
+      height: 117
+    spriteID: 1a5e52e389cb4d643b7efd3b985d4c6c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 227, y: 4}
+  - name: Treant-Recover_Frame_9
+    originalName: 
+    pivot: {x: 0.5145631, y: -0.050847456}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 129
+      width: 103
+      height: 118
+    spriteID: cf09f7ec0eea5af458b9c6f54e7c1e81
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 129}
+  - name: Treant-Recover_Frame_10
+    originalName: 
+    pivot: {x: 0.5048544, y: -0.052173913}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 378
+      width: 103
+      height: 115
+    spriteID: e66aa788b0ff6154ab7a120b5c673fb9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 378}
+  - name: Treant-Recover_Frame_11
+    originalName: 
+    pivot: {x: 0.5048544, y: -0.05263158}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 116
+      y: 4
+      width: 103
+      height: 114
+    spriteID: 5f4ab3e1f6dcc7e408c7f71da8b52114
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 116, y: 4}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1730669231
+    name: Treant-Recover
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Treant-Recover_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 13
+        y: 6
+        width: 99
+        height: 115
+      spriteId: 86d6276ea1cea1b4f836a9f11551a527
+    - name: Treant-Recover_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 13
+        y: 6
+        width: 99
+        height: 116
+      spriteId: 056c997873d68244591ec16841eaa9ae
+    - name: Treant-Recover_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 12
+        y: 6
+        width: 103
+        height: 115
+      spriteId: 5159cfa254807d34f946c5379969678b
+    - name: Treant-Recover_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 11
+        y: 6
+        width: 104
+        height: 117
+      spriteId: 674522d53e43ed545afe9e041edf6fde
+    - name: Treant-Recover_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 16
+        y: 6
+        width: 95
+        height: 117
+      spriteId: 772cb3d44ffd7434eaa860d70b50296c
+    - name: Treant-Recover_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 17
+        y: 6
+        width: 92
+        height: 117
+      spriteId: 3c41a3cbc51e167418d7401e61f05d82
+    - name: Treant-Recover_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 17
+        y: 6
+        width: 92
+        height: 117
+      spriteId: 246fb626837eb9540a395df61188c49c
+    - name: Treant-Recover_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 17
+        y: 6
+        width: 92
+        height: 117
+      spriteId: c50b17895f3b3614a8bf58a988d1e2a8
+    - name: Treant-Recover_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 15
+        y: 6
+        width: 95
+        height: 117
+      spriteId: 1a5e52e389cb4d643b7efd3b985d4c6c
+    - name: Treant-Recover_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 11
+        y: 6
+        width: 103
+        height: 118
+      spriteId: cf09f7ec0eea5af458b9c6f54e7c1e81
+    - name: Treant-Recover_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 12
+        y: 6
+        width: 103
+        height: 115
+      spriteId: e66aa788b0ff6154ab7a120b5c673fb9
+    - name: Treant-Recover_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 12
+        y: 6
+        width: 103
+        height: 114
+      spriteId: 5f4ab3e1f6dcc7e408c7f71da8b52114
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 128, y: 128}

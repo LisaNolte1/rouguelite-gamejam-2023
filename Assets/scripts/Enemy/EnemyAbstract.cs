@@ -41,7 +41,7 @@ public abstract class EnemyAbstract : MonoBehaviour
         this.Health -= (int)(damageInflicted * (1 - 1 / Armour));
         if(Health < 0)
         {
-            
+            gameObject.GetComponentInChildren<Animator>().SetBool("IsDead", true);
             int chance = Random.Range(0, 101);
             if(this.LootDropChance > chance)
             {

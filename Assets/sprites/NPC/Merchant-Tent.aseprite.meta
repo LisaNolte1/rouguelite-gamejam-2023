@@ -1,0 +1,948 @@
+fileFormatVersion: 2
+guid: 57be32abfaeee0343945a04283dd99e7
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Merchant-Tent_Frame_0
+    originalName: 
+    pivot: {x: 0.5925926, y: 0.018181818}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 81
+      height: 55
+    spriteID: b08df7ec907cb8f488c5568bd8e61c41
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Merchant-Tent_Frame_1
+    originalName: 
+    pivot: {x: 0.5925926, y: 0.018181818}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 93
+      y: 4
+      width: 81
+      height: 55
+    spriteID: 827b5949a8bd2e444aa55b6eba987590
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 93, y: 4}
+  - name: Merchant-Tent_Frame_2
+    originalName: 
+    pivot: {x: 0.5925926, y: 0.018181818}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 182
+      y: 4
+      width: 81
+      height: 55
+    spriteID: 3130c1fae01efcd4e9e52bdd7cdcd175
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 182, y: 4}
+  - name: Merchant-Tent_Frame_3
+    originalName: 
+    pivot: {x: 0.5925926, y: 0.018181818}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 271
+      y: 4
+      width: 81
+      height: 55
+    spriteID: 623447c2d45304744b4dd700a9a1d895
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 271, y: 4}
+  - name: Merchant-Tent_Frame_4
+    originalName: 
+    pivot: {x: 0.5925926, y: 0.018181818}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 360
+      y: 4
+      width: 81
+      height: 55
+    spriteID: afb4dead5f4247941b864009745f4227
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 360, y: 4}
+  - name: Merchant-Tent_Frame_5
+    originalName: 
+    pivot: {x: 0.5925926, y: 0.018181818}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 67
+      width: 81
+      height: 55
+    spriteID: e1353f46a7f52c84bb03c551c89c993c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 67}
+  - name: Merchant-Tent_Frame_6
+    originalName: 
+    pivot: {x: 0.5925926, y: 0.018181818}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 93
+      y: 67
+      width: 81
+      height: 55
+    spriteID: 6e7fe661a277f1d4f876e29b17984fe6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 93, y: 67}
+  - name: Merchant-Tent_Frame_7
+    originalName: 
+    pivot: {x: 0.5925926, y: 0.018181818}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 182
+      y: 67
+      width: 81
+      height: 55
+    spriteID: ea758ca76f5fd9542a9f6bd18d2c8e4c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 182, y: 67}
+  - name: Merchant-Tent_Frame_8
+    originalName: 
+    pivot: {x: 0.5925926, y: 0.018181818}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 271
+      y: 67
+      width: 81
+      height: 55
+    spriteID: dfe4f87a46d5bd147a900cdf3cc78418
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 271, y: 67}
+  - name: Merchant-Tent_Frame_9
+    originalName: 
+    pivot: {x: 0.5925926, y: 0.018181818}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 360
+      y: 67
+      width: 81
+      height: 55
+    spriteID: b03805095c3380449a782dfd38e9384e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 360, y: 67}
+  - name: Merchant-Tent_Frame_10
+    originalName: 
+    pivot: {x: 0.5925926, y: 0.018181818}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 130
+      width: 81
+      height: 55
+    spriteID: e2b07fda353d61342a65dc5505f7a1c6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 130}
+  - name: Merchant-Tent_Frame_11
+    originalName: 
+    pivot: {x: 0.5925926, y: 0.018181818}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 93
+      y: 130
+      width: 81
+      height: 55
+    spriteID: a4a98d1accda07e4f829e9238123eac2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 93, y: 130}
+  - name: Merchant-Tent_Frame_12
+    originalName: 
+    pivot: {x: 0.5925926, y: 0.018181818}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 182
+      y: 130
+      width: 81
+      height: 55
+    spriteID: d0a0eaaffdbdd0c478787282c3159842
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 182, y: 130}
+  - name: Merchant-Tent_Frame_13
+    originalName: 
+    pivot: {x: 0.5925926, y: 0.018181818}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 271
+      y: 130
+      width: 81
+      height: 55
+    spriteID: 3b34f7dcf13a7db4faf5fc73cda337b5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 271, y: 130}
+  - name: Merchant-Tent_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 360
+      y: 256
+      width: 66
+      height: 54
+    spriteID: fa08e032d6c725c47a0a618211ee54d6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 360, y: 256}
+  - name: Merchant-Tent_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 434
+      y: 256
+      width: 66
+      height: 54
+    spriteID: 0254164d102c88a47810a1dc8176d576
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 434, y: 256}
+  - name: Merchant-Tent_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 319
+      width: 66
+      height: 54
+    spriteID: b31b7109bf6c522408e7bfb552d97999
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 319}
+  - name: Merchant-Tent_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 78
+      y: 319
+      width: 66
+      height: 54
+    spriteID: 450276dfb5b15e447bba352367439caa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 78, y: 319}
+  - name: Merchant-Tent_Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 152
+      y: 319
+      width: 66
+      height: 54
+    spriteID: f2287ef74cfe39b40bc91609a65da114
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 152, y: 319}
+  - name: Merchant-Tent_Frame_19
+    originalName: 
+    pivot: {x: 0.5925926, y: 0.018181818}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 360
+      y: 130
+      width: 81
+      height: 55
+    spriteID: 074c4357f4e78c449b50309297829d3c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 360, y: 130}
+  - name: Merchant-Tent_Frame_20
+    originalName: 
+    pivot: {x: 0.5925926, y: 0.018181818}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 193
+      width: 81
+      height: 55
+    spriteID: 6b58ee8bad0f85140bf1ae292eba2090
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 193}
+  - name: Merchant-Tent_Frame_21
+    originalName: 
+    pivot: {x: 0.5925926, y: 0.018181818}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 93
+      y: 193
+      width: 81
+      height: 55
+    spriteID: 9f4144155f918404f8a18c9356b86651
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 93, y: 193}
+  - name: Merchant-Tent_Frame_22
+    originalName: 
+    pivot: {x: 0.5925926, y: 0.018181818}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 182
+      y: 193
+      width: 81
+      height: 55
+    spriteID: 1f3a711df580d0b44b39d8d489c3f5e7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 182, y: 193}
+  - name: Merchant-Tent_Frame_23
+    originalName: 
+    pivot: {x: 0.5925926, y: 0.018181818}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 271
+      y: 193
+      width: 81
+      height: 55
+    spriteID: 6a77d2e9ebaa1064a9f244cac61d7b1c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 271, y: 193}
+  - name: Merchant-Tent_Frame_24
+    originalName: 
+    pivot: {x: 0.5925926, y: 0.018181818}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 360
+      y: 193
+      width: 81
+      height: 55
+    spriteID: 01769c77486e07240a58e62a60b73d8c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 360, y: 193}
+  - name: Merchant-Tent_Frame_25
+    originalName: 
+    pivot: {x: 0.5925926, y: 0.018181818}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 256
+      width: 81
+      height: 55
+    spriteID: f415871f75d74f64d90c06dd44b728db
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 256}
+  - name: Merchant-Tent_Frame_26
+    originalName: 
+    pivot: {x: 0.5925926, y: 0.018181818}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 93
+      y: 256
+      width: 81
+      height: 55
+    spriteID: 86d89291e75fdef4c940aa83d1d7c604
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 93, y: 256}
+  - name: Merchant-Tent_Frame_27
+    originalName: 
+    pivot: {x: 0.5925926, y: 0.018181818}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 182
+      y: 256
+      width: 81
+      height: 55
+    spriteID: 1b910f62cc95b554db882d292bfac8b0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 182, y: 256}
+  - name: Merchant-Tent_Frame_28
+    originalName: 
+    pivot: {x: 0.5925926, y: 0.018181818}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 271
+      y: 256
+      width: 81
+      height: 55
+    spriteID: b94efedbf5f14824c80e39d102d4b53e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 271, y: 256}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1935404372
+    name: Merchant-Tent
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Merchant-Tent_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: -15
+        y: -1
+        width: 81
+        height: 55
+      spriteId: b08df7ec907cb8f488c5568bd8e61c41
+    - name: Merchant-Tent_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: -15
+        y: -1
+        width: 81
+        height: 55
+      spriteId: 827b5949a8bd2e444aa55b6eba987590
+    - name: Merchant-Tent_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: -15
+        y: -1
+        width: 81
+        height: 55
+      spriteId: 3130c1fae01efcd4e9e52bdd7cdcd175
+    - name: Merchant-Tent_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: -15
+        y: -1
+        width: 81
+        height: 55
+      spriteId: 623447c2d45304744b4dd700a9a1d895
+    - name: Merchant-Tent_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: -15
+        y: -1
+        width: 81
+        height: 55
+      spriteId: afb4dead5f4247941b864009745f4227
+    - name: Merchant-Tent_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: -15
+        y: -1
+        width: 81
+        height: 55
+      spriteId: e1353f46a7f52c84bb03c551c89c993c
+    - name: Merchant-Tent_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: -15
+        y: -1
+        width: 81
+        height: 55
+      spriteId: 6e7fe661a277f1d4f876e29b17984fe6
+    - name: Merchant-Tent_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: -15
+        y: -1
+        width: 81
+        height: 55
+      spriteId: ea758ca76f5fd9542a9f6bd18d2c8e4c
+    - name: Merchant-Tent_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: -15
+        y: -1
+        width: 81
+        height: 55
+      spriteId: dfe4f87a46d5bd147a900cdf3cc78418
+    - name: Merchant-Tent_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: -15
+        y: -1
+        width: 81
+        height: 55
+      spriteId: b03805095c3380449a782dfd38e9384e
+    - name: Merchant-Tent_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: -15
+        y: -1
+        width: 81
+        height: 55
+      spriteId: e2b07fda353d61342a65dc5505f7a1c6
+    - name: Merchant-Tent_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: -15
+        y: -1
+        width: 81
+        height: 55
+      spriteId: a4a98d1accda07e4f829e9238123eac2
+    - name: Merchant-Tent_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: -15
+        y: -1
+        width: 81
+        height: 55
+      spriteId: d0a0eaaffdbdd0c478787282c3159842
+    - name: Merchant-Tent_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: -15
+        y: -1
+        width: 81
+        height: 55
+      spriteId: 3b34f7dcf13a7db4faf5fc73cda337b5
+    - name: Merchant-Tent_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 0
+        y: 0
+        width: 66
+        height: 54
+      spriteId: fa08e032d6c725c47a0a618211ee54d6
+    - name: Merchant-Tent_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 0
+        y: 0
+        width: 66
+        height: 54
+      spriteId: 0254164d102c88a47810a1dc8176d576
+    - name: Merchant-Tent_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 0
+        y: 0
+        width: 66
+        height: 54
+      spriteId: b31b7109bf6c522408e7bfb552d97999
+    - name: Merchant-Tent_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 0
+        y: 0
+        width: 66
+        height: 54
+      spriteId: 450276dfb5b15e447bba352367439caa
+    - name: Merchant-Tent_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 0
+        y: 0
+        width: 66
+        height: 54
+      spriteId: f2287ef74cfe39b40bc91609a65da114
+    - name: Merchant-Tent_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: -15
+        y: -1
+        width: 81
+        height: 55
+      spriteId: 074c4357f4e78c449b50309297829d3c
+    - name: Merchant-Tent_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: -15
+        y: -1
+        width: 81
+        height: 55
+      spriteId: 6b58ee8bad0f85140bf1ae292eba2090
+    - name: Merchant-Tent_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: -15
+        y: -1
+        width: 81
+        height: 55
+      spriteId: 9f4144155f918404f8a18c9356b86651
+    - name: Merchant-Tent_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: -15
+        y: -1
+        width: 81
+        height: 55
+      spriteId: 1f3a711df580d0b44b39d8d489c3f5e7
+    - name: Merchant-Tent_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: -15
+        y: -1
+        width: 81
+        height: 55
+      spriteId: 6a77d2e9ebaa1064a9f244cac61d7b1c
+    - name: Merchant-Tent_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: -15
+        y: -1
+        width: 81
+        height: 55
+      spriteId: 01769c77486e07240a58e62a60b73d8c
+    - name: Merchant-Tent_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: -15
+        y: -1
+        width: 81
+        height: 55
+      spriteId: f415871f75d74f64d90c06dd44b728db
+    - name: Merchant-Tent_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: -15
+        y: -1
+        width: 81
+        height: 55
+      spriteId: 86d89291e75fdef4c940aa83d1d7c604
+    - name: Merchant-Tent_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: -15
+        y: -1
+        width: 81
+        height: 55
+      spriteId: 1b910f62cc95b554db882d292bfac8b0
+    - name: Merchant-Tent_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: -15
+        y: -1
+        width: 81
+        height: 55
+      spriteId: b94efedbf5f14824c80e39d102d4b53e
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 66, y: 55}

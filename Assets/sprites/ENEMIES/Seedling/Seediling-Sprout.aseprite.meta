@@ -1,0 +1,640 @@
+fileFormatVersion: 2
+guid: 1d7967d105d0af0439344daf1fd16091
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Seediling-Sprout_Frame_0
+    originalName: 
+    pivot: {x: 0.4615385, y: 0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 114
+      width: 13
+      height: 10
+    spriteID: 1ef4c8dc1a0957a45a7d661252405be8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 114}
+  - name: Seediling-Sprout_Frame_1
+    originalName: 
+    pivot: {x: 0.4615385, y: 0.18181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 73
+      y: 96
+      width: 13
+      height: 11
+    spriteID: f2a51ef13b152a64d93b58d84ad210df
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 73, y: 96}
+  - name: Seediling-Sprout_Frame_2
+    originalName: 
+    pivot: {x: 0.4615385, y: 0.13333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 73
+      y: 31
+      width: 13
+      height: 15
+    spriteID: 041796373822632438cc2987383ce06d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 73, y: 31}
+  - name: Seediling-Sprout_Frame_3
+    originalName: 
+    pivot: {x: 0.4615385, y: 0.15384616}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 73
+      y: 54
+      width: 13
+      height: 13
+    spriteID: 30236641eb6553248bb50e733a5773db
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 73, y: 54}
+  - name: Seediling-Sprout_Frame_4
+    originalName: 
+    pivot: {x: 0.4615385, y: 0.15384616}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 73
+      y: 75
+      width: 13
+      height: 13
+    spriteID: d1feae8608ad7124fa1721a1fc26d998
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 73, y: 75}
+  - name: Seediling-Sprout_Frame_5
+    originalName: 
+    pivot: {x: 0.4666667, y: 0.10526316}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 60
+      width: 15
+      height: 19
+    spriteID: 73b3e53a89312cc418d6526b04aac950
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 60}
+  - name: Seediling-Sprout_Frame_6
+    originalName: 
+    pivot: {x: 0.4666667, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 87
+      width: 15
+      height: 19
+    spriteID: 824008c449b277f44a13d43e6fb25231
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 87}
+  - name: Seediling-Sprout_Frame_7
+    originalName: 
+    pivot: {x: 0.42857146, y: 0.09090909}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 63
+      width: 14
+      height: 22
+    spriteID: 2fa55b97357831648b61d353db263338
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 63}
+  - name: Seediling-Sprout_Frame_8
+    originalName: 
+    pivot: {x: 0.4666667, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 15
+      height: 22
+    spriteID: d838c1725c9eb5c4ea8f7de2ac9cd91b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Seediling-Sprout_Frame_9
+    originalName: 
+    pivot: {x: 0.4666667, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 34
+      width: 15
+      height: 21
+    spriteID: bf55ca7df2d99904aa6bf5bfbdbf7fb7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 34}
+  - name: Seediling-Sprout_Frame_13
+    originalName: 
+    pivot: {x: 0.4666667, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 73
+      y: 4
+      width: 15
+      height: 19
+    spriteID: ebfa4190e0605244695a95d98c94c565
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 73, y: 4}
+  - name: Seediling-Sprout_Frame_10
+    originalName: 
+    pivot: {x: 0.4666667, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 93
+      width: 15
+      height: 20
+    spriteID: ada61384fd70eaa4d81df877dbe02113
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 93}
+  - name: Seediling-Sprout_Frame_11
+    originalName: 
+    pivot: {x: 0.4666667, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 4
+      width: 15
+      height: 20
+    spriteID: f9785a75fb9614142abc5c9be6ac1c95
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 27, y: 4}
+  - name: Seediling-Sprout_Frame_12
+    originalName: 
+    pivot: {x: 0.4666667, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 32
+      width: 15
+      height: 20
+    spriteID: 7fb2788f6ef85d34ab3c2b68dc07ec35
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 27, y: 32}
+  - name: Seediling-Sprout_Frame_14
+    originalName: 
+    pivot: {x: 0.4666667, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 60
+      width: 15
+      height: 20
+    spriteID: 15b9c7a71041b444a9599998d69a0229
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 27, y: 60}
+  - name: Seediling-Sprout_Frame_15
+    originalName: 
+    pivot: {x: 0.4666667, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 88
+      width: 15
+      height: 20
+    spriteID: c70c075bac724964aba98a8ff6f5c699
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 27, y: 88}
+  - name: Seediling-Sprout_Frame_16
+    originalName: 
+    pivot: {x: 0.4666667, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 4
+      width: 15
+      height: 20
+    spriteID: 2e4f8b98f20ba854098a0b4789ee01e4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 4}
+  - name: Seediling-Sprout_Frame_17
+    originalName: 
+    pivot: {x: 0.4666667, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 32
+      width: 15
+      height: 20
+    spriteID: 9dc1f04febb4d7447a3e68e3aab0a200
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 32}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -930083904
+    name: Seediling-Sprout
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Seediling-Sprout_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 2
+        y: -2
+        width: 13
+        height: 10
+      spriteId: 1ef4c8dc1a0957a45a7d661252405be8
+    - name: Seediling-Sprout_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 2
+        y: -2
+        width: 13
+        height: 11
+      spriteId: f2a51ef13b152a64d93b58d84ad210df
+    - name: Seediling-Sprout_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 2
+        y: -2
+        width: 13
+        height: 15
+      spriteId: 041796373822632438cc2987383ce06d
+    - name: Seediling-Sprout_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 2
+        y: -2
+        width: 13
+        height: 13
+      spriteId: 30236641eb6553248bb50e733a5773db
+    - name: Seediling-Sprout_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 2
+        y: -2
+        width: 13
+        height: 13
+      spriteId: d1feae8608ad7124fa1721a1fc26d998
+    - name: Seediling-Sprout_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 1
+        y: -2
+        width: 15
+        height: 19
+      spriteId: 73b3e53a89312cc418d6526b04aac950
+    - name: Seediling-Sprout_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 1
+        y: 0
+        width: 15
+        height: 19
+      spriteId: 824008c449b277f44a13d43e6fb25231
+    - name: Seediling-Sprout_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 2
+        y: -2
+        width: 14
+        height: 22
+      spriteId: 2fa55b97357831648b61d353db263338
+    - name: Seediling-Sprout_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 1
+        y: 0
+        width: 15
+        height: 22
+      spriteId: d838c1725c9eb5c4ea8f7de2ac9cd91b
+    - name: Seediling-Sprout_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 1
+        y: 0
+        width: 15
+        height: 21
+      spriteId: bf55ca7df2d99904aa6bf5bfbdbf7fb7
+    - name: Seediling-Sprout_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 1
+        y: 0
+        width: 15
+        height: 19
+      spriteId: ebfa4190e0605244695a95d98c94c565
+    - name: Seediling-Sprout_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 1
+        y: 0
+        width: 15
+        height: 20
+      spriteId: ada61384fd70eaa4d81df877dbe02113
+    - name: Seediling-Sprout_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 1
+        y: 0
+        width: 15
+        height: 20
+      spriteId: f9785a75fb9614142abc5c9be6ac1c95
+    - name: Seediling-Sprout_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 1
+        y: 0
+        width: 15
+        height: 20
+      spriteId: 7fb2788f6ef85d34ab3c2b68dc07ec35
+    - name: Seediling-Sprout_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 1
+        y: 0
+        width: 15
+        height: 20
+      spriteId: 15b9c7a71041b444a9599998d69a0229
+    - name: Seediling-Sprout_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 1
+        y: 0
+        width: 15
+        height: 20
+      spriteId: c70c075bac724964aba98a8ff6f5c699
+    - name: Seediling-Sprout_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 1
+        y: 0
+        width: 15
+        height: 20
+      spriteId: 2e4f8b98f20ba854098a0b4789ee01e4
+    - name: Seediling-Sprout_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 1
+        y: 0
+        width: 15
+        height: 20
+      spriteId: 9dc1f04febb4d7447a3e68e3aab0a200
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 16, y: 22}

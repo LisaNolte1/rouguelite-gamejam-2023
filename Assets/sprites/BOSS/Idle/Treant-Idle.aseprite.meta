@@ -1,0 +1,696 @@
+fileFormatVersion: 2
+guid: 29cb5b806bdd2a64cafdb5ee1184b6a4
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Treant-Idle_Frame_0
+    originalName: 
+    pivot: {x: 0.5048544, y: -0.050847456}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 115
+      y: 386
+      width: 103
+      height: 118
+    spriteID: 5f89ddfaf9761534f925cf8a03594de5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 115, y: 386}
+  - name: Treant-Idle_Frame_1
+    originalName: 
+    pivot: {x: 0.5048544, y: -0.050847456}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 115
+      y: 512
+      width: 103
+      height: 118
+    spriteID: 84cc172731014bc40ba9b946befcacbc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 115, y: 512}
+  - name: Treant-Idle_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -0.051724136}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 226
+      y: 130
+      width: 104
+      height: 116
+    spriteID: 6241c2d0e10d4644b9c45c3c56b0cba4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 226, y: 130}
+  - name: Treant-Idle_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: -0.051724136}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 226
+      y: 254
+      width: 104
+      height: 116
+    spriteID: 7b3eaebcf2bbc5e40ae370b17ec1f2ec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 226, y: 254}
+  - name: Treant-Idle_Frame_4
+    originalName: 
+    pivot: {x: 0.5048544, y: -0.051724136}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 904
+      width: 103
+      height: 116
+    spriteID: 98c50793d52472d4c948ab649d5e087f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 904}
+  - name: Treant-Idle_Frame_5
+    originalName: 
+    pivot: {x: 0.5048544, y: -0.050420173}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 115
+      y: 132
+      width: 103
+      height: 119
+    spriteID: 63225a58106ee1e42af0b29fa6be174d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 115, y: 132}
+  - name: Treant-Idle_Frame_6
+    originalName: 
+    pivot: {x: 0.5048544, y: -0.050000004}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 520
+      width: 103
+      height: 120
+    spriteID: 6960b932f7a3e654d8d06dcbb2e4f037
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 520}
+  - name: Treant-Idle_Frame_7
+    originalName: 
+    pivot: {x: 0.5048544, y: -0.049586773}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 103
+      height: 121
+    spriteID: d52d62bc3a638094dbd74bbaafaad9b4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Treant-Idle_Frame_8
+    originalName: 
+    pivot: {x: 0.5048544, y: -0.049586773}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 133
+      width: 103
+      height: 121
+    spriteID: 6d60a80a900981b48a183a176a5f7dfd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 133}
+  - name: Treant-Idle_Frame_9
+    originalName: 
+    pivot: {x: 0.5048544, y: -0.050000004}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 648
+      width: 103
+      height: 120
+    spriteID: 320ed72e27489874da4aecf017043472
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 648}
+  - name: Treant-Idle_Frame_10
+    originalName: 
+    pivot: {x: 0.5048544, y: -0.050847456}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 115
+      y: 638
+      width: 103
+      height: 118
+    spriteID: f54ef189ff659644ebbeeda4c14a315d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 115, y: 638}
+  - name: Treant-Idle_Frame_11
+    originalName: 
+    pivot: {x: 0.5048544, y: -0.050847456}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 115
+      y: 764
+      width: 103
+      height: 118
+    spriteID: 7a46f68ec75e16840887feae82a10ba0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 115, y: 764}
+  - name: Treant-Idle_Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: -0.050847456}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 226
+      y: 4
+      width: 104
+      height: 118
+    spriteID: 0be594f63a6b7044f834a040b3fac94e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 226, y: 4}
+  - name: Treant-Idle_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: -0.051724136}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 226
+      y: 378
+      width: 104
+      height: 116
+    spriteID: 2b31b1d263baa9e41bf3e82fda02ae85
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 226, y: 378}
+  - name: Treant-Idle_Frame_14
+    originalName: 
+    pivot: {x: 0.5048544, y: -0.051724136}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 115
+      y: 890
+      width: 103
+      height: 116
+    spriteID: 5f2f5d231f3ad304d8601a2f44b3c062
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 115, y: 890}
+  - name: Treant-Idle_Frame_15
+    originalName: 
+    pivot: {x: 0.5048544, y: -0.050420173}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 115
+      y: 259
+      width: 103
+      height: 119
+    spriteID: d63b69c8efaabda46a4c6e80587daf68
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 115, y: 259}
+  - name: Treant-Idle_Frame_16
+    originalName: 
+    pivot: {x: 0.5048544, y: -0.050000004}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 776
+      width: 103
+      height: 120
+    spriteID: e0e9e6f6ea0e55844bb6d3e7e285ed20
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 776}
+  - name: Treant-Idle_Frame_17
+    originalName: 
+    pivot: {x: 0.5048544, y: -0.049586773}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 262
+      width: 103
+      height: 121
+    spriteID: 3e352d989ad685048bbd5f27f8953001
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 262}
+  - name: Treant-Idle_Frame_18
+    originalName: 
+    pivot: {x: 0.5048544, y: -0.049586773}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 391
+      width: 103
+      height: 121
+    spriteID: 1d2bd71fb036ba240b81f2d49588f410
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 391}
+  - name: Treant-Idle_Frame_19
+    originalName: 
+    pivot: {x: 0.5048544, y: -0.050000004}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 115
+      y: 4
+      width: 103
+      height: 120
+    spriteID: 31012d3637479ee45ae523328ad2cf45
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 115, y: 4}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 800428293
+    name: Treant-Idle
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Treant-Idle_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 12
+        y: 6
+        width: 103
+        height: 118
+      spriteId: 5f89ddfaf9761534f925cf8a03594de5
+    - name: Treant-Idle_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 12
+        y: 6
+        width: 103
+        height: 118
+      spriteId: 84cc172731014bc40ba9b946befcacbc
+    - name: Treant-Idle_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 12
+        y: 6
+        width: 104
+        height: 116
+      spriteId: 6241c2d0e10d4644b9c45c3c56b0cba4
+    - name: Treant-Idle_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 12
+        y: 6
+        width: 104
+        height: 116
+      spriteId: 7b3eaebcf2bbc5e40ae370b17ec1f2ec
+    - name: Treant-Idle_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 12
+        y: 6
+        width: 103
+        height: 116
+      spriteId: 98c50793d52472d4c948ab649d5e087f
+    - name: Treant-Idle_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 12
+        y: 6
+        width: 103
+        height: 119
+      spriteId: 63225a58106ee1e42af0b29fa6be174d
+    - name: Treant-Idle_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 12
+        y: 6
+        width: 103
+        height: 120
+      spriteId: 6960b932f7a3e654d8d06dcbb2e4f037
+    - name: Treant-Idle_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 12
+        y: 6
+        width: 103
+        height: 121
+      spriteId: d52d62bc3a638094dbd74bbaafaad9b4
+    - name: Treant-Idle_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 12
+        y: 6
+        width: 103
+        height: 121
+      spriteId: 6d60a80a900981b48a183a176a5f7dfd
+    - name: Treant-Idle_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 12
+        y: 6
+        width: 103
+        height: 120
+      spriteId: 320ed72e27489874da4aecf017043472
+    - name: Treant-Idle_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 12
+        y: 6
+        width: 103
+        height: 118
+      spriteId: f54ef189ff659644ebbeeda4c14a315d
+    - name: Treant-Idle_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 12
+        y: 6
+        width: 103
+        height: 118
+      spriteId: 7a46f68ec75e16840887feae82a10ba0
+    - name: Treant-Idle_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 12
+        y: 6
+        width: 104
+        height: 118
+      spriteId: 0be594f63a6b7044f834a040b3fac94e
+    - name: Treant-Idle_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 12
+        y: 6
+        width: 104
+        height: 116
+      spriteId: 2b31b1d263baa9e41bf3e82fda02ae85
+    - name: Treant-Idle_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 12
+        y: 6
+        width: 103
+        height: 116
+      spriteId: 5f2f5d231f3ad304d8601a2f44b3c062
+    - name: Treant-Idle_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 12
+        y: 6
+        width: 103
+        height: 119
+      spriteId: d63b69c8efaabda46a4c6e80587daf68
+    - name: Treant-Idle_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 12
+        y: 6
+        width: 103
+        height: 120
+      spriteId: e0e9e6f6ea0e55844bb6d3e7e285ed20
+    - name: Treant-Idle_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 12
+        y: 6
+        width: 103
+        height: 121
+      spriteId: 3e352d989ad685048bbd5f27f8953001
+    - name: Treant-Idle_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 12
+        y: 6
+        width: 103
+        height: 121
+      spriteId: 1d2bd71fb036ba240b81f2d49588f410
+    - name: Treant-Idle_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 12
+        y: 6
+        width: 103
+        height: 120
+      spriteId: 31012d3637479ee45ae523328ad2cf45
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 128, y: 128}

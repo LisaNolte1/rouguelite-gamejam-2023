@@ -1,0 +1,696 @@
+fileFormatVersion: 2
+guid: 6d9c1d5c6351bf14fa223ddd2f388df8
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Treant-Idle-Beardless_Frame_0
+    originalName: 
+    pivot: {x: 0.5048544, y: -0.050847456}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 115
+      y: 386
+      width: 103
+      height: 118
+    spriteID: b9d5b323e6be4b247ba51fb0162d760f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 115, y: 386}
+  - name: Treant-Idle-Beardless_Frame_1
+    originalName: 
+    pivot: {x: 0.5048544, y: -0.050847456}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 115
+      y: 512
+      width: 103
+      height: 118
+    spriteID: 2a5ccfe654f57fc42bc5680736cdb3a9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 115, y: 512}
+  - name: Treant-Idle-Beardless_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -0.051724136}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 226
+      y: 130
+      width: 104
+      height: 116
+    spriteID: 4f4ecdbddf6f13a469e327be9b24c0c7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 226, y: 130}
+  - name: Treant-Idle-Beardless_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: -0.051724136}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 226
+      y: 254
+      width: 104
+      height: 116
+    spriteID: 84b8a04888a77c04181ba1dc2eb6c959
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 226, y: 254}
+  - name: Treant-Idle-Beardless_Frame_4
+    originalName: 
+    pivot: {x: 0.5048544, y: -0.051724136}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 904
+      width: 103
+      height: 116
+    spriteID: 4f94a598a4d745348a52454f38f09b8d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 904}
+  - name: Treant-Idle-Beardless_Frame_5
+    originalName: 
+    pivot: {x: 0.5048544, y: -0.050420173}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 115
+      y: 132
+      width: 103
+      height: 119
+    spriteID: 187bd65c24087f543bb14e946a641709
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 115, y: 132}
+  - name: Treant-Idle-Beardless_Frame_6
+    originalName: 
+    pivot: {x: 0.5048544, y: -0.050000004}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 520
+      width: 103
+      height: 120
+    spriteID: e75fea8640a8f24439f2de27ddb76567
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 520}
+  - name: Treant-Idle-Beardless_Frame_7
+    originalName: 
+    pivot: {x: 0.5048544, y: -0.049586773}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 103
+      height: 121
+    spriteID: a8c6956b486f4284bbd0b35f967d74cf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Treant-Idle-Beardless_Frame_8
+    originalName: 
+    pivot: {x: 0.5048544, y: -0.049586773}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 133
+      width: 103
+      height: 121
+    spriteID: 6bbb871151e8a634f9afe37b7d19ce1f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 133}
+  - name: Treant-Idle-Beardless_Frame_9
+    originalName: 
+    pivot: {x: 0.5048544, y: -0.050000004}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 648
+      width: 103
+      height: 120
+    spriteID: d9e42546c6647b04e9d0956043f9f1b1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 648}
+  - name: Treant-Idle-Beardless_Frame_10
+    originalName: 
+    pivot: {x: 0.5048544, y: -0.050847456}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 115
+      y: 638
+      width: 103
+      height: 118
+    spriteID: 8f5a935b80a9d294898c05cc74fe84a7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 115, y: 638}
+  - name: Treant-Idle-Beardless_Frame_11
+    originalName: 
+    pivot: {x: 0.5048544, y: -0.050847456}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 115
+      y: 764
+      width: 103
+      height: 118
+    spriteID: a09f8f07b8014c04595ad79bba6887d1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 115, y: 764}
+  - name: Treant-Idle-Beardless_Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: -0.050847456}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 226
+      y: 4
+      width: 104
+      height: 118
+    spriteID: fce79272cef936244b2d39c2d0afd195
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 226, y: 4}
+  - name: Treant-Idle-Beardless_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: -0.051724136}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 226
+      y: 378
+      width: 104
+      height: 116
+    spriteID: 720924699ee5cf14889431976675c750
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 226, y: 378}
+  - name: Treant-Idle-Beardless_Frame_14
+    originalName: 
+    pivot: {x: 0.5048544, y: -0.051724136}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 115
+      y: 890
+      width: 103
+      height: 116
+    spriteID: 7ffc17386240e7d43852b7e6191b4f23
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 115, y: 890}
+  - name: Treant-Idle-Beardless_Frame_15
+    originalName: 
+    pivot: {x: 0.5048544, y: -0.050420173}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 115
+      y: 259
+      width: 103
+      height: 119
+    spriteID: 1bfdf3d5ae00e0c45ba6c32554cafa25
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 115, y: 259}
+  - name: Treant-Idle-Beardless_Frame_16
+    originalName: 
+    pivot: {x: 0.5048544, y: -0.050000004}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 776
+      width: 103
+      height: 120
+    spriteID: 4d1e33c5a2905bf498647d99fbf906ce
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 776}
+  - name: Treant-Idle-Beardless_Frame_17
+    originalName: 
+    pivot: {x: 0.5048544, y: -0.049586773}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 262
+      width: 103
+      height: 121
+    spriteID: e9ed9cd911652b24dbd7c750d7a5ed2d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 262}
+  - name: Treant-Idle-Beardless_Frame_18
+    originalName: 
+    pivot: {x: 0.5048544, y: -0.049586773}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 391
+      width: 103
+      height: 121
+    spriteID: cbdee8869bbd2854eb2cf908934f0f00
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 391}
+  - name: Treant-Idle-Beardless_Frame_19
+    originalName: 
+    pivot: {x: 0.5048544, y: -0.050000004}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 115
+      y: 4
+      width: 103
+      height: 120
+    spriteID: 663adb5f167058c4ab1e7947dc300488
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 115, y: 4}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 484538109
+    name: Treant-Idle-Beardless
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Treant-Idle-Beardless_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 12
+        y: 6
+        width: 103
+        height: 118
+      spriteId: b9d5b323e6be4b247ba51fb0162d760f
+    - name: Treant-Idle-Beardless_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 12
+        y: 6
+        width: 103
+        height: 118
+      spriteId: 2a5ccfe654f57fc42bc5680736cdb3a9
+    - name: Treant-Idle-Beardless_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 12
+        y: 6
+        width: 104
+        height: 116
+      spriteId: 4f4ecdbddf6f13a469e327be9b24c0c7
+    - name: Treant-Idle-Beardless_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 12
+        y: 6
+        width: 104
+        height: 116
+      spriteId: 84b8a04888a77c04181ba1dc2eb6c959
+    - name: Treant-Idle-Beardless_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 12
+        y: 6
+        width: 103
+        height: 116
+      spriteId: 4f94a598a4d745348a52454f38f09b8d
+    - name: Treant-Idle-Beardless_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 12
+        y: 6
+        width: 103
+        height: 119
+      spriteId: 187bd65c24087f543bb14e946a641709
+    - name: Treant-Idle-Beardless_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 12
+        y: 6
+        width: 103
+        height: 120
+      spriteId: e75fea8640a8f24439f2de27ddb76567
+    - name: Treant-Idle-Beardless_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 12
+        y: 6
+        width: 103
+        height: 121
+      spriteId: a8c6956b486f4284bbd0b35f967d74cf
+    - name: Treant-Idle-Beardless_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 12
+        y: 6
+        width: 103
+        height: 121
+      spriteId: 6bbb871151e8a634f9afe37b7d19ce1f
+    - name: Treant-Idle-Beardless_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 12
+        y: 6
+        width: 103
+        height: 120
+      spriteId: d9e42546c6647b04e9d0956043f9f1b1
+    - name: Treant-Idle-Beardless_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 12
+        y: 6
+        width: 103
+        height: 118
+      spriteId: 8f5a935b80a9d294898c05cc74fe84a7
+    - name: Treant-Idle-Beardless_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 12
+        y: 6
+        width: 103
+        height: 118
+      spriteId: a09f8f07b8014c04595ad79bba6887d1
+    - name: Treant-Idle-Beardless_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 12
+        y: 6
+        width: 104
+        height: 118
+      spriteId: fce79272cef936244b2d39c2d0afd195
+    - name: Treant-Idle-Beardless_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 12
+        y: 6
+        width: 104
+        height: 116
+      spriteId: 720924699ee5cf14889431976675c750
+    - name: Treant-Idle-Beardless_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 12
+        y: 6
+        width: 103
+        height: 116
+      spriteId: 7ffc17386240e7d43852b7e6191b4f23
+    - name: Treant-Idle-Beardless_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 12
+        y: 6
+        width: 103
+        height: 119
+      spriteId: 1bfdf3d5ae00e0c45ba6c32554cafa25
+    - name: Treant-Idle-Beardless_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 12
+        y: 6
+        width: 103
+        height: 120
+      spriteId: 4d1e33c5a2905bf498647d99fbf906ce
+    - name: Treant-Idle-Beardless_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 12
+        y: 6
+        width: 103
+        height: 121
+      spriteId: e9ed9cd911652b24dbd7c750d7a5ed2d
+    - name: Treant-Idle-Beardless_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 12
+        y: 6
+        width: 103
+        height: 121
+      spriteId: cbdee8869bbd2854eb2cf908934f0f00
+    - name: Treant-Idle-Beardless_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 12
+        y: 6
+        width: 103
+        height: 120
+      spriteId: 663adb5f167058c4ab1e7947dc300488
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 128, y: 128}

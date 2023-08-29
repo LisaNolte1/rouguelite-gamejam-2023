@@ -1,0 +1,2376 @@
+fileFormatVersion: 2
+guid: 6d5470d807c0ac649915e6008649db2f
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Treant-Rising_Frame_0
+    originalName: 
+    pivot: {x: 0.48, y: 0.1724138}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 200
+      height: 232
+    spriteID: 22c1e9560f55ac947a19892975578a72
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Treant-Rising_Frame_1
+    originalName: 
+    pivot: {x: 0.48, y: 0.1724138}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 244
+      width: 200
+      height: 232
+    spriteID: 302d33b34241bbe479dc68591ab9d80a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 244}
+  - name: Treant-Rising_Frame_2
+    originalName: 
+    pivot: {x: 0.48, y: 0.1724138}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 484
+      width: 200
+      height: 232
+    spriteID: 2dc501c4c91a3e740a4e0047868857eb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 484}
+  - name: Treant-Rising_Frame_3
+    originalName: 
+    pivot: {x: 0.48, y: 0.1724138}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 724
+      width: 200
+      height: 232
+    spriteID: 5b5c75d3c37384a48b53061bc8f6c31c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 724}
+  - name: Treant-Rising_Frame_4
+    originalName: 
+    pivot: {x: 0.48, y: 0.1724138}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 964
+      width: 200
+      height: 232
+    spriteID: 31e422832de842e4fb598e0ae58a78d9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 964}
+  - name: Treant-Rising_Frame_5
+    originalName: 
+    pivot: {x: 0.48, y: 0.1724138}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1204
+      width: 200
+      height: 232
+    spriteID: dc5a9a995cd755341a728514e5748139
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1204}
+  - name: Treant-Rising_Frame_6
+    originalName: 
+    pivot: {x: 0.48, y: 0.1724138}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1444
+      width: 200
+      height: 232
+    spriteID: f13ac3a7a40fa244d83c63392d2233c9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1444}
+  - name: Treant-Rising_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 212
+      y: 244
+      width: 192
+      height: 224
+    spriteID: 239ed3b8565290b4cb39fd6a67809743
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 212, y: 244}
+  - name: Treant-Rising_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: 0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 212
+      y: 476
+      width: 192
+      height: 224
+    spriteID: 42baf784c6c76d84098b8e354d8f45e0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 212, y: 476}
+  - name: Treant-Rising_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: 0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 212
+      y: 708
+      width: 192
+      height: 224
+    spriteID: f4f0132f736f1e541ba9b8377b7243fa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 212, y: 708}
+  - name: Treant-Rising_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: 0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 212
+      y: 940
+      width: 192
+      height: 224
+    spriteID: 4af9c1c55f9346740b382b98518a4281
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 212, y: 940}
+  - name: Treant-Rising_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: 0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 212
+      y: 1172
+      width: 192
+      height: 224
+    spriteID: 886873d738aa5214a89cafe4c946402c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 212, y: 1172}
+  - name: Treant-Rising_Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: 0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 212
+      y: 1404
+      width: 192
+      height: 224
+    spriteID: 0070c3a83cb589a4c85c7d3c3d0f1c98
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 212, y: 1404}
+  - name: Treant-Rising_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: 0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 212
+      y: 1636
+      width: 192
+      height: 224
+    spriteID: 728520f41c1a192459dcfd510be3494a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 212, y: 1636}
+  - name: Treant-Rising_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: 0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 420
+      y: 4
+      width: 192
+      height: 224
+    spriteID: 0910e0b4974de604fa90b03c0d6a4851
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 420, y: 4}
+  - name: Treant-Rising_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: 0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 420
+      y: 236
+      width: 192
+      height: 224
+    spriteID: ddd79efd16be7444ca4e657b522f5a54
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 420, y: 236}
+  - name: Treant-Rising_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: 0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 420
+      y: 468
+      width: 192
+      height: 224
+    spriteID: bf0d9074a7f20794eb45c00e5dae497d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 420, y: 468}
+  - name: Treant-Rising_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: 0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 420
+      y: 700
+      width: 192
+      height: 224
+    spriteID: ba8884cdd1714104da8626190a4cf4ca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 420, y: 700}
+  - name: Treant-Rising_Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: 0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 420
+      y: 932
+      width: 192
+      height: 224
+    spriteID: 2762bad3874e275408160e748f4c30b4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 420, y: 932}
+  - name: Treant-Rising_Frame_19
+    originalName: 
+    pivot: {x: 0.5, y: 0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 420
+      y: 1164
+      width: 192
+      height: 224
+    spriteID: 2d26a5fdc6996794489cdac6eaed1a6e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 420, y: 1164}
+  - name: Treant-Rising_Frame_20
+    originalName: 
+    pivot: {x: 0.5, y: 0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 420
+      y: 1396
+      width: 192
+      height: 224
+    spriteID: 3bb6f9588a5622046a6442d33d9a916c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 420, y: 1396}
+  - name: Treant-Rising_Frame_21
+    originalName: 
+    pivot: {x: 0.5, y: 0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 420
+      y: 1628
+      width: 192
+      height: 224
+    spriteID: df86baf56e80e3c4b9ce907cec658d0b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 420, y: 1628}
+  - name: Treant-Rising_Frame_22
+    originalName: 
+    pivot: {x: 0.5, y: 0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 620
+      y: 4
+      width: 192
+      height: 224
+    spriteID: 63ce74e4792d0a646903ffaa03214b3a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 620, y: 4}
+  - name: Treant-Rising_Frame_23
+    originalName: 
+    pivot: {x: 0.48, y: 0.1724138}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1684
+      width: 200
+      height: 232
+    spriteID: 2ec2234ca8091404a84f55cd5f8fa158
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1684}
+  - name: Treant-Rising_Frame_24
+    originalName: 
+    pivot: {x: 0.48, y: 0.1724138}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 212
+      y: 4
+      width: 200
+      height: 232
+    spriteID: 67da33e13c3c2824dbf039aa992f4505
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 212, y: 4}
+  - name: Treant-Rising_Frame_25
+    originalName: 
+    pivot: {x: 0.5, y: 0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 620
+      y: 236
+      width: 192
+      height: 224
+    spriteID: 5103f75d9df5c9b429685a64fc5c5656
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 620, y: 236}
+  - name: Treant-Rising_Frame_26
+    originalName: 
+    pivot: {x: 0.5, y: 0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 620
+      y: 468
+      width: 192
+      height: 224
+    spriteID: db48bd0e8f0bbde419435c6a2f493dea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 620, y: 468}
+  - name: Treant-Rising_Frame_27
+    originalName: 
+    pivot: {x: 0.5, y: 0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 620
+      y: 700
+      width: 192
+      height: 224
+    spriteID: 2a995a41291f27848b1b90cc0a1d1352
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 620, y: 700}
+  - name: Treant-Rising_Frame_28
+    originalName: 
+    pivot: {x: 0.5, y: 0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 620
+      y: 932
+      width: 192
+      height: 224
+    spriteID: 47b2bc979cc8bee4d80542cba97ddf64
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 620, y: 932}
+  - name: Treant-Rising_Frame_29
+    originalName: 
+    pivot: {x: 0.5, y: 0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 620
+      y: 1164
+      width: 192
+      height: 224
+    spriteID: 21151e2a837de16448709963516c1635
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 620, y: 1164}
+  - name: Treant-Rising_Frame_30
+    originalName: 
+    pivot: {x: 0.5, y: 0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 620
+      y: 1396
+      width: 192
+      height: 224
+    spriteID: 27114d5ae78714a47b3f966e2341638b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 620, y: 1396}
+  - name: Treant-Rising_Frame_31
+    originalName: 
+    pivot: {x: 0.5, y: 0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 620
+      y: 1628
+      width: 192
+      height: 224
+    spriteID: c045ea77b245ec0428506d37ee794b32
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 620, y: 1628}
+  - name: Treant-Rising_Frame_32
+    originalName: 
+    pivot: {x: 0.5, y: 0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 820
+      y: 4
+      width: 192
+      height: 224
+    spriteID: 518b882ed09fabb4d8b1d772a9ce625f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 820, y: 4}
+  - name: Treant-Rising_Frame_33
+    originalName: 
+    pivot: {x: 0.5, y: 0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 820
+      y: 236
+      width: 192
+      height: 224
+    spriteID: e1edea71a3140ea489f858b216116834
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 820, y: 236}
+  - name: Treant-Rising_Frame_34
+    originalName: 
+    pivot: {x: 0.5, y: 0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 820
+      y: 468
+      width: 192
+      height: 224
+    spriteID: 50d56846e28c1b74182c4e990895830e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 820, y: 468}
+  - name: Treant-Rising_Frame_35
+    originalName: 
+    pivot: {x: 0.5, y: 0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 820
+      y: 700
+      width: 192
+      height: 224
+    spriteID: 63a22e2a2ae75ce48ad4c0e32fd421af
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 820, y: 700}
+  - name: Treant-Rising_Frame_36
+    originalName: 
+    pivot: {x: 0.5, y: 0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 820
+      y: 932
+      width: 192
+      height: 224
+    spriteID: 6cc87691e456e5d49a10d72f90dad666
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 820, y: 932}
+  - name: Treant-Rising_Frame_37
+    originalName: 
+    pivot: {x: 0.5, y: 0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 820
+      y: 1164
+      width: 192
+      height: 224
+    spriteID: 3a589b1e1ab66c14bb0608fe8b5153ec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 820, y: 1164}
+  - name: Treant-Rising_Frame_38
+    originalName: 
+    pivot: {x: 0.5, y: 0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 820
+      y: 1396
+      width: 192
+      height: 224
+    spriteID: 309e88408d5cbec4d89c028ab2cbd7ad
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 820, y: 1396}
+  - name: Treant-Rising_Frame_39
+    originalName: 
+    pivot: {x: 0.5, y: 0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 820
+      y: 1628
+      width: 192
+      height: 224
+    spriteID: edc6e239c7107ce448cf7fc45a463148
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 820, y: 1628}
+  - name: Treant-Rising_Frame_40
+    originalName: 
+    pivot: {x: 0.5, y: 0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1020
+      y: 4
+      width: 192
+      height: 224
+    spriteID: 778aab2a63cd017409ea6ad1d616efba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1020, y: 4}
+  - name: Treant-Rising_Frame_41
+    originalName: 
+    pivot: {x: 0.5, y: 0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1020
+      y: 236
+      width: 192
+      height: 224
+    spriteID: 6200710c837745446b42924edef668ea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1020, y: 236}
+  - name: Treant-Rising_Frame_42
+    originalName: 
+    pivot: {x: 0.5, y: 0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1020
+      y: 468
+      width: 192
+      height: 224
+    spriteID: 5b777913b37fb714fbe288405928e6b6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1020, y: 468}
+  - name: Treant-Rising_Frame_43
+    originalName: 
+    pivot: {x: 0.5, y: 0.13513514}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1020
+      y: 700
+      width: 192
+      height: 222
+    spriteID: aa738aa88b3b65f4099951098151b5a3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1020, y: 700}
+  - name: Treant-Rising_Frame_44
+    originalName: 
+    pivot: {x: 0.5, y: 0.13513514}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1020
+      y: 930
+      width: 192
+      height: 222
+    spriteID: 704e5f1dd87cd1748935175711233967
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1020, y: 930}
+  - name: Treant-Rising_Frame_45
+    originalName: 
+    pivot: {x: 0.5, y: 0.13513514}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1020
+      y: 1160
+      width: 192
+      height: 222
+    spriteID: 81eb8acac8e628a47b2c59b3a77da22d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1020, y: 1160}
+  - name: Treant-Rising_Frame_46
+    originalName: 
+    pivot: {x: 0.5, y: 0.13513514}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1020
+      y: 1390
+      width: 192
+      height: 222
+    spriteID: 4beb8da4773c25d4e9321aadecc5ee15
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1020, y: 1390}
+  - name: Treant-Rising_Frame_47
+    originalName: 
+    pivot: {x: 0.5, y: 0.13513514}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1020
+      y: 1620
+      width: 192
+      height: 222
+    spriteID: 794a885c019e4d242960406c79d43144
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1020, y: 1620}
+  - name: Treant-Rising_Frame_48
+    originalName: 
+    pivot: {x: 0.5, y: 0.13513514}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1220
+      y: 4
+      width: 192
+      height: 222
+    spriteID: 3b109897f02a7aa49a6ee9b0852514b7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1220, y: 4}
+  - name: Treant-Rising_Frame_49
+    originalName: 
+    pivot: {x: 0.5, y: 0.13513514}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1220
+      y: 234
+      width: 192
+      height: 222
+    spriteID: 325e9293f819c08439985dd1b1d78eec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1220, y: 234}
+  - name: Treant-Rising_Frame_50
+    originalName: 
+    pivot: {x: 0.5, y: 0.13513514}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1220
+      y: 464
+      width: 192
+      height: 222
+    spriteID: 17f90782f733b534a8a1bea32e5895d6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1220, y: 464}
+  - name: Treant-Rising_Frame_51
+    originalName: 
+    pivot: {x: 0.5, y: 0.13513514}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1220
+      y: 694
+      width: 192
+      height: 222
+    spriteID: dab5d50885310784badec93d7efc9c40
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1220, y: 694}
+  - name: Treant-Rising_Frame_52
+    originalName: 
+    pivot: {x: 0.5, y: 0.13513514}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1220
+      y: 924
+      width: 192
+      height: 222
+    spriteID: ca94e3df9dd48b24c9573d9a682d58f5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1220, y: 924}
+  - name: Treant-Rising_Frame_53
+    originalName: 
+    pivot: {x: 0.5, y: 0.13513514}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1220
+      y: 1154
+      width: 192
+      height: 222
+    spriteID: f37bdc46fa056f8489ccb7454ad1b937
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1220, y: 1154}
+  - name: Treant-Rising_Frame_54
+    originalName: 
+    pivot: {x: 0.5, y: 0.13513514}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1220
+      y: 1384
+      width: 192
+      height: 222
+    spriteID: 070c2d39d6eb4d945b58c93bda8f7738
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1220, y: 1384}
+  - name: Treant-Rising_Frame_55
+    originalName: 
+    pivot: {x: 0.5, y: 0.13513514}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1220
+      y: 1614
+      width: 192
+      height: 222
+    spriteID: b8d84be9ada365949878f0661e30f8fb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1220, y: 1614}
+  - name: Treant-Rising_Frame_56
+    originalName: 
+    pivot: {x: 0.5, y: 0.13513514}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1420
+      y: 4
+      width: 192
+      height: 222
+    spriteID: 4309614063031d748a25edfc9de4b37a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1420, y: 4}
+  - name: Treant-Rising_Frame_57
+    originalName: 
+    pivot: {x: 0.5, y: 0.13513514}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1420
+      y: 234
+      width: 192
+      height: 222
+    spriteID: 649367e7587a3384dbcd50b49cf3522e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1420, y: 234}
+  - name: Treant-Rising_Frame_58
+    originalName: 
+    pivot: {x: 0.5, y: 0.13513514}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1420
+      y: 464
+      width: 192
+      height: 222
+    spriteID: ab1707d817b75964888690cf74dcea92
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1420, y: 464}
+  - name: Treant-Rising_Frame_59
+    originalName: 
+    pivot: {x: 0.5, y: 0.13513514}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1420
+      y: 694
+      width: 192
+      height: 222
+    spriteID: 3675fcc149832f249836e5e38b02bd82
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1420, y: 694}
+  - name: Treant-Rising_Frame_60
+    originalName: 
+    pivot: {x: 0.5, y: 0.13513514}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1420
+      y: 924
+      width: 192
+      height: 222
+    spriteID: 7166e24324001ec4492a65d63bb0dc02
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1420, y: 924}
+  - name: Treant-Rising_Frame_61
+    originalName: 
+    pivot: {x: 0.5, y: 0.13513514}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1420
+      y: 1154
+      width: 192
+      height: 222
+    spriteID: 81b0451472c900046af6d771e2c0ac62
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1420, y: 1154}
+  - name: Treant-Rising_Frame_62
+    originalName: 
+    pivot: {x: 0.5, y: 0.13513514}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1420
+      y: 1384
+      width: 192
+      height: 222
+    spriteID: 57a85651ea879134e9f3a18edd6a5355
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1420, y: 1384}
+  - name: Treant-Rising_Frame_63
+    originalName: 
+    pivot: {x: 0.5, y: 0.13513514}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1420
+      y: 1614
+      width: 192
+      height: 222
+    spriteID: b672d4d0efe2cc84eb020716ddec4871
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1420, y: 1614}
+  - name: Treant-Rising_Frame_64
+    originalName: 
+    pivot: {x: 0.5, y: 0.13513514}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1620
+      y: 4
+      width: 192
+      height: 222
+    spriteID: 6854f4ac4ca1b9747af069a4eb0b85a1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1620, y: 4}
+  - name: Treant-Rising_Frame_65
+    originalName: 
+    pivot: {x: 0.5, y: 0.13513514}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1620
+      y: 234
+      width: 192
+      height: 222
+    spriteID: 29280458abd95b943b4b1fa8f925f062
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1620, y: 234}
+  - name: Treant-Rising_Frame_66
+    originalName: 
+    pivot: {x: 0.5, y: 0.13513514}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1620
+      y: 464
+      width: 192
+      height: 222
+    spriteID: ac1968dfeafa79a4fba534cd992ae053
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1620, y: 464}
+  - name: Treant-Rising_Frame_67
+    originalName: 
+    pivot: {x: 0.5, y: 0.13513514}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1620
+      y: 694
+      width: 192
+      height: 222
+    spriteID: 74d8967dfde19e9468b092c1d024db82
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1620, y: 694}
+  - name: Treant-Rising_Frame_68
+    originalName: 
+    pivot: {x: 0.5, y: 0.13513514}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1620
+      y: 924
+      width: 192
+      height: 222
+    spriteID: b6e775514e5e1ba40a77b4af9999a269
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1620, y: 924}
+  - name: Treant-Rising_Frame_69
+    originalName: 
+    pivot: {x: 0.5, y: 0.13513514}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1620
+      y: 1154
+      width: 192
+      height: 222
+    spriteID: 8135567e5bed6544f81f98e961470a7e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1620, y: 1154}
+  - name: Treant-Rising_Frame_70
+    originalName: 
+    pivot: {x: 0.5, y: 0.13513514}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1620
+      y: 1384
+      width: 192
+      height: 222
+    spriteID: 13f92bc9a6f18c5408bf43cb2871b5c9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1620, y: 1384}
+  - name: Treant-Rising_Frame_71
+    originalName: 
+    pivot: {x: 0.5, y: 0.13513514}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1620
+      y: 1614
+      width: 192
+      height: 222
+    spriteID: 768ee99d12296564ca56850af2ef455f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1620, y: 1614}
+  - name: Treant-Rising_Frame_72
+    originalName: 
+    pivot: {x: 0.5, y: 0.13513514}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1820
+      y: 4
+      width: 192
+      height: 222
+    spriteID: be14681dd489d8f40a88480cbc6e26e2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1820, y: 4}
+  - name: Treant-Rising_Frame_73
+    originalName: 
+    pivot: {x: 0.5, y: 0.13513514}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1820
+      y: 234
+      width: 192
+      height: 222
+    spriteID: 9b465e455c455b24fb9635f64cc6619b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1820, y: 234}
+  - name: Treant-Rising_Frame_74
+    originalName: 
+    pivot: {x: 0.5, y: 0.13513514}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1820
+      y: 464
+      width: 192
+      height: 222
+    spriteID: 9bca40f393a76eb428f2c43b720c5321
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1820, y: 464}
+  - name: Treant-Rising_Frame_75
+    originalName: 
+    pivot: {x: 0.5, y: 0.13513514}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1820
+      y: 694
+      width: 192
+      height: 222
+    spriteID: f64f8e6b1afd40d48bd1957f980575e8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1820, y: 694}
+  - name: Treant-Rising_Frame_76
+    originalName: 
+    pivot: {x: 0.5, y: 0.13513514}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1820
+      y: 924
+      width: 192
+      height: 222
+    spriteID: 95c6bd3965fb5b248b147d79590d5a44
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1820, y: 924}
+  - name: Treant-Rising_Frame_77
+    originalName: 
+    pivot: {x: 0.5, y: 0.13513514}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1820
+      y: 1154
+      width: 192
+      height: 222
+    spriteID: 1ec1418859cb2b543b289baaefed84fd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1820, y: 1154}
+  - name: Treant-Rising_Frame_78
+    originalName: 
+    pivot: {x: 0.5, y: 0.13513514}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1820
+      y: 1384
+      width: 192
+      height: 222
+    spriteID: 653acd59bf3488045a6f388ff660f80b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1820, y: 1384}
+  - name: Treant-Rising_Frame_79
+    originalName: 
+    pivot: {x: 0.5, y: 0.13513514}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1820
+      y: 1614
+      width: 192
+      height: 222
+    spriteID: c19d2f5df9288db44b9a2e6831c8daeb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1820, y: 1614}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1314783869
+    name: Treant-Rising
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Treant-Rising_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 0
+        y: -40
+        width: 200
+        height: 232
+      spriteId: 22c1e9560f55ac947a19892975578a72
+    - name: Treant-Rising_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 0
+        y: -40
+        width: 200
+        height: 232
+      spriteId: 302d33b34241bbe479dc68591ab9d80a
+    - name: Treant-Rising_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 0
+        y: -40
+        width: 200
+        height: 232
+      spriteId: 2dc501c4c91a3e740a4e0047868857eb
+    - name: Treant-Rising_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 0
+        y: -40
+        width: 200
+        height: 232
+      spriteId: 5b5c75d3c37384a48b53061bc8f6c31c
+    - name: Treant-Rising_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 0
+        y: -40
+        width: 200
+        height: 232
+      spriteId: 31e422832de842e4fb598e0ae58a78d9
+    - name: Treant-Rising_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 0
+        y: -40
+        width: 200
+        height: 232
+      spriteId: dc5a9a995cd755341a728514e5748139
+    - name: Treant-Rising_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 0
+        y: -40
+        width: 200
+        height: 232
+      spriteId: f13ac3a7a40fa244d83c63392d2233c9
+    - name: Treant-Rising_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 0
+        y: -32
+        width: 192
+        height: 224
+      spriteId: 239ed3b8565290b4cb39fd6a67809743
+    - name: Treant-Rising_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 0
+        y: -32
+        width: 192
+        height: 224
+      spriteId: 42baf784c6c76d84098b8e354d8f45e0
+    - name: Treant-Rising_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 0
+        y: -32
+        width: 192
+        height: 224
+      spriteId: f4f0132f736f1e541ba9b8377b7243fa
+    - name: Treant-Rising_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 0
+        y: -32
+        width: 192
+        height: 224
+      spriteId: 4af9c1c55f9346740b382b98518a4281
+    - name: Treant-Rising_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 0
+        y: -32
+        width: 192
+        height: 224
+      spriteId: 886873d738aa5214a89cafe4c946402c
+    - name: Treant-Rising_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 0
+        y: -32
+        width: 192
+        height: 224
+      spriteId: 0070c3a83cb589a4c85c7d3c3d0f1c98
+    - name: Treant-Rising_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 0
+        y: -32
+        width: 192
+        height: 224
+      spriteId: 728520f41c1a192459dcfd510be3494a
+    - name: Treant-Rising_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 0
+        y: -32
+        width: 192
+        height: 224
+      spriteId: 0910e0b4974de604fa90b03c0d6a4851
+    - name: Treant-Rising_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 0
+        y: -32
+        width: 192
+        height: 224
+      spriteId: ddd79efd16be7444ca4e657b522f5a54
+    - name: Treant-Rising_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 0
+        y: -32
+        width: 192
+        height: 224
+      spriteId: bf0d9074a7f20794eb45c00e5dae497d
+    - name: Treant-Rising_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 0
+        y: -32
+        width: 192
+        height: 224
+      spriteId: ba8884cdd1714104da8626190a4cf4ca
+    - name: Treant-Rising_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 0
+        y: -32
+        width: 192
+        height: 224
+      spriteId: 2762bad3874e275408160e748f4c30b4
+    - name: Treant-Rising_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 0
+        y: -32
+        width: 192
+        height: 224
+      spriteId: 2d26a5fdc6996794489cdac6eaed1a6e
+    - name: Treant-Rising_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 0
+        y: -32
+        width: 192
+        height: 224
+      spriteId: 3bb6f9588a5622046a6442d33d9a916c
+    - name: Treant-Rising_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 0
+        y: -32
+        width: 192
+        height: 224
+      spriteId: df86baf56e80e3c4b9ce907cec658d0b
+    - name: Treant-Rising_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 0
+        y: -32
+        width: 192
+        height: 224
+      spriteId: 63ce74e4792d0a646903ffaa03214b3a
+    - name: Treant-Rising_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 0
+        y: -40
+        width: 200
+        height: 232
+      spriteId: 2ec2234ca8091404a84f55cd5f8fa158
+    - name: Treant-Rising_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 0
+        y: -40
+        width: 200
+        height: 232
+      spriteId: 67da33e13c3c2824dbf039aa992f4505
+    - name: Treant-Rising_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 0
+        y: -32
+        width: 192
+        height: 224
+      spriteId: 5103f75d9df5c9b429685a64fc5c5656
+    - name: Treant-Rising_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 0
+        y: -32
+        width: 192
+        height: 224
+      spriteId: db48bd0e8f0bbde419435c6a2f493dea
+    - name: Treant-Rising_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 0
+        y: -32
+        width: 192
+        height: 224
+      spriteId: 2a995a41291f27848b1b90cc0a1d1352
+    - name: Treant-Rising_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 0
+        y: -32
+        width: 192
+        height: 224
+      spriteId: 47b2bc979cc8bee4d80542cba97ddf64
+    - name: Treant-Rising_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 0
+        y: -32
+        width: 192
+        height: 224
+      spriteId: 21151e2a837de16448709963516c1635
+    - name: Treant-Rising_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 0
+        y: -32
+        width: 192
+        height: 224
+      spriteId: 27114d5ae78714a47b3f966e2341638b
+    - name: Treant-Rising_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 0
+        y: -32
+        width: 192
+        height: 224
+      spriteId: c045ea77b245ec0428506d37ee794b32
+    - name: Treant-Rising_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 0
+        y: -32
+        width: 192
+        height: 224
+      spriteId: 518b882ed09fabb4d8b1d772a9ce625f
+    - name: Treant-Rising_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 0
+        y: -32
+        width: 192
+        height: 224
+      spriteId: e1edea71a3140ea489f858b216116834
+    - name: Treant-Rising_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 0
+        y: -32
+        width: 192
+        height: 224
+      spriteId: 50d56846e28c1b74182c4e990895830e
+    - name: Treant-Rising_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 0
+        y: -32
+        width: 192
+        height: 224
+      spriteId: 63a22e2a2ae75ce48ad4c0e32fd421af
+    - name: Treant-Rising_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 0
+        y: -32
+        width: 192
+        height: 224
+      spriteId: 6cc87691e456e5d49a10d72f90dad666
+    - name: Treant-Rising_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 0
+        y: -32
+        width: 192
+        height: 224
+      spriteId: 3a589b1e1ab66c14bb0608fe8b5153ec
+    - name: Treant-Rising_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 0
+        y: -32
+        width: 192
+        height: 224
+      spriteId: 309e88408d5cbec4d89c028ab2cbd7ad
+    - name: Treant-Rising_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 0
+        y: -32
+        width: 192
+        height: 224
+      spriteId: edc6e239c7107ce448cf7fc45a463148
+    - name: Treant-Rising_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 0
+        y: -32
+        width: 192
+        height: 224
+      spriteId: 778aab2a63cd017409ea6ad1d616efba
+    - name: Treant-Rising_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 0
+        y: -32
+        width: 192
+        height: 224
+      spriteId: 6200710c837745446b42924edef668ea
+    - name: Treant-Rising_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 0
+        y: -32
+        width: 192
+        height: 224
+      spriteId: 5b777913b37fb714fbe288405928e6b6
+    - name: Treant-Rising_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 0
+        y: -30
+        width: 192
+        height: 222
+      spriteId: aa738aa88b3b65f4099951098151b5a3
+    - name: Treant-Rising_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 0
+        y: -30
+        width: 192
+        height: 222
+      spriteId: 704e5f1dd87cd1748935175711233967
+    - name: Treant-Rising_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 0
+        y: -30
+        width: 192
+        height: 222
+      spriteId: 81eb8acac8e628a47b2c59b3a77da22d
+    - name: Treant-Rising_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 0
+        y: -30
+        width: 192
+        height: 222
+      spriteId: 4beb8da4773c25d4e9321aadecc5ee15
+    - name: Treant-Rising_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 0
+        y: -30
+        width: 192
+        height: 222
+      spriteId: 794a885c019e4d242960406c79d43144
+    - name: Treant-Rising_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 0
+        y: -30
+        width: 192
+        height: 222
+      spriteId: 3b109897f02a7aa49a6ee9b0852514b7
+    - name: Treant-Rising_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: 0
+        y: -30
+        width: 192
+        height: 222
+      spriteId: 325e9293f819c08439985dd1b1d78eec
+    - name: Treant-Rising_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: 0
+        y: -30
+        width: 192
+        height: 222
+      spriteId: 17f90782f733b534a8a1bea32e5895d6
+    - name: Treant-Rising_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: 0
+        y: -30
+        width: 192
+        height: 222
+      spriteId: dab5d50885310784badec93d7efc9c40
+    - name: Treant-Rising_Frame_52
+      frameIndex: 52
+      cellRect:
+        x: 0
+        y: -30
+        width: 192
+        height: 222
+      spriteId: ca94e3df9dd48b24c9573d9a682d58f5
+    - name: Treant-Rising_Frame_53
+      frameIndex: 53
+      cellRect:
+        x: 0
+        y: -30
+        width: 192
+        height: 222
+      spriteId: f37bdc46fa056f8489ccb7454ad1b937
+    - name: Treant-Rising_Frame_54
+      frameIndex: 54
+      cellRect:
+        x: 0
+        y: -30
+        width: 192
+        height: 222
+      spriteId: 070c2d39d6eb4d945b58c93bda8f7738
+    - name: Treant-Rising_Frame_55
+      frameIndex: 55
+      cellRect:
+        x: 0
+        y: -30
+        width: 192
+        height: 222
+      spriteId: b8d84be9ada365949878f0661e30f8fb
+    - name: Treant-Rising_Frame_56
+      frameIndex: 56
+      cellRect:
+        x: 0
+        y: -30
+        width: 192
+        height: 222
+      spriteId: 4309614063031d748a25edfc9de4b37a
+    - name: Treant-Rising_Frame_57
+      frameIndex: 57
+      cellRect:
+        x: 0
+        y: -30
+        width: 192
+        height: 222
+      spriteId: 649367e7587a3384dbcd50b49cf3522e
+    - name: Treant-Rising_Frame_58
+      frameIndex: 58
+      cellRect:
+        x: 0
+        y: -30
+        width: 192
+        height: 222
+      spriteId: ab1707d817b75964888690cf74dcea92
+    - name: Treant-Rising_Frame_59
+      frameIndex: 59
+      cellRect:
+        x: 0
+        y: -30
+        width: 192
+        height: 222
+      spriteId: 3675fcc149832f249836e5e38b02bd82
+    - name: Treant-Rising_Frame_60
+      frameIndex: 60
+      cellRect:
+        x: 0
+        y: -30
+        width: 192
+        height: 222
+      spriteId: 7166e24324001ec4492a65d63bb0dc02
+    - name: Treant-Rising_Frame_61
+      frameIndex: 61
+      cellRect:
+        x: 0
+        y: -30
+        width: 192
+        height: 222
+      spriteId: 81b0451472c900046af6d771e2c0ac62
+    - name: Treant-Rising_Frame_62
+      frameIndex: 62
+      cellRect:
+        x: 0
+        y: -30
+        width: 192
+        height: 222
+      spriteId: 57a85651ea879134e9f3a18edd6a5355
+    - name: Treant-Rising_Frame_63
+      frameIndex: 63
+      cellRect:
+        x: 0
+        y: -30
+        width: 192
+        height: 222
+      spriteId: b672d4d0efe2cc84eb020716ddec4871
+    - name: Treant-Rising_Frame_64
+      frameIndex: 64
+      cellRect:
+        x: 0
+        y: -30
+        width: 192
+        height: 222
+      spriteId: 6854f4ac4ca1b9747af069a4eb0b85a1
+    - name: Treant-Rising_Frame_65
+      frameIndex: 65
+      cellRect:
+        x: 0
+        y: -30
+        width: 192
+        height: 222
+      spriteId: 29280458abd95b943b4b1fa8f925f062
+    - name: Treant-Rising_Frame_66
+      frameIndex: 66
+      cellRect:
+        x: 0
+        y: -30
+        width: 192
+        height: 222
+      spriteId: ac1968dfeafa79a4fba534cd992ae053
+    - name: Treant-Rising_Frame_67
+      frameIndex: 67
+      cellRect:
+        x: 0
+        y: -30
+        width: 192
+        height: 222
+      spriteId: 74d8967dfde19e9468b092c1d024db82
+    - name: Treant-Rising_Frame_68
+      frameIndex: 68
+      cellRect:
+        x: 0
+        y: -30
+        width: 192
+        height: 222
+      spriteId: b6e775514e5e1ba40a77b4af9999a269
+    - name: Treant-Rising_Frame_69
+      frameIndex: 69
+      cellRect:
+        x: 0
+        y: -30
+        width: 192
+        height: 222
+      spriteId: 8135567e5bed6544f81f98e961470a7e
+    - name: Treant-Rising_Frame_70
+      frameIndex: 70
+      cellRect:
+        x: 0
+        y: -30
+        width: 192
+        height: 222
+      spriteId: 13f92bc9a6f18c5408bf43cb2871b5c9
+    - name: Treant-Rising_Frame_71
+      frameIndex: 71
+      cellRect:
+        x: 0
+        y: -30
+        width: 192
+        height: 222
+      spriteId: 768ee99d12296564ca56850af2ef455f
+    - name: Treant-Rising_Frame_72
+      frameIndex: 72
+      cellRect:
+        x: 0
+        y: -30
+        width: 192
+        height: 222
+      spriteId: be14681dd489d8f40a88480cbc6e26e2
+    - name: Treant-Rising_Frame_73
+      frameIndex: 73
+      cellRect:
+        x: 0
+        y: -30
+        width: 192
+        height: 222
+      spriteId: 9b465e455c455b24fb9635f64cc6619b
+    - name: Treant-Rising_Frame_74
+      frameIndex: 74
+      cellRect:
+        x: 0
+        y: -30
+        width: 192
+        height: 222
+      spriteId: 9bca40f393a76eb428f2c43b720c5321
+    - name: Treant-Rising_Frame_75
+      frameIndex: 75
+      cellRect:
+        x: 0
+        y: -30
+        width: 192
+        height: 222
+      spriteId: f64f8e6b1afd40d48bd1957f980575e8
+    - name: Treant-Rising_Frame_76
+      frameIndex: 76
+      cellRect:
+        x: 0
+        y: -30
+        width: 192
+        height: 222
+      spriteId: 95c6bd3965fb5b248b147d79590d5a44
+    - name: Treant-Rising_Frame_77
+      frameIndex: 77
+      cellRect:
+        x: 0
+        y: -30
+        width: 192
+        height: 222
+      spriteId: 1ec1418859cb2b543b289baaefed84fd
+    - name: Treant-Rising_Frame_78
+      frameIndex: 78
+      cellRect:
+        x: 0
+        y: -30
+        width: 192
+        height: 222
+      spriteId: 653acd59bf3488045a6f388ff660f80b
+    - name: Treant-Rising_Frame_79
+      frameIndex: 79
+      cellRect:
+        x: 0
+        y: -30
+        width: 192
+        height: 222
+      spriteId: c19d2f5df9288db44b9a2e6831c8daeb
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 192, y: 192}

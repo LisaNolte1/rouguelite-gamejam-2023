@@ -1,0 +1,1480 @@
+fileFormatVersion: 2
+guid: 1508a0e3962f97e4a91162a0b2b914cd
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Treant-Attack_Frame_0
+    originalName: 
+    pivot: {x: 0.5151515, y: -0.053097345}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 342
+      y: 460
+      width: 99
+      height: 113
+    spriteID: 709902a5ad0ec804fa3ffa786ff3d967
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 342, y: 460}
+  - name: Treant-Attack_Frame_3
+    originalName: 
+    pivot: {x: 0.5048544, y: -0.053097345}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 251
+      width: 103
+      height: 113
+    spriteID: e13b4f542d971a94ea7d0c9ff3e6e217
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 251}
+  - name: Treant-Attack_Frame_1
+    originalName: 
+    pivot: {x: 0.5048544, y: -0.051724136}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 103
+      height: 116
+    spriteID: 9d97787d5d6425e44a661c7ccb3e5a9c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Treant-Attack_Frame_2
+    originalName: 
+    pivot: {x: 0.5048544, y: -0.052173913}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 128
+      width: 103
+      height: 115
+    spriteID: 0a9f7b3abc8cbf348857dd8b457c1abe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 128}
+  - name: Treant-Attack_Frame_4
+    originalName: 
+    pivot: {x: 0.5151515, y: -0.054054055}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 456
+      y: 902
+      width: 99
+      height: 111
+    spriteID: a167bbfe18c8cc243bae0aaab0ea52e5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 456, y: 902}
+  - name: Treant-Attack_Frame_5
+    originalName: 
+    pivot: {x: 0.47115386, y: -0.05504587}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 228
+      y: 580
+      width: 104
+      height: 109
+    spriteID: ab445a4df74adc24aa860244d1201af0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 228, y: 580}
+  - name: Treant-Attack_Frame_6
+    originalName: 
+    pivot: {x: 0.4571429, y: -0.056603774}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 342
+      y: 581
+      width: 105
+      height: 106
+    spriteID: 2115c57737ebe8d4f89feec598a945ef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 342, y: 581}
+  - name: Treant-Attack_Frame_7
+    originalName: 
+    pivot: {x: 0.4528302, y: -0.056603774}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 342
+      y: 4
+      width: 106
+      height: 106
+    spriteID: 959eb4ebc027e1241af2b6dbb74162e6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 342, y: 4}
+  - name: Treant-Attack_Frame_8
+    originalName: 
+    pivot: {x: 0.4528302, y: -0.047169812}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 342
+      y: 118
+      width: 106
+      height: 106
+    spriteID: d120829909261fc4b8c6f403b696474e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 342, y: 118}
+  - name: Treant-Attack_Frame_9
+    originalName: 
+    pivot: {x: 0.4528302, y: -0.047169812}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 342
+      y: 232
+      width: 106
+      height: 106
+    spriteID: 2ac55fa629de5fe4eb0f49cb6aff5c79
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 342, y: 232}
+  - name: Treant-Attack_Frame_10
+    originalName: 
+    pivot: {x: 0.4528302, y: -0.047169812}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 342
+      y: 346
+      width: 106
+      height: 106
+    spriteID: 7a76f7e4daed35842ac08552fc03ada5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 342, y: 346}
+  - name: Treant-Attack_Frame_11
+    originalName: 
+    pivot: {x: 0.4528302, y: -0.04672897}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 228
+      y: 4
+      width: 106
+      height: 107
+    spriteID: b36a459520333f0469933f1303e3b345
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 228, y: 4}
+  - name: Treant-Attack_Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: -0.028301887}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 570
+      y: 340
+      width: 96
+      height: 106
+    spriteID: d34c4166e246dec438f7ecb7250cfac5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 570, y: 340}
+  - name: Treant-Attack_Frame_13
+    originalName: 
+    pivot: {x: 0.5051546, y: -0.018867925}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 115
+      y: 821
+      width: 97
+      height: 106
+    spriteID: cdd291cfafe497646bfda4d3ed9c2e0e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 115, y: 821}
+  - name: Treant-Attack_Frame_14
+    originalName: 
+    pivot: {x: 0.52, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 372
+      width: 100
+      height: 109
+    spriteID: 992367d7223c08b45bd5ff2064360512
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 372}
+  - name: Treant-Attack_Frame_15
+    originalName: 
+    pivot: {x: 0.52, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 115
+      y: 589
+      width: 100
+      height: 108
+    spriteID: bf6b2ff822c24ee429ad9905f95a8552
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 115, y: 589}
+  - name: Treant-Attack_Frame_16
+    originalName: 
+    pivot: {x: 0.52, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 489
+      width: 100
+      height: 109
+    spriteID: efba402c7fca96141b22cf3a0f932990
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 489}
+  - name: Treant-Attack_Frame_17
+    originalName: 
+    pivot: {x: 0.53846157, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 228
+      y: 697
+      width: 104
+      height: 109
+    spriteID: d7c207d5aaec73848a3382b1dfc6b9a7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 228, y: 697}
+  - name: Treant-Attack_Frame_18
+    originalName: 
+    pivot: {x: 0.54285717, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 115
+      y: 4
+      width: 105
+      height: 109
+    spriteID: fc325145326ddd44fa0f1a912b7ba984
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 115, y: 4}
+  - name: Treant-Attack_Frame_19
+    originalName: 
+    pivot: {x: 0.5471698, y: -0.009345794}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 228
+      y: 119
+      width: 106
+      height: 107
+    spriteID: f18f94a04cefb4c46b6857cfad1d7095
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 228, y: 119}
+  - name: Treant-Attack_Frame_20
+    originalName: 
+    pivot: {x: 0.5471698, y: -0.04854369}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 570
+      y: 4
+      width: 106
+      height: 103
+    spriteID: 5c876bea3e508f04a8b433cb47478213
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 570, y: 4}
+  - name: Treant-Attack_Frame_21
+    originalName: 
+    pivot: {x: 0.5471698, y: -0.048076924}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 456
+      y: 230
+      width: 106
+      height: 104
+    spriteID: 7b51eed9b275ec449a34a77d2f5ddb32
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 456, y: 230}
+  - name: Treant-Attack_Frame_22
+    originalName: 
+    pivot: {x: 0.5471698, y: -0.04761905}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 342
+      y: 695
+      width: 106
+      height: 105
+    spriteID: 33eda4dd0c0bef247924809248fb7192
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 342, y: 695}
+  - name: Treant-Attack_Frame_23
+    originalName: 
+    pivot: {x: 0.5471698, y: -0.04761905}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 342
+      y: 808
+      width: 106
+      height: 105
+    spriteID: c99f5c5554d5e514c9d69aa5e3acb4b5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 342, y: 808}
+  - name: Treant-Attack_Frame_24
+    originalName: 
+    pivot: {x: 0.5, y: -0.028301887}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 570
+      y: 454
+      width: 96
+      height: 106
+    spriteID: 6ebef310a56c515408f2f49570d58d4d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 570, y: 454}
+  - name: Treant-Attack_Frame_25
+    originalName: 
+    pivot: {x: 0.5, y: -0.018867925}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 570
+      y: 568
+      width: 96
+      height: 106
+    spriteID: 98469cc0ea6a0994199eb71235c30b27
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 570, y: 568}
+  - name: Treant-Attack_Frame_26
+    originalName: 
+    pivot: {x: 0.48, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 606
+      width: 100
+      height: 109
+    spriteID: 3ef9dbe270f5a364e8c44ff946872197
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 606}
+  - name: Treant-Attack_Frame_27
+    originalName: 
+    pivot: {x: 0.48, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 723
+      width: 100
+      height: 109
+    spriteID: 9ddd1e3f35d97344aa3107d08945e323
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 723}
+  - name: Treant-Attack_Frame_28
+    originalName: 
+    pivot: {x: 0.48, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 840
+      width: 100
+      height: 109
+    spriteID: effa4d13bf5e48c41a970bb54798c605
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 840}
+  - name: Treant-Attack_Frame_29
+    originalName: 
+    pivot: {x: 0.4615385, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 228
+      y: 814
+      width: 104
+      height: 109
+    spriteID: 9ae48eb52175f884097f900e1654c24b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 228, y: 814}
+  - name: Treant-Attack_Frame_30
+    originalName: 
+    pivot: {x: 0.4571429, y: -0.009259259}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 228
+      y: 464
+      width: 105
+      height: 108
+    spriteID: 431bb022e72dd9d4f8398f9fca698502
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 228, y: 464}
+  - name: Treant-Attack_Frame_31
+    originalName: 
+    pivot: {x: 0.4528302, y: -0.009345794}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 228
+      y: 234
+      width: 106
+      height: 107
+    spriteID: 76668fea780781a4a80dd2bed0e59115
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 228, y: 234}
+  - name: Treant-Attack_Frame_32
+    originalName: 
+    pivot: {x: 0.4528302, y: -0.048076924}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 456
+      y: 342
+      width: 106
+      height: 104
+    spriteID: b0193382717d27c488fcd920d2c981fb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 456, y: 342}
+  - name: Treant-Attack_Frame_33
+    originalName: 
+    pivot: {x: 0.4528302, y: -0.048076924}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 456
+      y: 454
+      width: 106
+      height: 104
+    spriteID: c365bc6bd8b07764b81b3353dadb313a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 456, y: 454}
+  - name: Treant-Attack_Frame_34
+    originalName: 
+    pivot: {x: 0.4528302, y: -0.048076924}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 456
+      y: 566
+      width: 106
+      height: 104
+    spriteID: f7a2517c2f50e014d90adcad8ca7977d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 456, y: 566}
+  - name: Treant-Attack_Frame_35
+    originalName: 
+    pivot: {x: 0.4528302, y: -0.048076924}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 456
+      y: 678
+      width: 106
+      height: 104
+    spriteID: 9e3a17b6530fdef4e83814d8d0246789
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 456, y: 678}
+  - name: Treant-Attack_Frame_36
+    originalName: 
+    pivot: {x: 0.5, y: -0.028301887}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 570
+      y: 682
+      width: 96
+      height: 106
+    spriteID: 814112278e0ac674cac899d564663250
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 570, y: 682}
+  - name: Treant-Attack_Frame_37
+    originalName: 
+    pivot: {x: 0.5051546, y: -0.018867925}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 570
+      y: 226
+      width: 97
+      height: 106
+    spriteID: ed1e2685fced79e4d8e89bb1d0448617
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 570, y: 226}
+  - name: Treant-Attack_Frame_38
+    originalName: 
+    pivot: {x: 0.52, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 115
+      y: 355
+      width: 100
+      height: 109
+    spriteID: 906d03ee66b9e554689f25a0bd5c982b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 115, y: 355}
+  - name: Treant-Attack_Frame_39
+    originalName: 
+    pivot: {x: 0.52, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 115
+      y: 705
+      width: 100
+      height: 108
+    spriteID: 478863a17d568be47a1b8bec93944a33
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 115, y: 705}
+  - name: Treant-Attack_Frame_40
+    originalName: 
+    pivot: {x: 0.52, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 115
+      y: 472
+      width: 100
+      height: 109
+    spriteID: d3d0fb56961607542a672ec876055007
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 115, y: 472}
+  - name: Treant-Attack_Frame_41
+    originalName: 
+    pivot: {x: 0.53846157, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 115
+      y: 238
+      width: 104
+      height: 109
+    spriteID: ec3100bf4f9c81f469d89e29d940ae01
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 115, y: 238}
+  - name: Treant-Attack_Frame_42
+    originalName: 
+    pivot: {x: 0.54285717, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 115
+      y: 121
+      width: 105
+      height: 109
+    spriteID: ed2d714911ebb8e4285a5fa35924521e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 115, y: 121}
+  - name: Treant-Attack_Frame_43
+    originalName: 
+    pivot: {x: 0.5471698, y: -0.009345794}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 228
+      y: 349
+      width: 106
+      height: 107
+    spriteID: 9e021ec9b543ff34bb91ab0c4c97ec20
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 228, y: 349}
+  - name: Treant-Attack_Frame_44
+    originalName: 
+    pivot: {x: 0.5471698, y: -0.04854369}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 570
+      y: 115
+      width: 106
+      height: 103
+    spriteID: 88e35192686f0d94b9983ca3201bd9d2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 570, y: 115}
+  - name: Treant-Attack_Frame_45
+    originalName: 
+    pivot: {x: 0.5471698, y: -0.048076924}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 456
+      y: 790
+      width: 106
+      height: 104
+    spriteID: 45782ce40bc7d544ea09234c336b3670
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 456, y: 790}
+  - name: Treant-Attack_Frame_46
+    originalName: 
+    pivot: {x: 0.5471698, y: -0.04761905}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 456
+      y: 4
+      width: 106
+      height: 105
+    spriteID: 24a7559b71986b14b916ab625ce57614
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 456, y: 4}
+  - name: Treant-Attack_Frame_47
+    originalName: 
+    pivot: {x: 0.5471698, y: -0.04761905}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 456
+      y: 117
+      width: 106
+      height: 105
+    spriteID: f37179cf30870434f9faebeec3a3af8f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 456, y: 117}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 752331049
+    name: Treant-Attack
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Treant-Attack_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 13
+        y: 6
+        width: 99
+        height: 113
+      spriteId: 709902a5ad0ec804fa3ffa786ff3d967
+    - name: Treant-Attack_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 12
+        y: 6
+        width: 103
+        height: 113
+      spriteId: e13b4f542d971a94ea7d0c9ff3e6e217
+    - name: Treant-Attack_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 12
+        y: 6
+        width: 103
+        height: 116
+      spriteId: 9d97787d5d6425e44a661c7ccb3e5a9c
+    - name: Treant-Attack_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 12
+        y: 6
+        width: 103
+        height: 115
+      spriteId: 0a9f7b3abc8cbf348857dd8b457c1abe
+    - name: Treant-Attack_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 13
+        y: 6
+        width: 99
+        height: 111
+      spriteId: a167bbfe18c8cc243bae0aaab0ea52e5
+    - name: Treant-Attack_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 15
+        y: 6
+        width: 104
+        height: 109
+      spriteId: ab445a4df74adc24aa860244d1201af0
+    - name: Treant-Attack_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 16
+        y: 6
+        width: 105
+        height: 106
+      spriteId: 2115c57737ebe8d4f89feec598a945ef
+    - name: Treant-Attack_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 16
+        y: 6
+        width: 106
+        height: 106
+      spriteId: 959eb4ebc027e1241af2b6dbb74162e6
+    - name: Treant-Attack_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 16
+        y: 5
+        width: 106
+        height: 106
+      spriteId: d120829909261fc4b8c6f403b696474e
+    - name: Treant-Attack_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 16
+        y: 5
+        width: 106
+        height: 106
+      spriteId: 2ac55fa629de5fe4eb0f49cb6aff5c79
+    - name: Treant-Attack_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 16
+        y: 5
+        width: 106
+        height: 106
+      spriteId: 7a76f7e4daed35842ac08552fc03ada5
+    - name: Treant-Attack_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 16
+        y: 5
+        width: 106
+        height: 107
+      spriteId: b36a459520333f0469933f1303e3b345
+    - name: Treant-Attack_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 16
+        y: 3
+        width: 96
+        height: 106
+      spriteId: d34c4166e246dec438f7ecb7250cfac5
+    - name: Treant-Attack_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 15
+        y: 2
+        width: 97
+        height: 106
+      spriteId: cdd291cfafe497646bfda4d3ed9c2e0e
+    - name: Treant-Attack_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 12
+        y: 0
+        width: 100
+        height: 109
+      spriteId: 992367d7223c08b45bd5ff2064360512
+    - name: Treant-Attack_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 12
+        y: 0
+        width: 100
+        height: 108
+      spriteId: bf6b2ff822c24ee429ad9905f95a8552
+    - name: Treant-Attack_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 12
+        y: 0
+        width: 100
+        height: 109
+      spriteId: efba402c7fca96141b22cf3a0f932990
+    - name: Treant-Attack_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 8
+        y: 0
+        width: 104
+        height: 109
+      spriteId: d7c207d5aaec73848a3382b1dfc6b9a7
+    - name: Treant-Attack_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 7
+        y: 0
+        width: 105
+        height: 109
+      spriteId: fc325145326ddd44fa0f1a912b7ba984
+    - name: Treant-Attack_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 6
+        y: 1
+        width: 106
+        height: 107
+      spriteId: f18f94a04cefb4c46b6857cfad1d7095
+    - name: Treant-Attack_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 6
+        y: 5
+        width: 106
+        height: 103
+      spriteId: 5c876bea3e508f04a8b433cb47478213
+    - name: Treant-Attack_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 6
+        y: 5
+        width: 106
+        height: 104
+      spriteId: 7b51eed9b275ec449a34a77d2f5ddb32
+    - name: Treant-Attack_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 6
+        y: 5
+        width: 106
+        height: 105
+      spriteId: 33eda4dd0c0bef247924809248fb7192
+    - name: Treant-Attack_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 6
+        y: 5
+        width: 106
+        height: 105
+      spriteId: c99f5c5554d5e514c9d69aa5e3acb4b5
+    - name: Treant-Attack_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 16
+        y: 3
+        width: 96
+        height: 106
+      spriteId: 6ebef310a56c515408f2f49570d58d4d
+    - name: Treant-Attack_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 16
+        y: 2
+        width: 96
+        height: 106
+      spriteId: 98469cc0ea6a0994199eb71235c30b27
+    - name: Treant-Attack_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 16
+        y: 0
+        width: 100
+        height: 109
+      spriteId: 3ef9dbe270f5a364e8c44ff946872197
+    - name: Treant-Attack_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 16
+        y: 0
+        width: 100
+        height: 109
+      spriteId: 9ddd1e3f35d97344aa3107d08945e323
+    - name: Treant-Attack_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 16
+        y: 0
+        width: 100
+        height: 109
+      spriteId: effa4d13bf5e48c41a970bb54798c605
+    - name: Treant-Attack_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 16
+        y: 0
+        width: 104
+        height: 109
+      spriteId: 9ae48eb52175f884097f900e1654c24b
+    - name: Treant-Attack_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 16
+        y: 1
+        width: 105
+        height: 108
+      spriteId: 431bb022e72dd9d4f8398f9fca698502
+    - name: Treant-Attack_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 16
+        y: 1
+        width: 106
+        height: 107
+      spriteId: 76668fea780781a4a80dd2bed0e59115
+    - name: Treant-Attack_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 16
+        y: 5
+        width: 106
+        height: 104
+      spriteId: b0193382717d27c488fcd920d2c981fb
+    - name: Treant-Attack_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 16
+        y: 5
+        width: 106
+        height: 104
+      spriteId: c365bc6bd8b07764b81b3353dadb313a
+    - name: Treant-Attack_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 16
+        y: 5
+        width: 106
+        height: 104
+      spriteId: f7a2517c2f50e014d90adcad8ca7977d
+    - name: Treant-Attack_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 16
+        y: 5
+        width: 106
+        height: 104
+      spriteId: 9e3a17b6530fdef4e83814d8d0246789
+    - name: Treant-Attack_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 16
+        y: 3
+        width: 96
+        height: 106
+      spriteId: 814112278e0ac674cac899d564663250
+    - name: Treant-Attack_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 15
+        y: 2
+        width: 97
+        height: 106
+      spriteId: ed1e2685fced79e4d8e89bb1d0448617
+    - name: Treant-Attack_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 12
+        y: 0
+        width: 100
+        height: 109
+      spriteId: 906d03ee66b9e554689f25a0bd5c982b
+    - name: Treant-Attack_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 12
+        y: 0
+        width: 100
+        height: 108
+      spriteId: 478863a17d568be47a1b8bec93944a33
+    - name: Treant-Attack_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 12
+        y: 0
+        width: 100
+        height: 109
+      spriteId: d3d0fb56961607542a672ec876055007
+    - name: Treant-Attack_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 8
+        y: 0
+        width: 104
+        height: 109
+      spriteId: ec3100bf4f9c81f469d89e29d940ae01
+    - name: Treant-Attack_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 7
+        y: 0
+        width: 105
+        height: 109
+      spriteId: ed2d714911ebb8e4285a5fa35924521e
+    - name: Treant-Attack_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 6
+        y: 1
+        width: 106
+        height: 107
+      spriteId: 9e021ec9b543ff34bb91ab0c4c97ec20
+    - name: Treant-Attack_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 6
+        y: 5
+        width: 106
+        height: 103
+      spriteId: 88e35192686f0d94b9983ca3201bd9d2
+    - name: Treant-Attack_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 6
+        y: 5
+        width: 106
+        height: 104
+      spriteId: 45782ce40bc7d544ea09234c336b3670
+    - name: Treant-Attack_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 6
+        y: 5
+        width: 106
+        height: 105
+      spriteId: 24a7559b71986b14b916ab625ce57614
+    - name: Treant-Attack_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 6
+        y: 5
+        width: 106
+        height: 105
+      spriteId: f37179cf30870434f9faebeec3a3af8f
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 128, y: 128}

@@ -1,0 +1,724 @@
+fileFormatVersion: 2
+guid: 9c1e8bb45288541488c120c61b81cda9
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Merchant-Vanish_Frame_0
+    originalName: 
+    pivot: {x: 0.54545456, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 88
+      height: 64
+    spriteID: 958ab3063805b2546ae870c60660dd08
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Merchant-Vanish_Frame_1
+    originalName: 
+    pivot: {x: 0.54545456, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 100
+      y: 4
+      width: 88
+      height: 64
+    spriteID: e2abe7a745e2fa24e9742117dbde4a7a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 100, y: 4}
+  - name: Merchant-Vanish_Frame_2
+    originalName: 
+    pivot: {x: 0.54545456, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 196
+      y: 4
+      width: 88
+      height: 64
+    spriteID: 98c94e6ae65f6e2468da9a812868aa2e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 196, y: 4}
+  - name: Merchant-Vanish_Frame_3
+    originalName: 
+    pivot: {x: 0.54545456, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 292
+      y: 4
+      width: 88
+      height: 64
+    spriteID: 8beb8af7393f49548a4bc6dbca87bbef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 292, y: 4}
+  - name: Merchant-Vanish_Frame_4
+    originalName: 
+    pivot: {x: 0.54545456, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 388
+      y: 4
+      width: 88
+      height: 64
+    spriteID: e42a5ebe19a36704482b19557026af59
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 388, y: 4}
+  - name: Merchant-Vanish_Frame_5
+    originalName: 
+    pivot: {x: 0.54545456, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 76
+      width: 88
+      height: 64
+    spriteID: da1df0c31212d054fad07ed6ab86beec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 76}
+  - name: Merchant-Vanish_Frame_6
+    originalName: 
+    pivot: {x: 0.54545456, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 100
+      y: 76
+      width: 88
+      height: 64
+    spriteID: 7be38194da9dc62408b7635044846166
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 100, y: 76}
+  - name: Merchant-Vanish_Frame_7
+    originalName: 
+    pivot: {x: 0.54545456, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 196
+      y: 76
+      width: 88
+      height: 64
+    spriteID: f8985aefbd179a14ca2f89bed087e487
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 196, y: 76}
+  - name: Merchant-Vanish_Frame_8
+    originalName: 
+    pivot: {x: 0.54545456, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 292
+      y: 76
+      width: 88
+      height: 64
+    spriteID: 3d05915fabf10a0488754bbc28d8d9fe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 292, y: 76}
+  - name: Merchant-Vanish_Frame_9
+    originalName: 
+    pivot: {x: 0.54545456, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 388
+      y: 76
+      width: 88
+      height: 64
+    spriteID: ae6f152cfa1a98545a0f2a9dd7a0e1d9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 388, y: 76}
+  - name: Merchant-Vanish_Frame_10
+    originalName: 
+    pivot: {x: 0.54545456, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 148
+      width: 88
+      height: 64
+    spriteID: e32a12acde09f6d4eacd97d0147e8219
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 148}
+  - name: Merchant-Vanish_Frame_11
+    originalName: 
+    pivot: {x: 0.54545456, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 100
+      y: 148
+      width: 88
+      height: 64
+    spriteID: 35f9e169cf1d2e440920d60ad7643ed0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 100, y: 148}
+  - name: Merchant-Vanish_Frame_12
+    originalName: 
+    pivot: {x: 0.45454547, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 196
+      y: 148
+      width: 88
+      height: 64
+    spriteID: 6e273f610736d8543ba52cc7dd3d03a8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 196, y: 148}
+  - name: Merchant-Vanish_Frame_13
+    originalName: 
+    pivot: {x: 0.54545456, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 292
+      y: 148
+      width: 88
+      height: 64
+    spriteID: 9c57fd0ca22e6e94689991417456f8c5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 292, y: 148}
+  - name: Merchant-Vanish_Frame_14
+    originalName: 
+    pivot: {x: 0.54545456, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 388
+      y: 148
+      width: 88
+      height: 64
+    spriteID: 8d2b0e53c4711894b955d17ad5f6c573
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 388, y: 148}
+  - name: Merchant-Vanish_Frame_15
+    originalName: 
+    pivot: {x: 0.54545456, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 220
+      width: 88
+      height: 64
+    spriteID: 42fe740db3aa17f49ab8752143c74517
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 220}
+  - name: Merchant-Vanish_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 100
+      y: 220
+      width: 80
+      height: 64
+    spriteID: c1965d68f9c99054083f9154513d8ca9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 100, y: 220}
+  - name: Merchant-Vanish_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 188
+      y: 220
+      width: 80
+      height: 64
+    spriteID: 39f6977d7dbd64a44a04c0ee451d55ef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 188, y: 220}
+  - name: Merchant-Vanish_Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 276
+      y: 220
+      width: 80
+      height: 64
+    spriteID: fecb734292c6b5143a19048adff0aead
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 276, y: 220}
+  - name: Merchant-Vanish_Frame_19
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 364
+      y: 220
+      width: 80
+      height: 64
+    spriteID: 2fb053f3326264b46b705b11a396b34a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 364, y: 220}
+  - name: Merchant-Vanish_Frame_20
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 292
+      width: 80
+      height: 64
+    spriteID: 83f783c2563be29418891b1f57bc6588
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 292}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 2116472986
+    name: Merchant-Vanish
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Merchant-Vanish_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: -8
+        y: 0
+        width: 88
+        height: 64
+      spriteId: 958ab3063805b2546ae870c60660dd08
+    - name: Merchant-Vanish_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: -8
+        y: 0
+        width: 88
+        height: 64
+      spriteId: e2abe7a745e2fa24e9742117dbde4a7a
+    - name: Merchant-Vanish_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: -8
+        y: 0
+        width: 88
+        height: 64
+      spriteId: 98c94e6ae65f6e2468da9a812868aa2e
+    - name: Merchant-Vanish_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: -8
+        y: 0
+        width: 88
+        height: 64
+      spriteId: 8beb8af7393f49548a4bc6dbca87bbef
+    - name: Merchant-Vanish_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: -8
+        y: 0
+        width: 88
+        height: 64
+      spriteId: e42a5ebe19a36704482b19557026af59
+    - name: Merchant-Vanish_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: -8
+        y: 0
+        width: 88
+        height: 64
+      spriteId: da1df0c31212d054fad07ed6ab86beec
+    - name: Merchant-Vanish_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: -8
+        y: 0
+        width: 88
+        height: 64
+      spriteId: 7be38194da9dc62408b7635044846166
+    - name: Merchant-Vanish_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: -8
+        y: 0
+        width: 88
+        height: 64
+      spriteId: f8985aefbd179a14ca2f89bed087e487
+    - name: Merchant-Vanish_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: -8
+        y: 0
+        width: 88
+        height: 64
+      spriteId: 3d05915fabf10a0488754bbc28d8d9fe
+    - name: Merchant-Vanish_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: -8
+        y: 0
+        width: 88
+        height: 64
+      spriteId: ae6f152cfa1a98545a0f2a9dd7a0e1d9
+    - name: Merchant-Vanish_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: -8
+        y: 0
+        width: 88
+        height: 64
+      spriteId: e32a12acde09f6d4eacd97d0147e8219
+    - name: Merchant-Vanish_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: -8
+        y: 0
+        width: 88
+        height: 64
+      spriteId: 35f9e169cf1d2e440920d60ad7643ed0
+    - name: Merchant-Vanish_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 0
+        y: 0
+        width: 88
+        height: 64
+      spriteId: 6e273f610736d8543ba52cc7dd3d03a8
+    - name: Merchant-Vanish_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: -8
+        y: 0
+        width: 88
+        height: 64
+      spriteId: 9c57fd0ca22e6e94689991417456f8c5
+    - name: Merchant-Vanish_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: -8
+        y: 0
+        width: 88
+        height: 64
+      spriteId: 8d2b0e53c4711894b955d17ad5f6c573
+    - name: Merchant-Vanish_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: -8
+        y: 0
+        width: 88
+        height: 64
+      spriteId: 42fe740db3aa17f49ab8752143c74517
+    - name: Merchant-Vanish_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 0
+        y: 0
+        width: 80
+        height: 64
+      spriteId: c1965d68f9c99054083f9154513d8ca9
+    - name: Merchant-Vanish_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 0
+        y: 0
+        width: 80
+        height: 64
+      spriteId: 39f6977d7dbd64a44a04c0ee451d55ef
+    - name: Merchant-Vanish_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 0
+        y: 0
+        width: 80
+        height: 64
+      spriteId: fecb734292c6b5143a19048adff0aead
+    - name: Merchant-Vanish_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 0
+        y: 0
+        width: 80
+        height: 64
+      spriteId: 2fb053f3326264b46b705b11a396b34a
+    - name: Merchant-Vanish_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 0
+        y: 0
+        width: 80
+        height: 64
+      spriteId: 83f783c2563be29418891b1f57bc6588
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 80, y: 64}
