@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LilSlimeAI : EnemyAbstract
+public class BigSlimeAI : EnemyAbstract
 {
     private Transform target;
 
@@ -31,7 +31,7 @@ public class LilSlimeAI : EnemyAbstract
 
     public int health = 10;
     public float damage = 1.5f;
-    public int armour = 1;
+    public int armour = 2;
     public float attackRange = 2f;
     public float attackCooldown = 2f;
     private float lastAttackTime = 0f;
@@ -187,5 +187,8 @@ public class LilSlimeAI : EnemyAbstract
     private void OnDestroy()
     {
         animator.SetBool("IsDead", true);
+        GameObject slimShady = Resources.Load<GameObject>("MedSlimeEnemy");
+        GameObject medSlime1 = Instantiate(slimShady, transform.position, Quaternion.identity);
+        GameObject medSlime2 = Instantiate(slimShady, transform.position, Quaternion.identity);
     }
 }
