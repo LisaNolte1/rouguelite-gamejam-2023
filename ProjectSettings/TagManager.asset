@@ -15,6 +15,7 @@ TagManager:
   - gameOverPanel
   - startPanel
   - soundManager
+  - notificationPanel
   layers:
   - Default
   - TransparentFX

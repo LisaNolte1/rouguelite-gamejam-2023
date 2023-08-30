@@ -15,7 +15,8 @@ public class BasicAttack : MonoBehaviour, IEffect
     void Start()
     {
 
-        EffectManager.AddEffect(EffectManager.Effects.BasicAttack, 1, 3, this);
+        EffectManager.AddEffect(EffectManager.Effects.BasicAttack, 1, 5f, this);
+        
     }
 
     // Update is called once per frame

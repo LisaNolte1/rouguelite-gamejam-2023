@@ -18,9 +18,11 @@ public class EffectManager : MonoBehaviour
         Tornado = 3,
         FireBall = 4,
         Bolder = 5,
-        LightningTornado = 6,
-        PyroBlast = 7,
-        BasicAttack = 8, //must be last!!!!!!
+        BasicAttack = 6,
+        LightningTornado = 7,
+        PyroBlast = 8,
+        ForcePush = 9
+        , //must be last!!!!!!
     }
 
     public static Dictionary<Effects,IEffect> EffectList = new Dictionary<Effects,IEffect>();
@@ -91,6 +93,7 @@ public class EffectManager : MonoBehaviour
             EffectCooldowns.Add(Effects.LightningTornado, LightningTornado.cooldown);
             currentEffectCooldowns.Add(Effects.LightningTornado, 0);
             Debug.Log("Added lightning Tornado");
+            UIManager.toggleNotification("Lightning Tornado", "probably a little broken");
         }
         
         if(EffectList.ContainsKey(Effects.Bolder) && EffectList.ContainsKey(Effects.FireBall) && !EffectList.ContainsKey(Effects.PyroBlast))
@@ -105,6 +108,22 @@ public class EffectManager : MonoBehaviour
             EffectCooldowns.Add(Effects.PyroBlast, PyroBlast.cooldown);
             currentEffectCooldowns.Add(Effects.PyroBlast, 0);
             Debug.Log("Added Pyroblast");
+            UIManager.toggleNotification("Pyroblast", "BIGGER");
+        }
+        
+        if(EffectList.ContainsKey(Effects.BasicAttack) && EffectList.ContainsKey(Effects.Repel) && !EffectList.ContainsKey(Effects.ForcePush))
+        {
+            EffectList.Remove(Effects.BasicAttack);
+            EffectCooldowns.Remove(Effects.BasicAttack);
+            currentEffectCooldowns.Remove(Effects.BasicAttack);
+            EffectList.Remove(Effects.Repel);
+            EffectCooldowns.Remove(Effects.Repel);
+            currentEffectCooldowns.Remove(Effects.Repel);
+            EffectList.Add(Effects.PyroBlast, new ForcePush());
+            EffectCooldowns.Add(Effects.PyroBlast, ForcePush.cooldown);
+            currentEffectCooldowns.Add(Effects.PyroBlast, 0);
+            Debug.Log("Added ForcePush");
+            UIManager.toggleNotification("Da Barrel", "BOOM!");
         }
     }
 

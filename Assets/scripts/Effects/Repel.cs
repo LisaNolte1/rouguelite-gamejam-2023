@@ -9,7 +9,7 @@ public class Repel : MonoBehaviour, IEffect
 
     void Start()
     {
-        //EffectManager.AddEffect(EffectManager.Effects.Repel, 1, 1f, this);
+        EffectManager.AddEffect(EffectManager.Effects.Repel, 1, 1f, this);
     }
 
     // Update is called once per frame

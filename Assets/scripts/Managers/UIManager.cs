@@ -12,9 +12,13 @@ public class UIManager : MonoBehaviour
     public static GameObject shopPanel;
     GameObject pausePanel;
     GameObject startPanel;
+    static GameObject notificationPanel;
     private static UIManager instance;
     private float startTime;
     private float introTime = 0;
+    private const float itemTimer = 5f;
+    private static float itemCounter = 0f;
+    private static bool notifcationActive = false;
 
     private void Awake()
     {
@@ -23,7 +27,9 @@ public class UIManager : MonoBehaviour
         shopPanel = GameObject.FindGameObjectWithTag("shopPanel");
         startPanel = GameObject.FindGameObjectWithTag("startPanel");
         pausePanel = GameObject.FindGameObjectWithTag("pausePanel");
+        notificationPanel = GameObject.FindGameObjectWithTag("notificationPanel");
         healthBar = GameObject.FindGameObjectWithTag("healthBar").GetComponent<Slider>();
+
         if(instance != null && instance != this)
         {
             Destroy(gameObject);
@@ -37,11 +43,12 @@ public class UIManager : MonoBehaviour
     void Start()
     {
         pausePanel.SetActive(false);
+        notificationPanel.SetActive(false);
         StatManager.StartTimer();
         startTime = Time.realtimeSinceStartup;
-        coinsLabel.text = "Coins: " + StatManager.getCoins();
         gameInit();
         healthBarInit();
+        coinsLabel.text = StatManager.getCoins().ToString();
     }
 
     public static void toggleShopPanel()
@@ -107,9 +114,19 @@ public class UIManager : MonoBehaviour
         }
     }
 
+    public static void toggleNotification(string name, string description)
+    {
+        notificationPanel.SetActive(true);
+        notifcationActive = true;
+        itemCounter = 0f;
+        notificationPanel.GetComponentsInChildren<TextMeshProUGUI>()[0].text = name;
+        notificationPanel.GetComponentsInChildren<TextMeshProUGUI>()[1].text = description;
+
+    }
+
     public void setCoinsLabel(float coins)
     {
-        coinsLabel.text = "Coins: " + coins;
+        coinsLabel.text =  coins.ToString();
     }
 
     static void healthBarInit()

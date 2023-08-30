@@ -6,7 +6,7 @@ public class SpawnManager : MonoBehaviour
 {
     // Start is called before the first frame update
 
-    static List<GameObject> spawn = new List<GameObject>();
+    public static List<GameObject> spawn = new List<GameObject>();
     public float waveTimer = 5f;
     private float waveCounter = 0f;
     private float totalCount = 0f;

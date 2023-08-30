@@ -44,12 +44,6 @@ public abstract class EnemyAbstract : MonoBehaviour
         if(Health < 0)
         {
             gameObject.GetComponentInChildren<Animator>().SetBool("IsDead", true);
-            int chance = Random.Range(0, 101);
-            if(this.LootDropChance > chance)
-            {
-                GameObject ItemDrop = Resources.Load<GameObject>("Item");
-                Instantiate(ItemDrop, this.transform.position, Quaternion.identity);
-            }
             DropCoin();
             Destroy(gameObject);
         }
