@@ -2,8 +2,9 @@ using Pathfinding;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.VFX;
 
-public class LilSlimeAI : EnemyAbstract
+public class MedSlimeAI : EnemyAbstract
 {
     private Transform target;
 
@@ -31,7 +32,7 @@ public class LilSlimeAI : EnemyAbstract
 
     public int health = 10;
     public float damage = 1.5f;
-    public int armour = 1;
+    public int armour = 2;
     public float attackRange = 2f;
     public float attackCooldown = 2f;
     private float lastAttackTime = 0f;
@@ -182,5 +183,12 @@ public class LilSlimeAI : EnemyAbstract
     public override void damageEnemy(float damageInflicted)
     {
         LowerHealth(damageInflicted);
+    }
+
+    private void OnDestroy()
+    {
+        GameObject slimShady = Resources.Load<GameObject>("LilSlimeEnemy");
+        GameObject lilSlime1 = Instantiate(slimShady, transform.position, Quaternion.identity);
+        GameObject lilSlime2 = Instantiate(slimShady, transform.position, Quaternion.identity);
     }
 }

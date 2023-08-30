@@ -31,7 +31,7 @@ public class CrabAI : EnemyAbstract
 
     public int health = 10;
     public float damage = 1f;
-    public int armour = 2;
+    public int armour = 4;
     public float attackRange = 2f;
     public float attackCooldown = 2f;
     private float lastAttackTime = 0f;

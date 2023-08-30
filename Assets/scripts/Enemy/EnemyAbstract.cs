@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public abstract class EnemyAbstract : MonoBehaviour
@@ -39,6 +40,7 @@ public abstract class EnemyAbstract : MonoBehaviour
     public virtual void LowerHealth(float damageInflicted)
     {
         this.Health -= (int)(damageInflicted * (1 - 1 / Armour));
+        Debug.Log(this.gameObject.name + " Health : " + this.Health);
         if(Health < 0)
         {
             gameObject.GetComponentInChildren<Animator>().SetBool("IsDead", true);
