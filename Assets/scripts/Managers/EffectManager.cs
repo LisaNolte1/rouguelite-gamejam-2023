@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class EffectManager : MonoBehaviour
@@ -17,7 +18,9 @@ public class EffectManager : MonoBehaviour
         Tornado = 3,
         FireBall = 4,
         Bolder = 5,
-        BasicAttack = 6, //must be last!!!!!!
+        LightningTornado = 6,
+        PyroBlast = 7,
+        BasicAttack = 8, //must be last!!!!!!
     }
 
     public static Dictionary<Effects,IEffect> EffectList = new Dictionary<Effects,IEffect>();
@@ -64,7 +67,45 @@ public class EffectManager : MonoBehaviour
         {
             Debug.Log("Yuup we have added it");
         }
+
+        checkForUpgrades();
         
+    }
+
+    static void checkForUpgrades()
+    {
+        Debug.Log("We in the check");
+        Debug.Log(EffectList.ContainsKey(Effects.Lightning));
+        Debug.Log(EffectList.ContainsKey(Effects.Tornado));
+        Debug.Log(!EffectList.ContainsKey(Effects.LightningTornado));
+        //LightningTornado
+        if(EffectList.ContainsKey(Effects.Lightning) && EffectList.ContainsKey(Effects.Tornado) && !EffectList.ContainsKey(Effects.LightningTornado))
+        {
+            EffectList.Remove(Effects.Lightning);
+            EffectCooldowns.Remove(Effects.Lightning);
+            currentEffectCooldowns.Remove(Effects.Lightning);
+            EffectList.Remove(Effects.Tornado);
+            EffectCooldowns.Remove(Effects.Tornado);
+            currentEffectCooldowns.Remove(Effects.Tornado);
+            EffectList.Add(Effects.LightningTornado, new LightningTornado());
+            EffectCooldowns.Add(Effects.LightningTornado, LightningTornado.cooldown);
+            currentEffectCooldowns.Add(Effects.LightningTornado, 0);
+            Debug.Log("Added lightning Tornado");
+        }
+        
+        if(EffectList.ContainsKey(Effects.Bolder) && EffectList.ContainsKey(Effects.FireBall) && !EffectList.ContainsKey(Effects.PyroBlast))
+        {
+            EffectList.Remove(Effects.Bolder);
+            EffectCooldowns.Remove(Effects.Bolder);
+            currentEffectCooldowns.Remove(Effects.Bolder);
+            EffectList.Remove(Effects.FireBall);
+            EffectCooldowns.Remove(Effects.FireBall);
+            currentEffectCooldowns.Remove(Effects.FireBall);
+            EffectList.Add(Effects.PyroBlast, new PyroBlast());
+            EffectCooldowns.Add(Effects.PyroBlast, PyroBlast.cooldown);
+            currentEffectCooldowns.Add(Effects.PyroBlast, 0);
+            Debug.Log("Added Pyroblast");
+        }
     }
 
 

@@ -6,6 +6,8 @@ public class TornadoSpell : MonoBehaviour
     // Start is called before the first frame update
     Vector3 direction = Vector3.zero;
     Vector3 startPos;
+    bool upgraded = false;
+    GameObject lightning;
     void Start()
     {
         startPos = transform.position;
@@ -32,6 +34,11 @@ public class TornadoSpell : MonoBehaviour
         enemies = Array.FindAll(enemies, x => Vector3.Distance(this.transform.position, x.transform.position) < StatManager.getRange()/2);
         foreach (GameObject enemy in enemies)
         {
+            if(upgraded)
+            {
+               GameObject currentLightning = Instantiate(lightning,enemy.transform.position,Quaternion.identity);
+                enemy.GetComponent<EnemyAbstract>().damageEnemy(StatManager.getDamageMultiplyer());
+            }
             Vector3 directionToSuckingPoint = (this.transform.position - enemy.transform.position).normalized;
             Vector3 attractionVector = directionToSuckingPoint * StatManager.getSpeed() * 2 * Time.deltaTime;
             enemy.transform.position += attractionVector;
@@ -54,6 +61,13 @@ public class TornadoSpell : MonoBehaviour
                 DoTornado();
             }
         }
+    }
+
+    public void setUpgrade()
+    {
+        upgraded = true;
+        lightning = Resources.Load<GameObject>("Lightning");
+
     }
 
     // Update is called once per frame

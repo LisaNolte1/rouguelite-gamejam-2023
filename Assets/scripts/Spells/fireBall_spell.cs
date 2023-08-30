@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class fireBall_spell : MonoBehaviour
@@ -15,6 +13,14 @@ public class fireBall_spell : MonoBehaviour
     private float damageMultiplyer;
 
     private Vector3 startpos;
+
+    bool upgraded = false;
+
+    public float sizeFactor = 2;
+
+    public float speedFactor = 2;
+
+    public float damageFactor = 2;
 
     // Start is called before the first frame update
     void Start()
@@ -32,7 +38,7 @@ public class fireBall_spell : MonoBehaviour
 
     void movement()
     {
-        this.transform.position += (direction * StatManager.getSpeed() * Time.deltaTime);
+        this.transform.position += upgraded ? (direction * StatManager.getSpeed() * Time.deltaTime * speedFactor) : (direction * StatManager.getSpeed() * Time.deltaTime);
         Vector3 currentDirection = (this.transform.position - startpos).normalized;
 
         float rotationAngle = Mathf.Atan2(currentDirection.y, currentDirection.x) * Mathf.Rad2Deg;
@@ -52,12 +58,26 @@ public class fireBall_spell : MonoBehaviour
         }
     }
 
+    public void setUpgraded()
+    {
+        upgraded = true;
+        this.gameObject.transform.localScale = this.gameObject.transform.localScale * 1.5f;
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.gameObject.CompareTag("Enemy"))
         {
             //do damage
-            collision.gameObject.GetComponent<EnemyAbstract>().damageEnemy(StatManager.getDamageMultiplyer() * damageMultiplyer);
+            if (!upgraded)
+            {
+                collision.gameObject.GetComponent<EnemyAbstract>().damageEnemy(StatManager.getDamageMultiplyer() * damageMultiplyer);
+            }
+            else
+            {
+                collision.gameObject.GetComponent<EnemyAbstract>().damageEnemy(StatManager.getDamageMultiplyer() * damageMultiplyer * damageFactor);
+            }
+            
             Destroy(this.gameObject);
         }
         else

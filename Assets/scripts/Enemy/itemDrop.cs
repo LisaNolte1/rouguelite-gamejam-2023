@@ -16,7 +16,7 @@ public class itemDrop : MonoBehaviour
     void randomDrop()
     {
         Array values = Enum.GetValues(typeof(EffectManager.Effects));
-        int randomIndex = UnityEngine.Random.Range(0, values.Length - 1);
+        int randomIndex = UnityEngine.Random.Range(0, 6);
         if (EffectManager.EffectList.ContainsKey((EffectManager.Effects)randomIndex))
         {
             randomDrop();
