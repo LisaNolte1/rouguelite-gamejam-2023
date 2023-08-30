@@ -18837,7 +18837,7 @@ GameObject:
   - component: {fileID: 944553996}
   m_Layer: 0
   m_Name: SoundManager
-  m_TagString: Untagged
+  m_TagString: soundManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18965,6 +18965,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ccab21aabc541047bf9cb4e979abf8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  clip:
+  - {fileID: 8300000, guid: 72813cb32c1d46b45a4d4273eb7f60b4, type: 3}
 --- !u!1 &965638602
 GameObject:
   m_ObjectHideFlags: 0
@@ -18977,8 +18979,9 @@ GameObject:
   - component: {fileID: 965638604}
   - component: {fileID: 965638606}
   - component: {fileID: 965638605}
-  - component: {fileID: 965638608}
   - component: {fileID: 965638607}
+  - component: {fileID: 965638609}
+  - component: {fileID: 965638608}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -19101,6 +19104,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &965638608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965638602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6298fea1ad1a844ca870a773e961fa8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &965638609
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

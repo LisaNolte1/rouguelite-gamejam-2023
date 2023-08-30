@@ -14,6 +14,7 @@ TagManager:
   - saveButton
   - gameOverPanel
   - startPanel
+  - soundManager
   layers:
   - Default
   - TransparentFX

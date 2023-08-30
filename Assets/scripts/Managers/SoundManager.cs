@@ -6,15 +6,20 @@ public class SoundManager : MonoBehaviour
 {
     // Start is called before the first frame update
 
+    public List<AudioClip> clip = new List<AudioClip>();
+    Dictionary<clips,AudioClip> library = new Dictionary<clips, AudioClip>();
+    GameObject source;
+
     public enum clips
     {
         walking = 0,
+        coin = 1,
     }
-    public static Dictionary<clips, AudioClip> clipFile = new Dictionary<clips, AudioClip>();
-    static GameObject source;
     void Start()
     {
-        source = Resources.Load<GameObject>("SoundSource");
+         source = Resources.Load<GameObject>("source");
+        library.Add(clips.coin, clip[0]);
+
     }
 
     void initSounds()
@@ -22,10 +27,11 @@ public class SoundManager : MonoBehaviour
         //clipFile.Add(clips.walking,Resources.Load<GameObject>("Clips/"))
     }
 
-    public static void PlayClip(clips currentClip)
+    public  void PlayClip(clips currentClip)
     {
+        
         GameObject soundSource = Instantiate(source,Vector3.zero, Quaternion.identity);
-        soundSource.GetComponent<AudioSource>().clip = clipFile[currentClip];
+        soundSource.GetComponent<AudioSource>().clip = library[currentClip];
         soundSource.GetComponent<AudioSource>().Play();
     }
 
