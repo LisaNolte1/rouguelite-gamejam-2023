@@ -12,11 +12,9 @@ public class EventManager : MonoBehaviour
         
     }
 
-    void chestSpawn()
+    public static void chestSpawn()
     {
-        spawnCounter += Time.deltaTime;
-        if(spawnCounter > spawnTimer )
-        {
+   
             if (GameObject.FindGameObjectsWithTag("Item").Length > 2)
                 return;
             try
@@ -27,14 +25,13 @@ public class EventManager : MonoBehaviour
                 GameObject item = Resources.Load<GameObject>("Item");
                 Instantiate(item, spawnPos, Quaternion.identity);
                 //UIManager.toggleNotification("Chest spawned!", "Go Find it!");
-                spawnCounter = 0;
             }
             catch
             {
 
             }
 
-        }
+        
     }
 
     // Update is called once per frame
