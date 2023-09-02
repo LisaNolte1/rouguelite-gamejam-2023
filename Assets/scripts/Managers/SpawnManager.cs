@@ -49,7 +49,7 @@ public class SpawnManager : MonoBehaviour
 
     GameObject determineEnemySpawn()
     {
-        if(totalCount / 4 == 1)
+        if(totalCount % 4 == 1)
         {
             //wave strength 2
             totalCount = 0;

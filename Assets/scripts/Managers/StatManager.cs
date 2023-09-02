@@ -18,6 +18,7 @@ public class StatManager : MonoBehaviour
     const float upgradeCost = 50;
     static int escapeAttempts = 0;
     static UIManager uiManager;
+    public static bool hasRocketPart = false;
 
 
     private void Awake()
@@ -106,7 +107,7 @@ public class StatManager : MonoBehaviour
         {
             coins -= upgradeCost;
             uiManager.setCoinsLabel(coins);
-            speed += speed + speedIncrease;
+            speed += speedIncrease;
             saveStats();
         }
     }

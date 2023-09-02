@@ -91,6 +91,8 @@ public class TreantBossAI : EnemyAbstract
     private void OnDestroy()
     {
         animator.SetBool("IsDead", true);
+        GameObject rocket = Resources.Load<GameObject>("RocketPart");
+        GameObject rocketPart = Instantiate(rocket, transform.position, Quaternion.identity);
     }
 
     private void HealthCheck()
