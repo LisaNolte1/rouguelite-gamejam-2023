@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     // Start is called before the first frame update
-    static int kills = 0;
+    public static int kills = 0;
     public static int maxKills = 250;
     void Start()
     {

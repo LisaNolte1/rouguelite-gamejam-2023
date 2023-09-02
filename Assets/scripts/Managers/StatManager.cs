@@ -106,7 +106,7 @@ public class StatManager : MonoBehaviour
         {
             coins -= upgradeCost;
             uiManager.setCoinsLabel(coins);
-            speed += speed * speed;
+            speed += speed + speedIncrease;
             saveStats();
         }
     }

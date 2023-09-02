@@ -11,6 +11,7 @@ public class SpawnManager : MonoBehaviour
     private float waveCounter = 0f;
     private float totalCount = 0f;
     public List<GameObject> enemies = new List<GameObject>();
+    public int bossCount = 0;
     void Start()
     {
         waveCounter = waveTimer;
@@ -25,7 +26,7 @@ public class SpawnManager : MonoBehaviour
     void SpawnWave()
     {
         waveCounter += Time.deltaTime;
-        totalCount += Time.deltaTime;
+        totalCount++;
         if(waveCounter > waveTimer && GameObject.FindGameObjectsWithTag("Enemy").Length < 100)
         {
             waveCounter = 0f;
@@ -48,15 +49,16 @@ public class SpawnManager : MonoBehaviour
 
     GameObject determineEnemySpawn()
     {
-        if(totalCount / 60 > 5 && totalCount / 60 < 10)
+        if(totalCount / 4 == 1)
         {
             //wave strength 2
+            totalCount = 0;
             return enemies[1];
         }
-        else if(totalCount / 60 > 10)
+        else if(GameManager.kills >= 250 && bossCount < 1)
         {
-            //wave strength 3
-            return enemies[0];
+            this.bossCount++;
+            return enemies[2];
         }
         else if(totalCount / 60 < 5)
         {
