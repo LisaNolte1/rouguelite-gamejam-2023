@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class StatManager : MonoBehaviour
 {
@@ -153,7 +154,8 @@ public class StatManager : MonoBehaviour
             //death here;
 
             PlayerPrefs.SetInt("ecapeAttempts", PlayerPrefs.GetInt("ecapeAttempts", 0) + 1);
-            SceneManagerMenu.StartGame();
+            //SceneManagerMenu.StartGame();
+            SceneManager.LoadScene(3);
 
         }
         UIManager.updateHealthBarUI();
