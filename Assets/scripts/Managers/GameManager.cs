@@ -17,6 +17,10 @@ public class GameManager : MonoBehaviour
     public static void addKill()
     {
         kills++;
+        if(kills % 10 == 0)
+        {
+            EventManager.chestSpawn();
+        }
         Debug.Log("Kills: " + kills);
         UIManager.setKills(kills);
         if(kills == maxKills)
