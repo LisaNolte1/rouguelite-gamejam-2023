@@ -139,6 +139,13 @@ public class StatManager : MonoBehaviour
 
     public static void damagePlayer(float damage)
     {
+        GameObject player = GameObject.FindWithTag("Player");
+        if (player != null)
+        {
+            AudioSource playerAudioSource = player.GetComponent<AudioSource> ();
+            playerAudioSource.Play ();
+        }
+
         currentHealth -= damage;
         if(currentHealth < 0)
         {
