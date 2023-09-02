@@ -55,11 +55,6 @@ public class SpawnManager : MonoBehaviour
             totalCount = 0;
             return enemies[1];
         }
-        else if(GameManager.kills >= 250 && bossCount < 1)
-        {
-            this.bossCount++;
-            return enemies[2];
-        }
         else if(totalCount / 60 < 5)
         {
             //wave strength 1

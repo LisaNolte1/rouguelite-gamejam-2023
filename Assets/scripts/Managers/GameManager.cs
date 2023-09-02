@@ -21,7 +21,9 @@ public class GameManager : MonoBehaviour
         UIManager.setKills(kills);
         if(kills == maxKills)
         {
-            //Spawn boss
+            GameObject boss = Resources.Load<GameObject>("TreantBoss");
+            GameObject spawnpoint = SpawnManager.spawn[0];
+            GameObject bossSpawn = Instantiate(boss, spawnpoint.transform.position, Quaternion.identity);
         }
 
     }
