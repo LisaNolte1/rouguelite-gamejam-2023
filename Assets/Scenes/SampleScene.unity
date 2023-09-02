@@ -14739,7 +14739,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
+  m_SizeDelta: {x: 214.1, y: 64.496}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &226919982
 MonoBehaviour:
@@ -14805,7 +14805,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -19405,7 +19405,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
+  m_SizeDelta: {x: 207.8, y: 74.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &932246217
 MonoBehaviour:
@@ -19471,7 +19471,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -20274,12 +20274,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   data:
-    dataString: UEsDBBQAAAgIAAAQIewQJ3HnWgIAABUFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF1VMty2jAU/RVG6yaDKZCku9YhpAsCE9rJxhshXWMNsuTRg1eGf++VbGOXTleIc869OvchfxKhbAXMaTM3gi80B/JtQMKZfBl05Csc6VartThDq/kQ3BVBRKPmnTqhEU9CmNUlOCPYd7WVQTxE0CuRa1PO+BZSbZ1FOKfSAlJGuxCtEPockCP+3D2FkBOeRg/hdMbT03BwwSMD5cB00lbYymqVV0zSsgIeLHfiZNjK8RSFCstpNME601IK23gh7lTFWlNaWY+VoIALirVFA8n9VwQKENvCBaf98GWeW3CNLUNPz8Jgk+q85IeuO1dSu6u97an04abpOJqqcy7+oe+SSOdGl6/ttXVJrhBs905PjFrX62wffu45jx06ULmjGwkfBag3PTfaK46kMz6Eeguj5+7vtbK0ALbr8NrqDeir/88n1HCJxR9TKcpNoO7HNbCWOjY8Th8MjuYnGo67YZsUiAYXvy38otv+EjXEizDWIdVUqYK9jfYmSMks9ixU412qjYIIN6YrUFS60wrTuNsJ3nC9a2+YFxqeS3N5w7Wv4CYkwp1+OLyhVvpwHZYt9GEBtlh6J4WCznQg3rBPqVaqXrB+T9qwtTc5Zb2wrRf879UiU845m7LpZpqzUcImdwk8PUySEZuM+SM85jmJuycU1knlqjbatAenprrkCves/YoM5oZWcdm5oYe5OJe613Khcr1mBkAt6wxX42DwEnyWfMYFNmgNzgkV500+MyI12wHPromyWOns6AzNuiwZqcReu4BkJI2fjYwE+LrLKwN7AYdweZvsQi5/AFBLAwQUAAAICAAAECHsP8Ams20AAAB4AAAACQAkAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAatWKkstKs7Mz1OyUjDRM9IzNNdRUEovSizIKAaKGII4pZkpIHa0kllKSkqyWbJZkllaspFhsqmuYaqluamhUbKpSYpFqkVamlIsUH1JZUGqX2JuKkRPQGJJRlpmXkpmXrqee1FmijvIaKXYWgBQSwECLQAUAAAICAAAECHsECdx51oCAAAVBQAACwAkAAAAAAAAAAAAAAAAAAAAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwECLQAUAAAICAAAECHsP8Ams20AAAB4AAAACQAkAAAAAAAAAAAAAACnAgAAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsFBgAAAAACAAIAuAAAAF8DAAAAAA==
+    dataString: UEsDBBQAAAgIAAAQIezBdpFIWwIAABMFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF1VE1z2jAQ/SuMziWDKZCkt9YQ0gMJE9rJxRchrbEGWfLog49k+O9dyTZ26fSEeO/t7tvVyp9EKFsBc9osjeArzYF8G5BwJl8GHfkMJ7rTaiM+oNW8C+6KIKJR80ad0IgnIczqEpwR7LvaySAeIeiVyLUpF3wHqbbOIpxTaQEpo12IVgh9DsgJf4aPIeSMp/F9OH3g6XE0uOCRgXJgOmkrbGW1yismaVkBD5Y78X2rntYyhc00imCcaSmFbZwQd65ipymtrMc+UMAFxc5i+eTuKwIFiF3hgs9++GueW3CNKUPPc2FwRHVe8kPXcyup3dfODlT6UGk2iabqnKt/6GES6dzo8rktm4xCCVcItn+jZ0at6821D897zuN8jlTu6VbCewHqRS+N9ooj6YwPod7CeN79vXaWFsD2HV5bvQF99f/bCT1cYvOnVIpyG6i7SQ1spI4Dj3cPBq/mJxqOm2GbFIgGF78t/KK7/go1xJMw1iHVdKmCva32JkjJIs4sdONdqo2CCDemK1BUuvMa07jbG7zhemVvmCcaHktTvOHaN3ATEuFOPxrdUGt9vF6WLfRxBbZ49U4KBZ3pQLzgnFKtVL1g/Zm0YRtvcsp6YTsv+N+rRWacczZjs+0sZ+OETYcJPN5PkzGbTvgDPOQ5ibsnFPZJ5bo22owHb011yRXuWfsNGSwNreKyc0OPS/FR6t7Ihcr1hhkA9VpnuBoHg0XwWfIFFzigDTgnVLxv8pkRqdkeeHZNlMVOFydnaNZlyUglDtoFJCNp/GhkJMDXXV4bOAg4huJtsgu5/AFQSwMEFAAACAgAABAh7D/AJrNtAAAAeAAAAAkAJABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQGrVipLLSrOzM9TslIw0TPSMzTXUVBKL0osyCgGihiCOKWZKSB2tJJZSkpKslmyWZJZWrKRYbKprmGqpbmpoVGyqUmKRapFWppSLFB9SWVBql9ibipET0BiSUZaZl5KZl66nntRZoo7yGil2FoAUEsBAi0AFAAACAgAABAh7MF2kUhbAgAAEwUAAAsAJAAAAAAAAAAAAAAAAAAAAGdyYXBoMC5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsBAi0AFAAACAgAABAh7D/AJrNtAAAAeAAAAAkAJAAAAAAAAAAAAAAAqAIAAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLBQYAAAAAAgACALgAAABgAwAAAAA=
     upgradeData: 
     file_cachedStartup: {fileID: 0}
     data_cachedStartup: 
     cacheStartup: 0
-  showNavGraphs: 0
+  showNavGraphs: 1
   showUnwalkableNodes: 1
   debugMode: 0
   debugFloor: 0
@@ -20351,8 +20351,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -23.95, y: -55.75}
-  m_SizeDelta: {x: 270.2, y: 111.5}
+  m_AnchoredPosition: {x: -0.0000038146973, y: -55.75}
+  m_SizeDelta: {x: 383.7, y: 111.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1058858472
 MonoBehaviour:
@@ -20428,7 +20428,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 105.9, y: 50}
+  m_SizeDelta: {x: 159.3, y: 64}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1063291909
 MonoBehaviour:
@@ -20494,7 +20494,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -21141,7 +21141,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.002637148, y: 0.18460411}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -21152,7 +21152,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.92, y: 2.56}
+  m_Size: {x: 1.4294806, y: 1.7371932}
   m_EdgeRadius: 0
 --- !u!1001 &1266458263
 PrefabInstance:
@@ -21256,7 +21256,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 53.9, y: 0}
+  m_AnchoredPosition: {x: 53.899994, y: 0}
   m_SizeDelta: {x: 75, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1285151446
@@ -54788,7 +54788,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 244, y: 91.3}
+  m_SizeDelta: {x: 278.5, y: 91.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1648330435
 MonoBehaviour:
@@ -54854,7 +54854,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -55068,8 +55068,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -93.2, y: 0}
-  m_SizeDelta: {x: 163.58002, y: 87.72}
+  m_AnchoredPosition: {x: -127.945, y: 0}
+  m_SizeDelta: {x: 255.89, y: 87.72}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1693805941
 MonoBehaviour:
@@ -55091,7 +55091,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 0/0
+  m_text: 250/250
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b151d58a129ad9343b9914207f2f097c, type: 2}
   m_sharedMaterial: {fileID: -9194699675825869330, guid: b151d58a129ad9343b9914207f2f097c,
@@ -56428,7 +56428,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
+  m_SizeDelta: {x: 209.4, y: 78.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2074034288
 MonoBehaviour:
@@ -56494,7 +56494,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
