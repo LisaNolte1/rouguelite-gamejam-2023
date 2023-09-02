@@ -17,6 +17,7 @@ public class StatManager : MonoBehaviour
     public static bool isTimeRunning = false;
     const float upgradeCost = 50;
     static int escapeAttempts = 0;
+    static UIManager uiManager;
 
 
     private void Awake()
@@ -29,6 +30,7 @@ public class StatManager : MonoBehaviour
         currentHealth = maxHealth;
         coins = PlayerPrefs.GetFloat("coins", 0f);
         escapeAttempts = PlayerPrefs.GetInt("ecapeAttempts", 0);
+        uiManager = GameObject.FindGameObjectWithTag("UIManager").GetComponent<UIManager>();
     }
 
     public static float GetCurrentTime()
@@ -57,6 +59,7 @@ public class StatManager : MonoBehaviour
         if(coins - upgradeCost >=0)
         {
             coins -= upgradeCost;
+            uiManager.setCoinsLabel(coins);
             range += range * rangeIncrease;
             saveStats();
         }
@@ -67,7 +70,7 @@ public class StatManager : MonoBehaviour
     public static void addCoins(float coinsIncrease)
     {
         coins += coinsIncrease;
-        GameObject.FindGameObjectWithTag("UIManager").GetComponent<UIManager>().setCoinsLabel(coins);
+        uiManager.setCoinsLabel(coins);
         saveStats();
     }
 
@@ -79,6 +82,7 @@ public class StatManager : MonoBehaviour
         if (coins - upgradeCost >= 0)
         {
             coins -= upgradeCost;
+            uiManager.setCoinsLabel(coins);
             cooldownRate += cooldownRate * cooldownRateIncrease;
             saveStats();
         }
@@ -90,6 +94,7 @@ public class StatManager : MonoBehaviour
         if (coins - upgradeCost >= 0)
         {
             coins -= upgradeCost;
+            uiManager.setCoinsLabel(coins);
             damageMultiplyer += damageMultiplyer * damageIncrease;
             saveStats();
         }
@@ -100,6 +105,7 @@ public class StatManager : MonoBehaviour
         if (coins - upgradeCost >= 0)
         {
             coins -= upgradeCost;
+            uiManager.setCoinsLabel(coins);
             speed += speed * speed;
             saveStats();
         }
@@ -110,6 +116,7 @@ public class StatManager : MonoBehaviour
         if (coins - upgradeCost >= 0)
         {
             coins -= upgradeCost;
+            uiManager.setCoinsLabel(coins);
             maxHealth += maxHealth * maxHealthIncrease;
             saveStats();
         }

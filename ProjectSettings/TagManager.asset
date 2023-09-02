@@ -16,6 +16,10 @@ TagManager:
   - startPanel
   - soundManager
   - notificationPanel
+  - howToPlay
+  - hideImage
+  - Item
+  - killsLabel
   layers:
   - Default
   - TransparentFX

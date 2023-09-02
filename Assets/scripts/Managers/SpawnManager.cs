@@ -51,7 +51,7 @@ public class SpawnManager : MonoBehaviour
         if(totalCount / 60 > 5 && totalCount / 60 < 10)
         {
             //wave strength 2
-            return enemies[0];
+            return enemies[1];
         }
         else if(totalCount / 60 > 10)
         {

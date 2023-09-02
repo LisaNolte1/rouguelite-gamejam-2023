@@ -160,8 +160,8 @@ MonoBehaviour:
   health: 10
   damage: 1
   armour: 2
-  attackRange: 2
-  attackCooldown: 1
+  attackRange: 1
+  attackCooldown: 2
 --- !u!1 &3604541167059178776
 GameObject:
   m_ObjectHideFlags: 0

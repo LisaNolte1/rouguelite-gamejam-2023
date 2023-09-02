@@ -5,7 +5,7 @@ using UnityEngine;
 public class EventManager : MonoBehaviour
 {
     // Start is called before the first frame update
-    public float spawnTimer = 5;
+    public float spawnTimer = 45f;
     private float spawnCounter = 0;
     void Start()
     {
@@ -15,15 +15,25 @@ public class EventManager : MonoBehaviour
     void chestSpawn()
     {
         spawnCounter += Time.deltaTime;
-        if(spawnCounter > spawnTimer)
+        if(spawnCounter > spawnTimer )
         {
-          int random =   SpawnManager.spawn.Count;
-            random = Random.Range(0, random);
-           Vector3 spawnPos =  SpawnManager.spawn[random].transform.position;
-            GameObject item = Resources.Load<GameObject>("Item");
-            Instantiate(item, spawnPos, Quaternion.identity);
-            UIManager.toggleNotification("Chest spawned!", "Go Find it!");
-            spawnCounter = 0;
+            if (GameObject.FindGameObjectsWithTag("Item").Length > 2)
+                return;
+            try
+            {
+                int random = SpawnManager.spawn.Count;
+                random = Random.Range(0, random);
+                Vector3 spawnPos = SpawnManager.spawn[random].transform.position;
+                GameObject item = Resources.Load<GameObject>("Item");
+                Instantiate(item, spawnPos, Quaternion.identity);
+                //UIManager.toggleNotification("Chest spawned!", "Go Find it!");
+                spawnCounter = 0;
+            }
+            catch
+            {
+
+            }
+
         }
     }
 

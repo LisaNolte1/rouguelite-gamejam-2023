@@ -8,6 +8,7 @@ public class UIManager : MonoBehaviour
 {
     static TextMeshProUGUI coinsLabel;
     static TextMeshProUGUI timeLabel;
+    static TextMeshProUGUI killsLabel;
     static Slider healthBar;
     public static GameObject shopPanel;
     GameObject pausePanel;
@@ -16,19 +17,19 @@ public class UIManager : MonoBehaviour
     private static UIManager instance;
     private float startTime;
     private float introTime = 0;
-    private const float itemTimer = 5f;
+    private const float itemTimer = 2f;
     private static float itemCounter = 0f;
     private static bool notifcationActive = false;
 
     private void Awake()
     {
         coinsLabel = GameObject.FindGameObjectWithTag("coinLabel").GetComponent<TextMeshProUGUI>();
-        timeLabel = GameObject.FindGameObjectWithTag("timeLabel").GetComponent<TextMeshProUGUI>();
         shopPanel = GameObject.FindGameObjectWithTag("shopPanel");
         startPanel = GameObject.FindGameObjectWithTag("startPanel");
         pausePanel = GameObject.FindGameObjectWithTag("pausePanel");
         notificationPanel = GameObject.FindGameObjectWithTag("notificationPanel");
         healthBar = GameObject.FindGameObjectWithTag("healthBar").GetComponent<Slider>();
+        killsLabel = GameObject.FindGameObjectWithTag("killsLabel").GetComponent<TextMeshProUGUI>();
 
         if(instance != null && instance != this)
         {
@@ -54,6 +55,11 @@ public class UIManager : MonoBehaviour
     public static void toggleShopPanel()
     {
         shopPanel.SetActive(shopPanel.activeInHierarchy ?  false : true);
+    }
+
+    public static void setKills(int kills)
+    {
+        killsLabel.text = kills.ToString() +"/" + GameManager.maxKills.ToString();
     }
 
     void gameInit()
@@ -121,7 +127,22 @@ public class UIManager : MonoBehaviour
         itemCounter = 0f;
         notificationPanel.GetComponentsInChildren<TextMeshProUGUI>()[0].text = name;
         notificationPanel.GetComponentsInChildren<TextMeshProUGUI>()[1].text = description;
+        itemCounter = itemTimer;
 
+    }
+
+    void notifcationOff()
+    {
+        if(notifcationActive == true)
+        {
+            itemCounter -= Time.deltaTime;
+            if (itemCounter <= 0)
+            {
+                notificationPanel.SetActive(false);
+                notifcationActive=false;
+            }
+        }
+   
     }
 
     public void setCoinsLabel(float coins)
@@ -136,41 +157,17 @@ public class UIManager : MonoBehaviour
         healthBar.value = StatManager.getCurrentHealth();
     }
 
-    void UpdateTimeLabel(float timeInSeconds)
-    {
-        try
-        {
-            int minutes = Mathf.FloorToInt(timeInSeconds / 60);
-            int seconds = Mathf.FloorToInt(timeInSeconds % 60);
-            string timeString = string.Format("Time: {0}:{1:00}", minutes, seconds);
-            timeLabel.text = timeString;
-        }
-        catch {
-            Debug.Log("Caught that steven error");
-        }
-
-    }
-
     public static void updateHealthBarUI()
     {
         healthBarInit();
     }
 
-    void runTime()
-    {
-        if (StatManager.isTimeRunning)
-        {
-            float currentTime = Time.realtimeSinceStartup - startTime; //need to subtract start time to get accurate value 
-            UpdateTimeLabel(currentTime);
-        }
-    }
-
     void Update()
     {
 
-        runTime();
         togglePausePanel(false);
         introEffect();
+        notifcationOff();
         // if game in certain state 
         // StatManager.StopTimer();
         // once back 

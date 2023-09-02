@@ -7,15 +7,20 @@ public class SceneManagerMenu : MonoBehaviour
 {
     // Start is called before the first frame update
     public static GameObject saveButton;
+    public static GameObject howToPlayPanel;
+    public static GameObject hideImage;
     void Start()
     {
         saveButton = GameObject.FindGameObjectWithTag("saveButton");
+        howToPlayPanel = GameObject.FindGameObjectWithTag("howToPlay");
+        hideImage = GameObject.FindGameObjectWithTag("hideImage");
+        howToPlayPanel.SetActive(false);
         enableSave();
     }
 
     public static void StartGame()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 
     public static void ClearSave()
@@ -25,6 +30,13 @@ public class SceneManagerMenu : MonoBehaviour
 
 
     }
+
+    public static void ShowHowToPlay()
+    {
+        howToPlayPanel.SetActive(true);
+        hideImage.SetActive(false);
+    }
+
 
     private static void enableSave()
     {

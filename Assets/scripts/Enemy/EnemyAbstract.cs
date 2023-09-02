@@ -31,10 +31,8 @@ public abstract class EnemyAbstract : MonoBehaviour
         {
             Debug.Log("We got coins");
         }
-        for (counter = 0; counter < CoinAmount; counter++)
-        {
-            Instantiate(coin, GameObject.FindGameObjectWithTag("Player").transform.position + offset, Quaternion.identity);
-        }
+        Instantiate(coin, GameObject.FindGameObjectWithTag("Player").transform.position + offset, Quaternion.identity);
+ 
     }
 
     public virtual void LowerHealth(float damageInflicted)
@@ -45,6 +43,7 @@ public abstract class EnemyAbstract : MonoBehaviour
         {
             gameObject.GetComponentInChildren<Animator>().SetBool("IsDead", true);
             DropCoin();
+            GameManager.addKill();
             Destroy(gameObject);
         }
     }

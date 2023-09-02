@@ -5,7 +5,7 @@ using UnityEngine;
 public class Coin : MonoBehaviour
 {
     // Start is called before the first frame update
-    static float value = 5;
+    static float value = 3;
     SoundManager soundManager;
     void Start()
     {

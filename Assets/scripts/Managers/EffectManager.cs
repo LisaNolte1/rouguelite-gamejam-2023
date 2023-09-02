@@ -119,9 +119,9 @@ public class EffectManager : MonoBehaviour
             EffectList.Remove(Effects.Repel);
             EffectCooldowns.Remove(Effects.Repel);
             currentEffectCooldowns.Remove(Effects.Repel);
-            EffectList.Add(Effects.PyroBlast, new ForcePush());
-            EffectCooldowns.Add(Effects.PyroBlast, ForcePush.cooldown);
-            currentEffectCooldowns.Add(Effects.PyroBlast, 0);
+            EffectList.Add(Effects.ForcePush, new ForcePush());
+            EffectCooldowns.Add(Effects.ForcePush, ForcePush.cooldown);
+            currentEffectCooldowns.Add(Effects.ForcePush, 0);
             Debug.Log("Added ForcePush");
             UIManager.toggleNotification("Da Barrel", "BOOM!");
         }
