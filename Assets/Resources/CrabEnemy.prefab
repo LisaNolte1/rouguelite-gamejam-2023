@@ -152,7 +152,7 @@ MonoBehaviour:
   followDistance: 4
   enemyGFX: {fileID: 0}
   updateRate: 3
-  range: 12
+  range: 30
   speed: 150
   fmode: 0
   pathIsEnded: 0
