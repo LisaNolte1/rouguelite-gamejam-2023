@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,385 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SpriteSheet-EyeSpawn_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 20
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f0d13f29013fd4da8793264c811994
+      internalID: -1726456675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-EyeSpawn_1
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 20
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f578712c87dc54ba1e1aa3dec5f589
+      internalID: -520277469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-EyeSpawn_2
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 20
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1824ff6ac0279de4d96295a2d4c3d007
+      internalID: 529162141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-EyeSpawn_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 20
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c19f7eb306e144a949cc95cef69489
+      internalID: -14745948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-EyeSpawn_4
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 20
+        width: 35
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcddfe0a7ada8db4c96e6f2d090ae8af
+      internalID: 1857418580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-EyeSpawn_5
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 21
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f6ea8b0a9fb3443bb008a9698e4d68
+      internalID: 1329821109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-EyeSpawn_6
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 22
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f03524a4221b11f41a48487ebb8733d1
+      internalID: 1758862823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-EyeSpawn_7
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 22
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6a7815e5e8b1c49bcdaeb73fe25006
+      internalID: 1324444192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-EyeSpawn_8
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 22
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ba4f7638759fe4eac828f29b9c71aa
+      internalID: 1372985679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-EyeSpawn_9
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 22
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be440ce129305a4184c1626f0f5d6c7
+      internalID: -72638850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-EyeSpawn_10
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 22
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8e3c196756e7646978e94e67ae149c
+      internalID: 1890332738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-EyeSpawn_11
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 22
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480800333cdda2c4984ea7e531699d9e
+      internalID: -542714359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-EyeSpawn_12
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 22
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 613e8978c6da03442b9f34e6e6de20bd
+      internalID: -695148938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-EyeSpawn_13
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 22
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb085665899dea42ae31fa726da6b3d
+      internalID: -1167559118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-EyeSpawn_14
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 21
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c18ecca951c6644c8b3002bc6a0a2ff
+      internalID: -1312543273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-EyeSpawn_15
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 20
+        width: 35
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a151997649a809245a1ebce2c984d721
+      internalID: -1787727693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-EyeSpawn_16
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 20
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d18bd1a5e5b3d1c4db74112a4bfcbf2f
+      internalID: -1363281606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-EyeSpawn_17
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 20
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d2e1a451162414886ed7d60f909814
+      internalID: -770591131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +497,25 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SpriteSheet-EyeSpawn_0: -1726456675
+      SpriteSheet-EyeSpawn_1: -520277469
+      SpriteSheet-EyeSpawn_10: 1890332738
+      SpriteSheet-EyeSpawn_11: -542714359
+      SpriteSheet-EyeSpawn_12: -695148938
+      SpriteSheet-EyeSpawn_13: -1167559118
+      SpriteSheet-EyeSpawn_14: -1312543273
+      SpriteSheet-EyeSpawn_15: -1787727693
+      SpriteSheet-EyeSpawn_16: -1363281606
+      SpriteSheet-EyeSpawn_17: -770591131
+      SpriteSheet-EyeSpawn_2: 529162141
+      SpriteSheet-EyeSpawn_3: -14745948
+      SpriteSheet-EyeSpawn_4: 1857418580
+      SpriteSheet-EyeSpawn_5: 1329821109
+      SpriteSheet-EyeSpawn_6: 1758862823
+      SpriteSheet-EyeSpawn_7: 1324444192
+      SpriteSheet-EyeSpawn_8: 1372985679
+      SpriteSheet-EyeSpawn_9: -72638850
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

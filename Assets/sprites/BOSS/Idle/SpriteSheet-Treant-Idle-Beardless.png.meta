@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,406 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Idle-Beardless_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 390
+        width: 103
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f158cc4994e804c9a74b0ea25f08e7
+      internalID: -307947354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Idle-Beardless_1
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 390
+        width: 103
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc4ae36563971bd4bb6b3ed15408ad5f
+      internalID: 712657933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Idle-Beardless_2
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 390
+        width: 104
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71652591930e3874481fbd842eb88dc1
+      internalID: -934765324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Idle-Beardless_3
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 390
+        width: 104
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0796da57ad01c1941a54f5fa394160bd
+      internalID: 1867999732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Idle-Beardless_4
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 390
+        width: 103
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c048bff66eb59408409c87b5e2c1eb
+      internalID: 1182283589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Idle-Beardless_5
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 262
+        width: 103
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5564081e5589848b5e212349c789f0
+      internalID: -1128999447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Idle-Beardless_6
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 262
+        width: 103
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c288929dc679e2a498bb1b7d29f669f2
+      internalID: 304202455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Idle-Beardless_7
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 262
+        width: 103
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b1e822f9767994c9895aaa96ea0b12
+      internalID: -2005248743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Idle-Beardless_8
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 262
+        width: 103
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63cb07f1501e874baf6e5aa537dbe9a
+      internalID: -183911908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Idle-Beardless_9
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 262
+        width: 103
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1fd102b03d9b774085ec831df072fb5
+      internalID: 1533226447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Idle-Beardless_10
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 134
+        width: 103
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d801da8677d3bab47b60720c54393652
+      internalID: 1145644536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Idle-Beardless_11
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 134
+        width: 104
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2edcaa6294ff44498036cd1c44ccdb3
+      internalID: 307716841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Idle-Beardless_12
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 134
+        width: 104
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab951c6d2c801de469b044c83e489202
+      internalID: -2028942131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Idle-Beardless_13
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 134
+        width: 103
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71aada51de4fb8445bfe577ae7ea448d
+      internalID: 395478785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Idle-Beardless_14
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 134
+        width: 103
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa56e3ba779031a4c97397874b54145b
+      internalID: 1836009228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Idle-Beardless_15
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 6
+        width: 103
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f61fb2414c59c94e9e80651623d2be2
+      internalID: 295721979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Idle-Beardless_16
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 6
+        width: 103
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1bbb9129f3880443aa10ed5faec0f9b
+      internalID: 1581777094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Idle-Beardless_17
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 6
+        width: 103
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18514134f3958cc40ae4013bb2fcabc0
+      internalID: -1946999031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Idle-Beardless_18
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 6
+        width: 103
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e09df71d0bb4e484ab43a5d3e0b3b5fa
+      internalID: 1429430122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +518,26 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SpriteSheet-Treant-Idle-Beardless_0: -307947354
+      SpriteSheet-Treant-Idle-Beardless_1: 712657933
+      SpriteSheet-Treant-Idle-Beardless_10: 1145644536
+      SpriteSheet-Treant-Idle-Beardless_11: 307716841
+      SpriteSheet-Treant-Idle-Beardless_12: -2028942131
+      SpriteSheet-Treant-Idle-Beardless_13: 395478785
+      SpriteSheet-Treant-Idle-Beardless_14: 1836009228
+      SpriteSheet-Treant-Idle-Beardless_15: 295721979
+      SpriteSheet-Treant-Idle-Beardless_16: 1581777094
+      SpriteSheet-Treant-Idle-Beardless_17: -1946999031
+      SpriteSheet-Treant-Idle-Beardless_18: 1429430122
+      SpriteSheet-Treant-Idle-Beardless_2: -934765324
+      SpriteSheet-Treant-Idle-Beardless_3: 1867999732
+      SpriteSheet-Treant-Idle-Beardless_4: 1182283589
+      SpriteSheet-Treant-Idle-Beardless_5: -1128999447
+      SpriteSheet-Treant-Idle-Beardless_6: 304202455
+      SpriteSheet-Treant-Idle-Beardless_7: -2005248743
+      SpriteSheet-Treant-Idle-Beardless_8: -183911908
+      SpriteSheet-Treant-Idle-Beardless_9: 1533226447
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

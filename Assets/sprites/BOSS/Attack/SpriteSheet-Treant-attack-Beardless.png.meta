@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,1015 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-attack-Beardless_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 774
+        width: 103
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc063c20412f0a94e892fdd7d2143d85
+      internalID: 301327728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-attack-Beardless_1
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 774
+        width: 103
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5052689ae3237d347baa89c0e13d86f1
+      internalID: -147510806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-attack-Beardless_2
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 774
+        width: 103
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b891b047c433e4892e3393f29eaf8c
+      internalID: -1629361452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-attack-Beardless_3
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 774
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7555fca5b3cfa4a49b0a3a517845a387
+      internalID: 1668155410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-attack-Beardless_4
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 774
+        width: 103
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0937c122c76ce546a8b8daabb50a1af
+      internalID: -1018685036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-attack-Beardless_5
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 774
+        width: 104
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 233fc2add169a294da61302508237aaa
+      internalID: 1209301838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-attack-Beardless_6
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 774
+        width: 105
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f8ed2bb6c7d144eb577c2a4a0bd099
+      internalID: 1385285480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-attack-Beardless_7
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 646
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1931787b9867b2e489b8ca56265f8c1e
+      internalID: -1338057650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-attack-Beardless_8
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 645
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec0d370ab31e2945a54e821b6e2962a
+      internalID: -2000824305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-attack-Beardless_9
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 645
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb52ab99b204ef43a43de3ab5acd22d
+      internalID: 1073006177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-attack-Beardless_10
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 645
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fccb7f7a4ea9aca449215dd86be736ba
+      internalID: -489191211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-attack-Beardless_11
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 645
+        width: 106
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aedb481b577523948b47a69a6860ffba
+      internalID: 250540913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-attack-Beardless_12
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 643
+        width: 96
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b13689df37e504796ad0f64b02adbc
+      internalID: -1101314518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-attack-Beardless_13
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 642
+        width: 97
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6971597a1101a34cb6f4f081f1da2dd
+      internalID: -1927262565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-attack-Beardless_14
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 512
+        width: 100
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 431c91fe2a81b0441baabe80a1f0b56f
+      internalID: 2085741673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-attack-Beardless_15
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 512
+        width: 100
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f048ddb6a96db9459f2e54191cc8a77
+      internalID: 925681553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-attack-Beardless_16
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 512
+        width: 100
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee01558f9d98994ba28eb683ca36493
+      internalID: 18485769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-attack-Beardless_17
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 512
+        width: 104
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5fbe1dff93b544991b4c242575ab97
+      internalID: 22628873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-attack-Beardless_18
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 512
+        width: 105
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b43e63b62942c94585422355d956801
+      internalID: 1457242953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-attack-Beardless_19
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 513
+        width: 106
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31516d9d1b81b8e4f89bde39b85be01f
+      internalID: -1951578746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-attack-Beardless_20
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 517
+        width: 106
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3104bc972db7db4baf789c6ad74ed1e
+      internalID: 1027896045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-attack-Beardless_21
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 389
+        width: 106
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a788b699c91b424bb6d95f2eb343f18
+      internalID: -12978178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-attack-Beardless_22
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 389
+        width: 106
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ba0731ec42299499d3f867c4d15a87
+      internalID: -1304398136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-attack-Beardless_23
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 389
+        width: 106
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdea46a2bbcb0414cade7d3e15187a64
+      internalID: 2095403973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-attack-Beardless_24
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 387
+        width: 96
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb0b76e2eff9ac4e85990bf064e2a94
+      internalID: -1351116815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-attack-Beardless_25
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 386
+        width: 96
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b66767545ab544ebd4e6a2845b36a9
+      internalID: 27308799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-attack-Beardless_26
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 384
+        width: 100
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9baa0c43858f5b4880b0f30dba1143f
+      internalID: -2017740654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-attack-Beardless_27
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 384
+        width: 100
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f8f7f04cc57c1479c7bcff485d2e17
+      internalID: -1991697122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-attack-Beardless_28
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 256
+        width: 100
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 572854d8c7fb94e4eba5ecc22c36b615
+      internalID: 931402729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-attack-Beardless_29
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 256
+        width: 104
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa46aff4bdc63c4fa71e665ab35fcf9
+      internalID: -1782752912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-attack-Beardless_30
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 257
+        width: 105
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9846d86d68508241820bf30bd0576dc
+      internalID: -1266143667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-attack-Beardless_31
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 257
+        width: 106
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6edeef19beae114c991d474af3324d3
+      internalID: -271078388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-attack-Beardless_32
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 261
+        width: 106
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc3fd2f624dba14c8115d4f1ecbac58
+      internalID: 1511041592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-attack-Beardless_33
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 261
+        width: 106
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb6e741c124368499ba25274ae6821c
+      internalID: 799088629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-attack-Beardless_34
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 261
+        width: 106
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c395e4ca1748e9842a4ee39da523537b
+      internalID: -551780379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-attack-Beardless_35
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 133
+        width: 106
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e76fcaabda213f4dbae515754228e0c
+      internalID: 1277044835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-attack-Beardless_36
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 131
+        width: 96
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba41b3c77ec911440b65e09d5b6662ed
+      internalID: 1706002957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-attack-Beardless_37
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 130
+        width: 97
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e0854bb7f9016c49b9a3dcd0f8c6981
+      internalID: -1130741546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-attack-Beardless_38
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 128
+        width: 100
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c5f25eda1634c42bf6efbc57dcde49
+      internalID: -614726786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-attack-Beardless_39
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 128
+        width: 100
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148410d620ab60f4ea920c747b552af5
+      internalID: -252035074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-attack-Beardless_40
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 128
+        width: 100
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d7c53b4e702414494a6a9aa08466de
+      internalID: 204979069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-attack-Beardless_41
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 128
+        width: 104
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e00531e587cb1d44a7bdc7e606485f6
+      internalID: 1658581280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-attack-Beardless_42
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 0
+        width: 105
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a524aad94f1ad440a64d04143f835d1
+      internalID: 1438811563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-attack-Beardless_43
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1
+        width: 106
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e446d35c959da4ab37681e81b43180
+      internalID: -377664693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-attack-Beardless_44
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 5
+        width: 106
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b0ad5396e8a8349b7d1ac78fbf7942
+      internalID: 829633654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-attack-Beardless_45
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 5
+        width: 106
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd43ba41de601ef45aa5c2b5935b0c05
+      internalID: -1579625004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-attack-Beardless_46
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 5
+        width: 106
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21474c87a022cd5489429b4b85661208
+      internalID: -956262720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-attack-Beardless_47
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 5
+        width: 106
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03aed16fcaf26ab4cb0ce43b774020c0
+      internalID: -1455886553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +1127,55 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SpriteSheet-Treant-attack-Beardless_0: 301327728
+      SpriteSheet-Treant-attack-Beardless_1: -147510806
+      SpriteSheet-Treant-attack-Beardless_10: -489191211
+      SpriteSheet-Treant-attack-Beardless_11: 250540913
+      SpriteSheet-Treant-attack-Beardless_12: -1101314518
+      SpriteSheet-Treant-attack-Beardless_13: -1927262565
+      SpriteSheet-Treant-attack-Beardless_14: 2085741673
+      SpriteSheet-Treant-attack-Beardless_15: 925681553
+      SpriteSheet-Treant-attack-Beardless_16: 18485769
+      SpriteSheet-Treant-attack-Beardless_17: 22628873
+      SpriteSheet-Treant-attack-Beardless_18: 1457242953
+      SpriteSheet-Treant-attack-Beardless_19: -1951578746
+      SpriteSheet-Treant-attack-Beardless_2: -1629361452
+      SpriteSheet-Treant-attack-Beardless_20: 1027896045
+      SpriteSheet-Treant-attack-Beardless_21: -12978178
+      SpriteSheet-Treant-attack-Beardless_22: -1304398136
+      SpriteSheet-Treant-attack-Beardless_23: 2095403973
+      SpriteSheet-Treant-attack-Beardless_24: -1351116815
+      SpriteSheet-Treant-attack-Beardless_25: 27308799
+      SpriteSheet-Treant-attack-Beardless_26: -2017740654
+      SpriteSheet-Treant-attack-Beardless_27: -1991697122
+      SpriteSheet-Treant-attack-Beardless_28: 931402729
+      SpriteSheet-Treant-attack-Beardless_29: -1782752912
+      SpriteSheet-Treant-attack-Beardless_3: 1668155410
+      SpriteSheet-Treant-attack-Beardless_30: -1266143667
+      SpriteSheet-Treant-attack-Beardless_31: -271078388
+      SpriteSheet-Treant-attack-Beardless_32: 1511041592
+      SpriteSheet-Treant-attack-Beardless_33: 799088629
+      SpriteSheet-Treant-attack-Beardless_34: -551780379
+      SpriteSheet-Treant-attack-Beardless_35: 1277044835
+      SpriteSheet-Treant-attack-Beardless_36: 1706002957
+      SpriteSheet-Treant-attack-Beardless_37: -1130741546
+      SpriteSheet-Treant-attack-Beardless_38: -614726786
+      SpriteSheet-Treant-attack-Beardless_39: -252035074
+      SpriteSheet-Treant-attack-Beardless_4: -1018685036
+      SpriteSheet-Treant-attack-Beardless_40: 204979069
+      SpriteSheet-Treant-attack-Beardless_41: 1658581280
+      SpriteSheet-Treant-attack-Beardless_42: 1438811563
+      SpriteSheet-Treant-attack-Beardless_43: -377664693
+      SpriteSheet-Treant-attack-Beardless_44: 829633654
+      SpriteSheet-Treant-attack-Beardless_45: -1579625004
+      SpriteSheet-Treant-attack-Beardless_46: -956262720
+      SpriteSheet-Treant-attack-Beardless_47: -1455886553
+      SpriteSheet-Treant-attack-Beardless_5: 1209301838
+      SpriteSheet-Treant-attack-Beardless_6: 1385285480
+      SpriteSheet-Treant-attack-Beardless_7: -1338057650
+      SpriteSheet-Treant-attack-Beardless_8: -2000824305
+      SpriteSheet-Treant-attack-Beardless_9: 1073006177
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -29,7 +29,7 @@ public class LilSlimeAI : EnemyAbstract
 
     public float nextWaypointDistance = 3;
 
-    public int health = 10;
+    public int health = 6;
     public float damage = 1.5f;
     public int armour = 1;
     public float attackRange = 2f;

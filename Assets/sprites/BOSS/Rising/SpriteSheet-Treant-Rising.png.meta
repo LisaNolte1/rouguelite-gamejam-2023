@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -108,7 +108,1666 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1504
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52a7d039af116740a7929c97e2a61ba
+      internalID: -901853737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_1
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1504
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d590899b72aac742bbdd4d8ac087337
+      internalID: -137004902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_2
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1504
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d79daeb7a2e5540b72c23d75947415
+      internalID: -606284368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_3
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 1504
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3779cabe91ac7da4493687e1ad476174
+      internalID: -213998816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_4
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 1504
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c93d317dbe32d4ca1c468554a73f00
+      internalID: -1986035226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_5
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 1504
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 254036ceaaf94c44ea220daceaab7678
+      internalID: -55288328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_6
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 1504
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c5070551e542f46bd0d8f49b494b16
+      internalID: -927386241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_7
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 1504
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f005a9723506ee04c9c94509f92c4c1d
+      internalID: -2065360317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_8
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 1504
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28fae7a806c7ee648b268155b553cf95
+      internalID: -171771431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_9
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1316
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c2dc6c6a4feb204fa0b7710e0ef352c
+      internalID: 1588097514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_10
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1316
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb57a1b33afc8834ba1f42d266ae2999
+      internalID: -2031294514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_11
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1316
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a88bf64191c6141b5b5ffae62e2403
+      internalID: -1429074811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_12
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 1316
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90eda42b315e6514c873e9d224a282a7
+      internalID: -1382780936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_13
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 1316
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acdd214e81445ff4e9c93de22eb40125
+      internalID: 1377609854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_14
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 1316
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5be2b2f50150644fb611f8987ef3eb7
+      internalID: 1393592559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_15
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 1316
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f978a7129c7538f4589b57ebbe56da6b
+      internalID: -815831488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_16
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 1316
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e4f8a512f0e93f44ab41e81eb2a10ed
+      internalID: 675459682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_17
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 1316
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2bf86af278f6849b20e2d1f666f15c
+      internalID: -1757348713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_18
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1128
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d991a39fc143fb4f854babebdfcfda2
+      internalID: -2049937873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_19
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1128
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29910d2ba85a264d91a1a9ffdbef05d
+      internalID: -2039933852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_20
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1128
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c81f2a890cdee4e88678eb580734b6
+      internalID: -1954076724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_21
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 1128
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5cdfd7e479545469b7def0808c363c
+      internalID: -1005047951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_22
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 1128
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2702ff5626f47db4095f1e7d58f7ac6e
+      internalID: 1400561853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_23
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 1128
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12bbcf73f29a7a54d8e12b4d87b85dab
+      internalID: -1522942637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_24
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 1128
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f6436423fc075c4f8e84f320ff45915
+      internalID: 1550616120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_25
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 1128
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b296309cbb725624eab7e3324a9d4b2a
+      internalID: 1514582534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_26
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 1128
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d663473eb9f96f4fb6218a12a92fe17
+      internalID: -1367272713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_35
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 940
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b6b20b46d50ab4ba2189979a8b11c6
+      internalID: 868927083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_36
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 940
+        width: 37
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738de6c8f40498c40b7c83a60d3d53b4
+      internalID: -87734428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_37
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 940
+        width: 37
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a6475cd593bdaa4d97689d9f7004b3d
+      internalID: -171107706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_38
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 940
+        width: 37
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51eea7f404f7af945a19617d650d0e3e
+      internalID: 456471822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_39
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 940
+        width: 37
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 538e42fa157fb9447a36e53994c29fc8
+      internalID: -116524974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_40
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 940
+        width: 37
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24279c432c44d74cbb18ba7502b9604
+      internalID: 1795999817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_41
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 940
+        width: 37
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d5d658995d6904439f70f2306069657
+      internalID: 487269797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_42
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 940
+        width: 37
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d683a99b33fdbc64e83a4348e8306150
+      internalID: -974499902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_43
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 940
+        width: 37
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c21b2fa27fed446a35d4d3146cc226
+      internalID: -1294471046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_53
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 752
+        width: 37
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201474ce131dbcb4a86a89f3233619f4
+      internalID: -1423086253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_54
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 752
+        width: 37
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef10f6c91be32b24f8beb958830f9450
+      internalID: 1374407724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_55
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 752
+        width: 37
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db8b8d863c02d1b4c8d209f90db76197
+      internalID: -815523626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_56
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 752
+        width: 37
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc247a39b2c17048a2bd1af30c1bf79
+      internalID: -1236717449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_57
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 752
+        width: 37
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b023e1766704f2b4788de5d37eec01b6
+      internalID: 1547632733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_58
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 752
+        width: 37
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52efb9049e024b042a037dfc21f49790
+      internalID: -1718850352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_59
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 752
+        width: 37
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1fc025f22568194b8d96c81036d8bf4
+      internalID: 459298639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_60
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 752
+        width: 37
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a78bdf48020c4b4f85660d435de6cee
+      internalID: 1751444289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_61
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 752
+        width: 35
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2b4346975e51d45ae393401c895002
+      internalID: 714345987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_65
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 565
+        width: 23
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 458f4672ba7614b44bca9479e055a098
+      internalID: -1277817947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_66
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 565
+        width: 25
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131e29b0fa980f242be49eb3886c60ac
+      internalID: 993932080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_67
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 566
+        width: 33
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab5f5e8cba189841940170581861a57
+      internalID: -201441339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_68
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 566
+        width: 44
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e204a3ac11f804a98a2a93c27bfdbc
+      internalID: 302414340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_69
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 624
+        width: 53
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c9939d5857499408394170f5f116d3
+      internalID: 532204901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_70
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 624
+        width: 85
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae9ad621495b70145ba070e849966cad
+      internalID: 2058934235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_71
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 565
+        width: 33
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ace831eb827e343a562d701283a66b
+      internalID: 411115365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_72
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 565
+        width: 25
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e209cff0e77a109489ab1a454efd300c
+      internalID: 1770732724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_73
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 565
+        width: 23
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d786233e2ee284a46aee0e0e64050849
+      internalID: -1815578429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_78
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 436
+        width: 107
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a29828c5b1a5e49ae7617437a6d90c
+      internalID: 1500923031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_79
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 436
+        width: 107
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dedee89c9134c341a99bcdc41bc4653
+      internalID: -381238895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_80
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 436
+        width: 107
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8730ece9e0beda41bd4898af620582f
+      internalID: -740143467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_81
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 436
+        width: 107
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a283a48e166de6c4eb21ce3c3888bc82
+      internalID: -1517213050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_82
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 436
+        width: 107
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee94b4ce64f71449a839f94553a9148
+      internalID: 1880482177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_83
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 436
+        width: 107
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9225691c2b2df2845b746c108e4e4dfd
+      internalID: -1980272738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_84
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 436
+        width: 107
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22120e93f1965124ea1a7f63bfd5299e
+      internalID: 1912460664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_85
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 436
+        width: 107
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e61cd8f1ab76f45b87a6ef1068d1c6
+      internalID: -756500804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_86
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 436
+        width: 107
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b6d1a3436a6374ab85c0b14e21c6b7
+      internalID: 1899074178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_87
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 248
+        width: 107
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f2e8eb2cf76c7468b76844794cd403
+      internalID: 1130634229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_88
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 248
+        width: 107
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffedf64a2608aa0438687e0bc1bed4ba
+      internalID: -1818968486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_89
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 248
+        width: 107
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b16c3c4f98b5f45902edb45d363e6d
+      internalID: 1860906672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_90
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 248
+        width: 107
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a37d00136cd344696ff06bae3c98d7
+      internalID: 1607954610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_91
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 248
+        width: 107
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f4018c440e85f40bd3c76dd13e4c2a
+      internalID: 85259098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_92
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 248
+        width: 118
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0d1cc98a6fb7947b3cc235aee0109a
+      internalID: -535304895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_93
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 248
+        width: 125
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e80ad1d8418307e4682fdcca086e5e90
+      internalID: 929532300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_94
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 248
+        width: 118
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d73ce3bd4e61994892a40a2bb914a0f
+      internalID: 2016219461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_95
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 248
+        width: 107
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8688ffa2b3d8c8040b9a55a0ffa8257f
+      internalID: -651795516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_96
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 60
+        width: 99
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be18fabebebb3b4eac85f08da6d9290
+      internalID: -1945087720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_97
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 60
+        width: 99
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2485861e9c26e14bb18015d8d99a867
+      internalID: -1503496235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_98
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 60
+        width: 99
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6f4794ed87e744cb111f1038f49650
+      internalID: -885425202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_99
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 63
+        width: 103
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84feecbfcb7c0f45bb6473446884481
+      internalID: 177981748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_100
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 64
+        width: 103
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3276f7007d70f4a846d5115f07d644
+      internalID: -2071738061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_101
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 65
+        width: 103
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ac770997bb8e54491a29cf84d0109e
+      internalID: -1921378670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Rising_102
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 66
+        width: 103
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3235c3793baee429699551bf60a668
+      internalID: 266322687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +1778,111 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SpriteSheet-Treant-Rising_0: -901853737
+      SpriteSheet-Treant-Rising_1: -137004902
+      SpriteSheet-Treant-Rising_10: -2031294514
+      SpriteSheet-Treant-Rising_100: -2071738061
+      SpriteSheet-Treant-Rising_101: -1921378670
+      SpriteSheet-Treant-Rising_102: 266322687
+      SpriteSheet-Treant-Rising_103: 2033233626
+      SpriteSheet-Treant-Rising_11: -1429074811
+      SpriteSheet-Treant-Rising_12: -1382780936
+      SpriteSheet-Treant-Rising_13: 1377609854
+      SpriteSheet-Treant-Rising_14: 1393592559
+      SpriteSheet-Treant-Rising_15: -815831488
+      SpriteSheet-Treant-Rising_16: 675459682
+      SpriteSheet-Treant-Rising_17: -1757348713
+      SpriteSheet-Treant-Rising_18: -2049937873
+      SpriteSheet-Treant-Rising_19: -2039933852
+      SpriteSheet-Treant-Rising_2: -606284368
+      SpriteSheet-Treant-Rising_20: -1954076724
+      SpriteSheet-Treant-Rising_21: -1005047951
+      SpriteSheet-Treant-Rising_22: 1400561853
+      SpriteSheet-Treant-Rising_23: -1522942637
+      SpriteSheet-Treant-Rising_24: 1550616120
+      SpriteSheet-Treant-Rising_25: 1514582534
+      SpriteSheet-Treant-Rising_26: -1367272713
+      SpriteSheet-Treant-Rising_27: -1973936654
+      SpriteSheet-Treant-Rising_28: 1243482513
+      SpriteSheet-Treant-Rising_29: 499640128
+      SpriteSheet-Treant-Rising_3: -213998816
+      SpriteSheet-Treant-Rising_30: -719207309
+      SpriteSheet-Treant-Rising_31: 949769672
+      SpriteSheet-Treant-Rising_32: -1643704587
+      SpriteSheet-Treant-Rising_33: -1155759567
+      SpriteSheet-Treant-Rising_34: 827650132
+      SpriteSheet-Treant-Rising_35: 868927083
+      SpriteSheet-Treant-Rising_36: -87734428
+      SpriteSheet-Treant-Rising_37: -171107706
+      SpriteSheet-Treant-Rising_38: 456471822
+      SpriteSheet-Treant-Rising_39: -116524974
+      SpriteSheet-Treant-Rising_4: -1986035226
+      SpriteSheet-Treant-Rising_40: 1795999817
+      SpriteSheet-Treant-Rising_41: 487269797
+      SpriteSheet-Treant-Rising_42: -974499902
+      SpriteSheet-Treant-Rising_43: -1294471046
+      SpriteSheet-Treant-Rising_44: -308065845
+      SpriteSheet-Treant-Rising_45: -475581695
+      SpriteSheet-Treant-Rising_46: 463501062
+      SpriteSheet-Treant-Rising_47: 153472564
+      SpriteSheet-Treant-Rising_48: 2012316248
+      SpriteSheet-Treant-Rising_49: 906456310
+      SpriteSheet-Treant-Rising_5: -55288328
+      SpriteSheet-Treant-Rising_50: -1257553936
+      SpriteSheet-Treant-Rising_51: 689481959
+      SpriteSheet-Treant-Rising_52: 1491219943
+      SpriteSheet-Treant-Rising_53: -1423086253
+      SpriteSheet-Treant-Rising_54: 1374407724
+      SpriteSheet-Treant-Rising_55: -815523626
+      SpriteSheet-Treant-Rising_56: -1236717449
+      SpriteSheet-Treant-Rising_57: 1547632733
+      SpriteSheet-Treant-Rising_58: -1718850352
+      SpriteSheet-Treant-Rising_59: 459298639
+      SpriteSheet-Treant-Rising_6: -927386241
+      SpriteSheet-Treant-Rising_60: 1751444289
+      SpriteSheet-Treant-Rising_61: 714345987
+      SpriteSheet-Treant-Rising_62: -1918625142
+      SpriteSheet-Treant-Rising_63: 1980071648
+      SpriteSheet-Treant-Rising_64: -885268620
+      SpriteSheet-Treant-Rising_65: -1277817947
+      SpriteSheet-Treant-Rising_66: 993932080
+      SpriteSheet-Treant-Rising_67: -201441339
+      SpriteSheet-Treant-Rising_68: 302414340
+      SpriteSheet-Treant-Rising_69: 532204901
+      SpriteSheet-Treant-Rising_7: -2065360317
+      SpriteSheet-Treant-Rising_70: 2058934235
+      SpriteSheet-Treant-Rising_71: 411115365
+      SpriteSheet-Treant-Rising_72: 1770732724
+      SpriteSheet-Treant-Rising_73: -1815578429
+      SpriteSheet-Treant-Rising_74: 52794393
+      SpriteSheet-Treant-Rising_75: 1682889431
+      SpriteSheet-Treant-Rising_76: -1098183564
+      SpriteSheet-Treant-Rising_77: -1355374155
+      SpriteSheet-Treant-Rising_78: 1500923031
+      SpriteSheet-Treant-Rising_79: -381238895
+      SpriteSheet-Treant-Rising_8: -171771431
+      SpriteSheet-Treant-Rising_80: -740143467
+      SpriteSheet-Treant-Rising_81: -1517213050
+      SpriteSheet-Treant-Rising_82: 1880482177
+      SpriteSheet-Treant-Rising_83: -1980272738
+      SpriteSheet-Treant-Rising_84: 1912460664
+      SpriteSheet-Treant-Rising_85: -756500804
+      SpriteSheet-Treant-Rising_86: 1899074178
+      SpriteSheet-Treant-Rising_87: 1130634229
+      SpriteSheet-Treant-Rising_88: -1818968486
+      SpriteSheet-Treant-Rising_89: 1860906672
+      SpriteSheet-Treant-Rising_9: 1588097514
+      SpriteSheet-Treant-Rising_90: 1607954610
+      SpriteSheet-Treant-Rising_91: 85259098
+      SpriteSheet-Treant-Rising_92: -535304895
+      SpriteSheet-Treant-Rising_93: 929532300
+      SpriteSheet-Treant-Rising_94: 2016219461
+      SpriteSheet-Treant-Rising_95: -651795516
+      SpriteSheet-Treant-Rising_96: -1945087720
+      SpriteSheet-Treant-Rising_97: -1503496235
+      SpriteSheet-Treant-Rising_98: -885425202
+      SpriteSheet-Treant-Rising_99: 177981748
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,259 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Recover_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 262
+        width: 99
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21592e7892ef8fa4eb46012064b143a5
+      internalID: 129484739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Recover_1
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 262
+        width: 99
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 527f3aeb6cbffef4cbc1d367617870cf
+      internalID: -119503859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Recover_2
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 262
+        width: 103
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e256b1b71d18c27428b916ef46e8487d
+      internalID: -309958687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Recover_3
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 262
+        width: 104
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72576c926b4c1f546b3bba24c44d1ab7
+      internalID: -73755617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Recover_4
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 134
+        width: 95
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93478b6f402fe540b7512a85f01a874
+      internalID: -1131077452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Recover_5
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 134
+        width: 92
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3844e83f4013348851b7b7abfeb8e5
+      internalID: -1357066965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Recover_6
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 134
+        width: 92
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53460669a8d615142995dd6ef6af8236
+      internalID: -1848605594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Recover_7
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 134
+        width: 92
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e578a6a3a9b4242aadae5ff211f47a
+      internalID: 1553858212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Recover_8
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 6
+        width: 95
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed162f27b50f5b47a1abbec520a7f39
+      internalID: -682650560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Recover_9
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 6
+        width: 103
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eafcef8190855c5478eeb6edeeb1e46d
+      internalID: 1058946730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Recover_10
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 6
+        width: 103
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ec9816713833b48af40f86e27576fa
+      internalID: -566907198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Recover_11
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 6
+        width: 103
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61593272931d06a49b6cded8bdf82b9c
+      internalID: 2065781505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +371,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SpriteSheet-Treant-Recover_0: 129484739
+      SpriteSheet-Treant-Recover_1: -119503859
+      SpriteSheet-Treant-Recover_10: -566907198
+      SpriteSheet-Treant-Recover_11: 2065781505
+      SpriteSheet-Treant-Recover_2: -309958687
+      SpriteSheet-Treant-Recover_3: -73755617
+      SpriteSheet-Treant-Recover_4: -1131077452
+      SpriteSheet-Treant-Recover_5: -1357066965
+      SpriteSheet-Treant-Recover_6: -1848605594
+      SpriteSheet-Treant-Recover_7: 1553858212
+      SpriteSheet-Treant-Recover_8: -682650560
+      SpriteSheet-Treant-Recover_9: 1058946730
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

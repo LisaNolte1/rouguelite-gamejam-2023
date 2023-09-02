@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,1519 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 902
+        width: 99
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c2c86e624c6264a94cbd34df6c4181
+      internalID: 41350058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_1
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 902
+        width: 99
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568d6871a18b0cb48b71fa88b57c3110
+      internalID: 302249792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_2
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 902
+        width: 99
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed315c3c85bc2a4fb4ec46e15f1de8b
+      internalID: -462266871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_3
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 902
+        width: 99
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e8f7c7709b62b40bc1b5d1ddc82ee8
+      internalID: -800543435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_4
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 902
+        width: 99
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7318d4428a1cf04abcbf95cae290c70
+      internalID: 26669750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_5
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 902
+        width: 99
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c284cb9de94134ab7987416278b1b3
+      internalID: -1237493259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_6
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 902
+        width: 99
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 818194ac1eda8d74db59f15cb15de43c
+      internalID: 968766147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_7
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 902
+        width: 101
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02867cb30bd96f5458bb552f13a2b352
+      internalID: 463013088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_8
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 902
+        width: 102
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18fe40ec26d3074ca27540d8275d38d
+      internalID: -264265314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_9
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 774
+        width: 108
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2a40faa62cbde469db17c007c325cf
+      internalID: 1355717647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_10
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 774
+        width: 110
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4536d28de3e34024faf11be19ee62cbf
+      internalID: -1182338928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_11
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 773
+        width: 112
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a366bbe5a42bc24fbf8159f72447fa3
+      internalID: 1801418201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_12
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 773
+        width: 110
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c13f5d10e6ea054991e8037d0ca6947
+      internalID: -915873932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_13
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 773
+        width: 110
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6a1eafafa0c464f8ca1b27e7ff84f6
+      internalID: 80420202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_14
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 773
+        width: 110
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2997b90263b7a2c448911a84f560b233
+      internalID: 484582231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_15
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 773
+        width: 110
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 157509d0bbcb6164fb1b1c1759cf5fda
+      internalID: -1807025144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_16
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 773
+        width: 110
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb8c2f5398410e40ba16ef49a93345b
+      internalID: 1580973165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_17
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 773
+        width: 110
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83fd263e8baba0b4f84bae61973d9aa1
+      internalID: 336301146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_18
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 645
+        width: 110
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8357ab7a38158ce4da96b6b99917930a
+      internalID: 345710483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_19
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 645
+        width: 110
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d886ae2dc6d2b954caadd6a66d957a59
+      internalID: 440091167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_20
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 645
+        width: 110
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5719989554d7dd0439360f007b0439dc
+      internalID: 1745872380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_21
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 644
+        width: 110
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de1f63f4c224e94a8a12ee5f206fb95
+      internalID: 1076225069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_22
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 644
+        width: 110
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad9b470813fb1c43bc1b6f694cb45c1
+      internalID: 811832987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_23
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 644
+        width: 110
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f91b62666b970240821ab3aca19ebc5
+      internalID: 1984297945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_24
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 644
+        width: 110
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef780cd470ac284ca9487419e596e61
+      internalID: 881859186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_25
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 644
+        width: 110
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de1da28a879d3234eb499993f49f0055
+      internalID: -2077927448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_26
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 644
+        width: 110
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724d08640742f104c95785ef792a69d1
+      internalID: -1562406560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_27
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 516
+        width: 110
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4487d51db379f0043834b16851c1e71f
+      internalID: 54166293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_28
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 516
+        width: 110
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44bc5aa66a1793f47a4785b0c041eae4
+      internalID: 1930092069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_29
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 516
+        width: 110
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de01d720bf9f23f4290045575c672b8f
+      internalID: 844716221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_30
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 516
+        width: 110
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7318de961b55d83439b1a23912edf022
+      internalID: 1474124300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_31
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 516
+        width: 110
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b3c4a8d26ff1a14c9c65b85e1a4e4a2
+      internalID: 719352369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_32
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 516
+        width: 110
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22c06749bf76c44da75134e54ef28b9
+      internalID: 798412815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_33
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 516
+        width: 110
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23fc935f31ea39c4fbaba7d77233f9a9
+      internalID: -848401515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_34
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 516
+        width: 110
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7888808d118cbb4aba7b28b6ccbf206
+      internalID: 762771066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_35
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 516
+        width: 110
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c009297927ac9e449405cf87e61bbb2
+      internalID: -1075237151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_36
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 388
+        width: 110
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bde4905973c8201439b7e78f9bdb49fb
+      internalID: -350244250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_37
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 388
+        width: 123
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf8547b06c293b44a6b9143a50624c1
+      internalID: 1568395847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_38
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 388
+        width: 114
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720c551a5be13f343a413275c5907e98
+      internalID: 1719638541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_39
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 388
+        width: 110
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7cd68be2e2e2874b8b358faaaf01d13
+      internalID: 484321171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_40
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 388
+        width: 110
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca0f935fa2fdf514987d26e30778e1fc
+      internalID: 1525542619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_41
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 388
+        width: 110
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68a721a27fde924dbd4593be1959ec9
+      internalID: 2093359121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_42
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 388
+        width: 110
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5b5ed9d342800449abcb2e282ea638
+      internalID: -1600957562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_43
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 388
+        width: 110
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ba5df323dfb40439a42e497d04fa54
+      internalID: 1982469329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_44
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 388
+        width: 110
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7848e30a302a46943bf82d4e24942747
+      internalID: -1807868019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_45
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 260
+        width: 110
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a89c4cc9ced74445966b00c6fe6cb5b
+      internalID: -2147284337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_46
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 260
+        width: 110
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c044bbc7b8a74e34c94c3b261a482ddb
+      internalID: -630030102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_47
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 260
+        width: 110
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7810ea9497efad4d980f14a7188a4bd
+      internalID: 1716183923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_48
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 260
+        width: 110
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31e58fa9d939e34aa87ba37643d8e90
+      internalID: 693464754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_49
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 260
+        width: 110
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5939edfe24319d643b4d95175f7f9515
+      internalID: -1588008767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_50
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 260
+        width: 110
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67b6cb407077ab4e947124385fa9fc7
+      internalID: 1138617020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_51
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 260
+        width: 110
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b767d2da7e44741b8ab6fd50ea572a
+      internalID: -1795131236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_52
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 258
+        width: 110
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2756dfd22d186ea41ad55f44893b039f
+      internalID: 2039678685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_53
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 258
+        width: 110
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da00f9cc9b04ea746867e2d03219878a
+      internalID: -1271949027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_54
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 131
+        width: 110
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea5e6c722b629d4b98fe6714da9d9c0
+      internalID: -1798194379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_55
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 130
+        width: 110
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe890b4359d226b4592d7559572cc369
+      internalID: -1788818214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_56
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 130
+        width: 110
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8137bf1cda9f9cf43bbd63dff2f87907
+      internalID: -608084715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_57
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 130
+        width: 110
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36eea59dcd8cb3348b360d92d7330f65
+      internalID: -348421498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_58
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 131
+        width: 110
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf48a955bc212df49aa12e409e93c06b
+      internalID: -1472172800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_59
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 130
+        width: 110
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cdc79f74c2d4d34384b50cf038a83c2
+      internalID: 1921525654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_60
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 130
+        width: 110
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1eb6f7d62d4024eb9ac8d13e91dd4a
+      internalID: 1161373064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_61
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 130
+        width: 110
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3f57eecbf99b64d9cf4d9477b95d0d
+      internalID: 962026025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_62
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 131
+        width: 110
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f5f438ab20c37489c57cd9ad7dc776
+      internalID: 66063228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_63
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2
+        width: 110
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ebb928b3f828148b98596aca1d5a9a
+      internalID: -455473097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_64
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 2
+        width: 110
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad235c4b8d538114f9794c96dc263c63
+      internalID: -1354335884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_65
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 2
+        width: 110
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493bcf06816592e4483fa0b9924d9a34
+      internalID: 965924193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_66
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 3
+        width: 110
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf09b3bbf384f49448d3869b06200e60
+      internalID: 2105098964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_67
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 2
+        width: 110
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b948270304721042bedddbf28b8a391
+      internalID: -1179717065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_68
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 2
+        width: 110
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f97b44fd5f30a44b812b174a9f0957
+      internalID: 882445284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_69
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 2
+        width: 110
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2772bf9311b7c4e42a61a8ce606b6f74
+      internalID: 763787679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_70
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 3
+        width: 110
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e247bf4558b637f4ab3e4d2aae5bf918
+      internalID: -2003543229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet-Treant-Death_71
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 2
+        width: 110
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e0b775932162aa4fbbe87b1989ca1b0
+      internalID: -1988535699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +1631,79 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SpriteSheet-Treant-Death_0: 41350058
+      SpriteSheet-Treant-Death_1: 302249792
+      SpriteSheet-Treant-Death_10: -1182338928
+      SpriteSheet-Treant-Death_11: 1801418201
+      SpriteSheet-Treant-Death_12: -915873932
+      SpriteSheet-Treant-Death_13: 80420202
+      SpriteSheet-Treant-Death_14: 484582231
+      SpriteSheet-Treant-Death_15: -1807025144
+      SpriteSheet-Treant-Death_16: 1580973165
+      SpriteSheet-Treant-Death_17: 336301146
+      SpriteSheet-Treant-Death_18: 345710483
+      SpriteSheet-Treant-Death_19: 440091167
+      SpriteSheet-Treant-Death_2: -462266871
+      SpriteSheet-Treant-Death_20: 1745872380
+      SpriteSheet-Treant-Death_21: 1076225069
+      SpriteSheet-Treant-Death_22: 811832987
+      SpriteSheet-Treant-Death_23: 1984297945
+      SpriteSheet-Treant-Death_24: 881859186
+      SpriteSheet-Treant-Death_25: -2077927448
+      SpriteSheet-Treant-Death_26: -1562406560
+      SpriteSheet-Treant-Death_27: 54166293
+      SpriteSheet-Treant-Death_28: 1930092069
+      SpriteSheet-Treant-Death_29: 844716221
+      SpriteSheet-Treant-Death_3: -800543435
+      SpriteSheet-Treant-Death_30: 1474124300
+      SpriteSheet-Treant-Death_31: 719352369
+      SpriteSheet-Treant-Death_32: 798412815
+      SpriteSheet-Treant-Death_33: -848401515
+      SpriteSheet-Treant-Death_34: 762771066
+      SpriteSheet-Treant-Death_35: -1075237151
+      SpriteSheet-Treant-Death_36: -350244250
+      SpriteSheet-Treant-Death_37: 1568395847
+      SpriteSheet-Treant-Death_38: 1719638541
+      SpriteSheet-Treant-Death_39: 484321171
+      SpriteSheet-Treant-Death_4: 26669750
+      SpriteSheet-Treant-Death_40: 1525542619
+      SpriteSheet-Treant-Death_41: 2093359121
+      SpriteSheet-Treant-Death_42: -1600957562
+      SpriteSheet-Treant-Death_43: 1982469329
+      SpriteSheet-Treant-Death_44: -1807868019
+      SpriteSheet-Treant-Death_45: -2147284337
+      SpriteSheet-Treant-Death_46: -630030102
+      SpriteSheet-Treant-Death_47: 1716183923
+      SpriteSheet-Treant-Death_48: 693464754
+      SpriteSheet-Treant-Death_49: -1588008767
+      SpriteSheet-Treant-Death_5: -1237493259
+      SpriteSheet-Treant-Death_50: 1138617020
+      SpriteSheet-Treant-Death_51: -1795131236
+      SpriteSheet-Treant-Death_52: 2039678685
+      SpriteSheet-Treant-Death_53: -1271949027
+      SpriteSheet-Treant-Death_54: -1798194379
+      SpriteSheet-Treant-Death_55: -1788818214
+      SpriteSheet-Treant-Death_56: -608084715
+      SpriteSheet-Treant-Death_57: -348421498
+      SpriteSheet-Treant-Death_58: -1472172800
+      SpriteSheet-Treant-Death_59: 1921525654
+      SpriteSheet-Treant-Death_6: 968766147
+      SpriteSheet-Treant-Death_60: 1161373064
+      SpriteSheet-Treant-Death_61: 962026025
+      SpriteSheet-Treant-Death_62: 66063228
+      SpriteSheet-Treant-Death_63: -455473097
+      SpriteSheet-Treant-Death_64: -1354335884
+      SpriteSheet-Treant-Death_65: 965924193
+      SpriteSheet-Treant-Death_66: 2105098964
+      SpriteSheet-Treant-Death_67: -1179717065
+      SpriteSheet-Treant-Death_68: 882445284
+      SpriteSheet-Treant-Death_69: 763787679
+      SpriteSheet-Treant-Death_7: 463013088
+      SpriteSheet-Treant-Death_70: -2003543229
+      SpriteSheet-Treant-Death_71: -1988535699
+      SpriteSheet-Treant-Death_8: -264265314
+      SpriteSheet-Treant-Death_9: 1355717647
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

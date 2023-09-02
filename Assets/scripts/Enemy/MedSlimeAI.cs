@@ -31,8 +31,8 @@ public class MedSlimeAI : EnemyAbstract
     public float nextWaypointDistance = 3;
 
     public int health = 10;
-    public float damage = 1.5f;
-    public int armour = 2;
+    public float damage = 3.5f;
+    public int armour = 3;
     public float attackRange = 2f;
     public float attackCooldown = 2f;
     private float lastAttackTime = 0f;

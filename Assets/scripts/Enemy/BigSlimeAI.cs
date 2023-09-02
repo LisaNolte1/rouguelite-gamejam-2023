@@ -29,9 +29,9 @@ public class BigSlimeAI : EnemyAbstract
 
     public float nextWaypointDistance = 3;
 
-    public int health = 10;
-    public float damage = 1.5f;
-    public int armour = 2;
+    public int health = 15;
+    public float damage = 5f;
+    public int armour = 5;
     public float attackRange = 2f;
     public float attackCooldown = 2f;
     private float lastAttackTime = 0f;
