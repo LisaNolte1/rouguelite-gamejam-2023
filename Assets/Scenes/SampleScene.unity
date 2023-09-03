@@ -21654,6 +21654,7 @@ MonoBehaviour:
   enemies:
   - {fileID: 725638213451966711, guid: ab5a809ba4ba8bc48ab26fde44d1eb65, type: 3}
   - {fileID: 476472904127303358, guid: ef00277c7e0429645a716a1d71a495f6, type: 3}
+  bossCount: 0
 --- !u!1 &1149586806
 GameObject:
   m_ObjectHideFlags: 0
@@ -82918,7 +82919,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 250/250
+  m_text: 0/0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b151d58a129ad9343b9914207f2f097c, type: 2}
   m_sharedMaterial: {fileID: -9194699675825869330, guid: b151d58a129ad9343b9914207f2f097c,

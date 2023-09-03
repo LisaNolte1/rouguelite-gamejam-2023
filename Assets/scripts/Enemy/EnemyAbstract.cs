@@ -37,7 +37,14 @@ public abstract class EnemyAbstract : MonoBehaviour
 
     public virtual void LowerHealth(float damageInflicted)
     {
-        this.Health -= (int)(damageInflicted * (1 - 1 / Armour));
+        try
+        {
+            this.Health -= (int)(damageInflicted * (1 - 1 / Armour));
+        }
+        catch
+        {
+            this.Health -= (int)(damageInflicted);
+        }
         Debug.Log(this.gameObject.name + " Health : " + this.Health);
         if(Health < 0)
         {
