@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.PackageManager;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -8,6 +9,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     public static int kills = 0;
     public static int maxKills = 250;
+    public static int bossCount = 0;
     void Start()
     {
         kills = 0;
@@ -26,11 +28,12 @@ public class GameManager : MonoBehaviour
             }
             Debug.Log("Kills: " + kills);
             UIManager.setKills(kills);
-            if (kills == maxKills)
+            if (kills >= maxKills && bossCount < 1)
             {
                 GameObject boss = Resources.Load<GameObject>("TreantBoss");
                 GameObject spawnpoint = SpawnManager.spawn[0];
                 GameObject bossSpawn = Instantiate(boss, spawnpoint.transform.position, Quaternion.identity);
+                bossCount++;
                 UIManager.toggleNotification("BOSS IS HERE", "!?");
                 Debug.Log("SPAWNING BOSS");
             }
