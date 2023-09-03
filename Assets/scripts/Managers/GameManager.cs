@@ -33,7 +33,6 @@ public class GameManager : MonoBehaviour
                 GameObject bossSpawn = Instantiate(boss, spawnpoint.transform.position, Quaternion.identity);
                 UIManager.toggleNotification("BOSS IS HERE", "!?");
                 Debug.Log("SPAWNING BOSS");
-                Debug.Log(bossSpawn.transform.position);
             }
         }
         
