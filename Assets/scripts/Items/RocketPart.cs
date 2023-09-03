@@ -18,7 +18,7 @@ public class RocketPart : MonoBehaviour
         {
             StatManager.hasRocketPart = true;
             soundManager.PlayClip(SoundManager.clips.coin);
-            SceneManager.LoadScene(5);
+            SceneManager.LoadScene(4);
             Destroy(this.gameObject);
         }
     }

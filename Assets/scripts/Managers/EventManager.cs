@@ -24,7 +24,6 @@ public class EventManager : MonoBehaviour
                 Vector3 spawnPos = SpawnManager.spawn[random].transform.position;
                 GameObject item = Resources.Load<GameObject>("Item");
                 Instantiate(item, spawnPos, Quaternion.identity);
-                //UIManager.toggleNotification("Chest spawned!", "Go Find it!");
             }
             catch
             {
@@ -37,6 +36,6 @@ public class EventManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        chestSpawn();
+
     }
 }

@@ -15,7 +15,7 @@ public class TreantBossAI : EnemyAbstract
     public float range = 12f;
     private Rigidbody2D rb;
 
-    public int health = 50;
+    public int health = 500;
     public float damage = 10f;
     public int armour = 10;
     public float attackRange = 3f;

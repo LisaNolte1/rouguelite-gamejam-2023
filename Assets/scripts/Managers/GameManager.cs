@@ -16,19 +16,24 @@ public class GameManager : MonoBehaviour
 
     public static void addKill()
     {
-        kills++;
-        if(kills % 10 == 0)
+        if(kills < maxKills)
         {
-            EventManager.chestSpawn();
+            kills++;
+            if (kills % 10 == 0)
+            {
+                EventManager.chestSpawn();
+                Debug.Log("Spawning chest");
+            }
+            Debug.Log("Kills: " + kills);
+            UIManager.setKills(kills);
+            if (kills == maxKills)
+            {
+                GameObject boss = Resources.Load<GameObject>("TreantBoss");
+                GameObject spawnpoint = SpawnManager.spawn[0];
+                GameObject bossSpawn = Instantiate(boss, spawnpoint.transform.position, Quaternion.identity);
+            }
         }
-        Debug.Log("Kills: " + kills);
-        UIManager.setKills(kills);
-        if(kills == maxKills)
-        {
-            GameObject boss = Resources.Load<GameObject>("TreantBoss");
-            GameObject spawnpoint = SpawnManager.spawn[0];
-            GameObject bossSpawn = Instantiate(boss, spawnpoint.transform.position, Quaternion.identity);
-        }
+        
 
     }
 
