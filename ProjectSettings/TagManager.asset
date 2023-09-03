@@ -20,6 +20,7 @@ TagManager:
   - hideImage
   - Item
   - killsLabel
+  - spawnManager
   layers:
   - Default
   - TransparentFX

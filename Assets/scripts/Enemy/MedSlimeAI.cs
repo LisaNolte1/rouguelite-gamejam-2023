@@ -187,9 +187,11 @@ public class MedSlimeAI : EnemyAbstract
 
     private void OnDestroy()
     {
+        if(this.Health <= 0 ) { 
         animator.SetBool("IsDead", true);
         GameObject slimShady = Resources.Load<GameObject>("LilSlimeEnemy");
         GameObject lilSlime1 = Instantiate(slimShady, transform.position, Quaternion.identity);
         GameObject lilSlime2 = Instantiate(slimShady, transform.position, Quaternion.identity);
+        }
     }
 }

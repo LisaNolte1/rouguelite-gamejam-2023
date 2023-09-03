@@ -21618,7 +21618,7 @@ GameObject:
   - component: {fileID: 1138108280}
   m_Layer: 0
   m_Name: SpawnManager
-  m_TagString: Untagged
+  m_TagString: spawnManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21654,6 +21654,7 @@ MonoBehaviour:
   enemies:
   - {fileID: 725638213451966711, guid: ab5a809ba4ba8bc48ab26fde44d1eb65, type: 3}
   - {fileID: 476472904127303358, guid: ef00277c7e0429645a716a1d71a495f6, type: 3}
+  - {fileID: 2376049672396462196, guid: 8dc307ed86c2ae04d889fd0051879a39, type: 3}
   bossCount: 0
 --- !u!1 &1149586806
 GameObject:
